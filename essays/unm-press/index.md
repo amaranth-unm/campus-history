@@ -274,10 +274,6 @@ src="images/Screenshot_20250516_153240.jpg"
 %}
 >The hallway outside the Ernest R. Earick Memorial Library and the library itself from both sides.[^Me] It houses the majority of the Press's output and also acts as a conference room for Press meetings.
 
-## Interview with 1717 Roma
-Embedded below is a mockup interview with 1717 Roma NE, which alludes to some of what the Alpha Chi Omega members got up to, as well as some operations of the Press in the present-day.
-<audio controls src="UNM-Press-Building-Interview.mp3"></audio>
-
 ## Acknowledgments
 I would like to thank former Press Director Elizabeth Hadas, former Press employees Durwood Ball and David Holtby, and current Press employee Elise McHugh for their help in providing information on the Press's history from the late 1980s up until the present day.
 
