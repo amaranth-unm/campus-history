@@ -1,0 +1,15 @@
+{% if include.image-path %}
+  {% assign image_path = include.image-path | strip %}
+  {% assign first_char = image_path | slice: 0, 1 %}
+  {% if first_char == '/' %}
+    {{ site.baseurl }}{{ image_path }}
+  {% elsif image_path contains 'http' %}
+    {{ image_path }}
+  {% else %}
+    {% if include.page-dir %}
+      {{ site.baseurl }}{{ include.page-dir }}{{ image_path }}
+    {% else %}
+      {{ site.baseurl }}{{ page.dir }}{{ image_path }}
+    {% endif %}
+  {% endif %}
+{% endif %}

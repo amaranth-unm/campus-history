@@ -1,7 +1,7 @@
 ---
 title: Modern Art
 author: Jared Lucero
-layout: unm-base
+layout: essay
 date: 2019-03-25
 popup-teaser: One of the most popular spaces walked through by students, faculty, and visitors!
 card-description: “I think everyone can relate to some part of it - the piece has a storyline to a certain extent that is easily recognizable. It’s fun. I really want people to enjoy it.”
@@ -10,11 +10,13 @@ header-title:
 header-image: images/modern-art-intro.png
 type: art
 start: 
+header-caption: "[PLACEHOLDER: describe the image]"
+category: Public Art
 ---
 
 # Modern Art Installation
 
-{% include figure.html class="img-right" width="33%" caption="Betty's bronze scultures with a green hat placed on one of the heads" src="images/modern-art-intro.png" %}
+{% include images/figure.html class="img-right" width="33%" caption="Betty's bronze scultures with a green hat placed on one of the heads" image-path="images/modern-art-intro.png" %}
 
 
 Just at one of the main entrance points at the University of New Mexico (UNM), adjacent between Popejoy Hall and the main entrance of Johnson Center -- across from the Student Union Building -- lies a space on campus that brings attention to both visitors and students. 
@@ -27,13 +29,13 @@ Since the time of its inception, the art piece has also taken an interactive for
 
 ## Gary Beales
 
-{% include figure.html class="img-right" width="33%" caption="The tower, built by Gary Beales, at the center of 'Modern Art'" src="images/modern-art-tower.png" %}
+{% include images/figure.html class="img-right" width="33%" caption="The tower, built by Gary Beales, at the center of 'Modern Art'" image-path="images/modern-art-tower.png" %}
 
 The stainless steel tower in the middle tower is the work of Sabo’s brother -- Gary Beales, which served at inspiration by Betty’s work. Watching her brother complete his stainless steel tower, Sabo thought the tower looked confusing on what it represents -- a soda can from birds eye view -- which inspired to create the bronze figures, who are trying to figure out exactly what the tower is. One of the figures sits on the curb frustrated while some stand up as if are having a conversation on their ideas of the tower. Although this space is entitled and renowd after Sabo’s work, it would not be what it is if it was not for Beales initial piece. 
 
 ## Free Speech at The University of New Mexico
 
-{% include figure.html class="img-right" width="33%" caption="Just ahead in the horizon of UNM's 'Free Speech Zone' lie Betty Sabo's artwork" src="images/modern-art-free-speech.png" %}
+{% include images/figure.html class="img-right" width="33%" caption="Just ahead in the horizon of UNM's 'Free Speech Zone' lie Betty Sabo's artwork" image-path="images/modern-art-free-speech.png" %}
 
 
 “Modern Art” is also significantly related to free speech matters at The University of New Mexico, as many people who come to the University do so while standing at “Modern Art” -- which enacted UNM administration to post a sign just before the space with the label, “Free Speech Zone”
@@ -46,7 +48,7 @@ Individuals at all levels are allowed to discuss issues of concern in an open an
 
 ## Vandalism 
 
-{% include figure.html class="img-right" width="33%" caption="The bronze status defaces" src="images/modern-art-vandalism.png" %}
+{% include images/figure.html class="img-right" width="33%" caption="The bronze status defaces" image-path="images/modern-art-vandalism.png" %}
 
 Unfortunately, as a centrally located and well-known space, “Modern Art” has also been one of the most prominent spaces for vandalism on UNM Campus. 
 
@@ -55,9 +57,9 @@ According to the 2016 Albuquerque Journal article, “Popular UNM statuses defac
 
 ## UNM Planning Records
 
-{% include figure.html class="img-right" width="33%" caption="The rock sculture in place before erection of Modern Art" src="images/modern-art-tbt.png" %}
+{% include images/figure.html class="img-right" width="33%" caption="The rock sculture in place before erection of Modern Art" image-path="images/modern-art-tbt.png" %}
 
-{% include figure.html class="img-right" width="33%" caption="Planning of the original art" src="images/modern-art-tbt-plan.png" %}
+{% include images/figure.html class="img-right" width="33%" caption="Planning of the original art" image-path="images/modern-art-tbt-plan.png" %}
 
 The University of New Mexico Center for Southwest Research and Special Collections contain history of the space where “Modern Art” is occupied, which is Cornell Mall. The art within Cornell Mall makeup “Landscapes,” but according to Only in New Mexico one of the main issues about art or spaces in this space is that with the exception of Smith Plaza, they have never been named.
 
@@ -75,7 +77,7 @@ The Daily Lobo ends with quoting Sabo, "UNM made me what I am today. I never dre
 
 ## "Betty Sabo - An Artful Life"
 
-{% include figure.html class="img-right" width="33%" caption="Betty Sabo pictured with her creation shortly before her death (1928 - 2016)" src="images/modern-art-betty-dead.png" %}
+{% include images/figure.html class="img-right" width="33%" caption="Betty Sabo pictured with her creation shortly before her death (1928 - 2016)" image-path="images/modern-art-betty-dead.png" %}
 
 Announced in 2012 by the University of New Mexico Foundation, Betty Sabo’s life and career is the subject of a new documentary, entitled, “Betty Sabo - An Artful Life.” The announcement also discusses the Betty Sabo Endowment, which benefits art students. When the announcement was published, Sabo was battling alzheimer's. Sabo passed away peacefully a few years later, on February 10 2016  -- which is declared Betty Sabo Day by Governor Susana Martinez.
 

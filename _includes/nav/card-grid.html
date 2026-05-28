@@ -10,7 +10,7 @@
       {% assign card_href = card.link | default: card.url %}
       <a href="{{ site.baseurl }}{{ card_href }}">
         {% if card.card-image %}
-        <img src="{% include image-path.html path=card.card-image %}" class="card-img-top" alt="...">
+        <img src="{% include images/image-path.html image-path=card.card-image %}" class="card-img-top" alt="...">
         {% endif %}
         <div class="card-body">
           <h3 class="card-title">{{ card.title }}</h3>

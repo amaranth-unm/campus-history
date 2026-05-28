@@ -1,11 +1,12 @@
 ---
 title: UNM Campus Histories
 date: 2019-04-25
-layout: unm-base
+layout: essay
 header-image: "/assets/images/hodgin-sandias-background.jpg"
-header-title: 
-header-height:
-background-position: 0px 0px
+header-title: UNM Histories
+header-subtitle: a student-driven digital history collaboration
+header-caption: Unviersity Building
+header-position: 0px 0px
 ---
 
 # Campus Histories

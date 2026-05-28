@@ -1,6 +1,6 @@
 ---
 title: Code Samples
-layout: unm-base
+layout: essay
 date: 2019-04-23
 ---
 
@@ -60,7 +60,7 @@ blah blah blah blah ...
 
 As part of our effort to highlight our most important ideas---even in the context of relatively short essays---we can use pull quotes. As it sounds, the idea is to "pull" a quote outside the main flow of the text to highlight it. You can specify if you want it on the left or right side.
 
-{% include aside.html class="left" text="
+{% include typography/aside.html class="left" text="
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque." %}
 
 Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
@@ -69,7 +69,7 @@ To place a pull quote as above, we use:
 
 
 ```
-{%raw%}{% include aside.html
+{%raw%}{% include typography/aside.html
   class="left"
   text="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque."
   %}{%endraw%}
@@ -100,7 +100,7 @@ There is one basic way we will embed images in our essay files. Note that it is 
 
 ### Standard Usage
 
-{% include figure.html class="img-right" width="33%" caption="Mesa Vista Hall" src="images/centennial-hotel.jpg" %}
+{% include images/figure.html class="img-right" width="33%" caption="Mesa Vista Hall" image-path="images/centennial-hotel.jpg" %}
 
 You can set the parameter to be whatever percent of the page width you want.
 
@@ -109,17 +109,17 @@ Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis s
 
 To embed the image above, we use:
 ```
-{%raw%}{% include figure.html
+{%raw%}{% include images/figure.html
   class="img-right"
   width="33%"
   caption="Centennial Hotel"
-  src="images/centennial-hotel.jpg"
+  image-path="images/centennial-hotel.jpg"
 %}{%endraw%}
 ```
 
 
 ### Half-width
-{% include figure.html class="img-left" width="50%" src="images/centennial-hotel.jpg" caption="Obviously we need a 50% image somewhere with text wrapping around it."%}
+{% include images/figure.html class="img-left" width="50%" image-path="images/centennial-hotel.jpg" caption="Obviously we need a 50% image somewhere with text wrapping around it."%}
 
 Here's a half-page image just for fun. Use the `width` parameter to set whatever percent you want. Usually, keeping images aligned with standard widths like 25%, 33%, 50%, 66% is best. 
 
@@ -129,11 +129,11 @@ Sometimes you need something a little different, though, so you _can_ enter what
 
 
 ```
-{%raw%}{% include figure.html
+{%raw%}{% include images/figure.html
 class="img-left"
 width="50%"
 caption="Obviously we need a 50% image somewhere with text wrapping around it."
-src="images/centennial-hotel.jpg"
+image-path="images/centennial-hotel.jpg"
 %}{%endraw%}
 ```
 
@@ -141,27 +141,27 @@ src="images/centennial-hotel.jpg"
 ### Side by side
 To achieve two images side by side use, make sure the width for each is 48%. (It's less than 50% to make room for margins.)
 
-{% include figure.html class="img-left" width="48%" src="images/centennial-hotel.jpg" caption="Here's an image on the left."%}
+{% include images/figure.html class="img-left" width="48%" image-path="images/centennial-hotel.jpg" caption="Here's an image on the left."%}
 
-{% include figure.html class="img-left" width="48%" src="images/centennial-hotel.jpg" caption="Here's an image on the right."%}
+{% include images/figure.html class="img-left" width="48%" image-path="images/centennial-hotel.jpg" caption="Here's an image on the right."%}
 
 <p style="clear:both"></p>
 
 
 {%raw%}
 ```
-{% include figure.html
+{% include images/figure.html
 class="img-left"
 width="48%"
 caption="Here's an image on the left."
-src="images/centennial-hotel.jpg"
+image-path="images/centennial-hotel.jpg"
 %}
 
-{% include figure.html
+{% include images/figure.html
 class="img-left"
 width="48%"
 caption="Here's an image on the right."
-src="images/centennial-hotel.jpg"
+image-path="images/centennial-hotel.jpg"
 %}
 ```
 {%endraw%}
@@ -170,16 +170,16 @@ src="images/centennial-hotel.jpg"
 ### Full-width
 Of course you can have the image take 100% of the page container, but make sure you're image is large enough to look nice. Unlike the below example.
 
-{% include figure.html class="img-center" width="100%" caption="Make sure your image is large enough to be 100% width or it will look grainy. See above."  src="images/centennial-hotel.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Make sure your image is large enough to be 100% width or it will look grainy. See above."  image-path="images/centennial-hotel.jpg" %}
 
 
 {%raw%}
 ```
-{% include figure.html
+{% include images/figure.html
   class="img-center"
   width="100%"
   caption="Make sure your image is large enough to be 100% width or it will look grainy. See above."
-  src="images/centennial-hotel.jpg" %}
+  image-path="images/centennial-hotel.jpg" %}
 ```
 {%endraw%}
 
@@ -190,16 +190,16 @@ You'll notice that even a "full-width" image is still bound by our page margins.
 
 In that case, go jumbo! You can make an image be the whole width of the browser window, and control the height of the image for whatever effect you need. Set the `height` parameter to be the % of the browser height. (So, 100 will take up the browser winder, however big or small that is.)
 
-{% include jumbotron.html
+{% include images/jumbotron.html
   height="50"
-  image-url="images/centennial-hotel.jpg"
+  image-path="images/centennial-hotel.jpg"
   title=""
 %}
 
 ```
-{%raw%}{% include jumbotron.html
+{%raw%}{% include images/jumbotron.html
   height="50"
-  image-url="images/centennial-hotel.jpg"
+  image-path="images/centennial-hotel.jpg"
   title=""
 %}{%endraw%}
 ```
@@ -209,7 +209,7 @@ In that case, go jumbo! You can make an image be the whole width of the browser 
 It's easy to set up a slider to compare historic and contemporary photos. If you find a historic image from a vantage point that you can replicate, please take a modern photo so we can better illustrate the changes in the surrounding space. Obviously the effect is more striking the closer the images line up.
 
 
-{% include juxtapose.html
+{% include images/juxtapose.html
 image1="images/kimo-1928.jpg"
 image2="images/kimo-1938.jpg"
 caption=""
@@ -220,7 +220,7 @@ caption=""
 
 
 ```
-{%raw%}{% include juxtapose.html
+{%raw%}{% include images/juxtapose.html
 image1="images/kimo-1928.jpg"
 image2="images/kimo-1938.jpg"
 caption="These sliders are way more effective the more closely you line up the before and after images."
@@ -263,7 +263,7 @@ This image has a caption, but no title|
 
 
 
-{% include carousel.html
+{% include images/carousel.html
 width = "60%"
 class = "right"
 images = images
@@ -298,7 +298,7 @@ This image has a caption, but no title|
 " | split: '|'
 %}
 
-{% include carousel.html
+{% include images/carousel.html
 width = "60%"
 class = "right"
 images = images

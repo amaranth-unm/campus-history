@@ -1,7 +1,7 @@
 ---
 title: C & J Building
 author: Alyssa Bitsie
-layout: unm-base
+layout: essay
 date: 2019-04-10
 header-image: images/cj-front.jpg
 header-title: 
@@ -10,6 +10,8 @@ card-description: Built in 1949, the Communication & Journalism building origina
 card-image: /essays/communication-journalism/images/cj-front.jpg
 type: offices
 start: 1949
+header-caption: "[PLACEHOLDER: describe the image]"
+category: Academic Building
 ---
 
 # Communication & Journalism 
@@ -24,8 +26,8 @@ Before 1947 some of the first journalism classes were held in the World War II b
 By 1920, the department had increased in size and two new lecturers were added to accommodate the English department, it was not until after World War II, that many returning veterans took advantage of the military's [G.I Bill](https://www.va.gov/education/about-gi-bill-benefits/) education benefits causing universities across the United States to see an increase in enrollment. With the increase of student enrollments, journalism would eventually form its own independent department. Keen Rafferty, a former editor at the Baltimore Sun, came to UNM in 1942 to serve as the news service director and department's chairman. Keen helped the department fast track its national accrediation in 1955. The C & J building originally housed the Printing Plant, post office and UNM Press. 
 
 
-{% include figure.html class="img-right" width="48%" caption="Construction in 1963 of the add ons to the C & J Building with Sara Raynolds Hall and R-1 building in the background." src="images/cj-construction-1961.jpg" %}
-{% include figure.html class="img-left" width="48%" caption="Bricks make up the addition that will be the annex to the Journalism building in 1965." src="images/cj-annex-1965.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="Construction in 1963 of the add ons to the C & J Building with Sara Raynolds Hall and R-1 building in the background." image-path="images/cj-construction-1961.jpg" %}
+{% include images/figure.html class="img-left" width="48%" caption="Bricks make up the addition that will be the annex to the Journalism building in 1965." image-path="images/cj-annex-1965.jpg" %}
 
 
 ## Additions and Today
@@ -41,7 +43,7 @@ images/cj-today.jpg
 " | split: ','
 %}
 
-{% include carousel.html
+{% include images/carousel.html
 images = images 
 %}
 
@@ -57,5 +59,4 @@ images = images
 - Hooker, Van Dorn, Melissa Howard, and V. B Price. _Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989_. Albuquerque, NM: University of New Mexico Press, 2000.
 
 - University of New Mexico. Department of Facility Planning Records, 1889-, Collection UNMA 028, Box 55. Center for Southwest Research, University Libraries, University of New Mexico.
-
 

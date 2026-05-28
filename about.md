@@ -1,9 +1,9 @@
 ---
 title: UNM Campus Histories
 date: 2019-04-25
-layout: unm-base
+layout: essay
 header-image: "/assets/images/1946 map to campus.jpg"
-background-position: "0px -20px"
+header-position: "0px -20px"
 ---
 
 # About this project

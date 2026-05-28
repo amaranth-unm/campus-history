@@ -1,9 +1,6 @@
 ---
-layout: unm-base
+layout: essay
 title: UNM Campus History Essay Map
-header-image: "/assets/images/1946 map to campus.jpg"
-header-height: 0
-background-position: "0px -20px"
 ---
 
 <!-- Leaflet CSS/JS and Omnivore for KML support -->
@@ -47,10 +44,10 @@ background-position: "0px -20px"
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     // Initialize map
-    var map = L.map('map').setView([35.0844, -106.6198], 16.5);
+    var map = L.map('map').setView([35.0844, -106.6198], 16);
 
     // Add OpenStreetMap tiles
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &copy; CartoDB'
 }).addTo(map);
 

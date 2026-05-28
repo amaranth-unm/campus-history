@@ -1,19 +1,24 @@
 ---
 title: La posada Dining Hall
 author: Aaron Padilla
-layout: unm-base
+layout: essay
 date: 2019-04-10
 popup-teaser: Built in the clasic adobie style and the tertiary adjunct to De Vargus and Laguna Dormatory
 card-description: La Posada Dining Hall was apart of a major dormatory contruction project that would soon become a major part of UNM and is refelct the campus culture in the 1960-70s
-header-image: images/la-posada/images/lp-courtyard-circa-1970s.PNG
+header-image: images/la-posada-building-sign.jpg
 type: dorm
 start: 1969
+header-title: La Posada Dining Hall
+header-zoom: 120%
+header-caption: "[PLACEHOLDER: describe the image]"
+category: Dining
 ---
 
 
 # La Posada Dining Hall
 
-{% include juxtapose.html
+{% include images/juxtapose.html
+id="juxtapose-exterior"
 image1="images/la-posada-building-sign2.jpg"
 image2="images/lp-outside-comparison.jpg"
 caption="La Posada circa 1970s [Left image source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/21/rec/1) and La Posada circa 1980s [Right image source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/19/rec/3).
@@ -23,7 +28,7 @@ From the 1970s to the 1980s, La Posada looks much more like it does now than it 
 
 ### A Reflection of Ourselves
 
-{% include aside.html
+{% include typography/aside.html
   class="pullquote"
   text="Louis Sullivan-'As you are, so are your buildings; and, as are your buildings, so are you. You and your architecture are the same. Each is a faithful portraits of the other.'"
   %}
@@ -34,10 +39,10 @@ In an architectural sense, UNM has furiously sought to reflect itself within the
 ### Planned Construction
 During the consideration of whether or not La Posada Dining Hall would be built by the University of New Mexico Board of Regents in 1966, other buildings including the Farris Engineering Center, a the dorm which would be later known as Laguna Dormitory, and De Vargas Dormitory were also proposed. This proposal was in direct response to counter another proposal for a high-rise dormitory complex. These dormitories and dining hall all being later approved for construction in 1966 by the UNM Board of Regents. After a series of bids, the UNM board of Regents contracted Lembke Construction Company to build what would be La Posada Dining Hall.
 
-{% include figure.html class="img-right" width="48%" caption="After the approval of La Posadas, construction started soon after. This photo showing construction of La Posada being well underway as of September 13, 1968. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" src="images/lp-9-13-6-construction.PNG" %}
+{% include images/figure.html class="img-right" width="48%" caption="After the approval of La Posadas, construction started soon after. This photo showing construction of La Posada being well underway as of September 13, 1968. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/lp-9-13-6-construction.PNG" %}
 
-{% include figure.html class="img-right" width="48%" caption="Construction as of October 23, 1968, shows how the construction of La Posada completely altered the space it now takes up. Where there was unused land across from the UNM Information Technologies building is now a dining hall complex.
-   [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" src="images/lp-10-23-68construction.PNG" %}
+{% include images/figure.html class="img-right" width="48%" caption="Construction as of October 23, 1968, shows how the construction of La Posada completely altered the space it now takes up. Where there was unused land across from the UNM Information Technologies building is now a dining hall complex.
+   [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/lp-10-23-68construction.PNG" %}
    
 
 ### Out of Plan Into the Fire
@@ -45,11 +50,8 @@ Ernest J. Kump (design architect) along with William W. Ellison (project archite
 
 Ernest J. Kump, William W. Ellison, and many of the other people associated with construction of La Posada received awards for their contribution to the environment from the Society of Architects at their annual awards banquet in 1973. After the awards banquet, U.B. Price commented that, "more than any other 'non-performing' art form, architecture is a product of rapport. As most architects will tell you, their works are usually 'only as good as' the goals and values of their clients". With UNM using its architecture as a reflection of itself, it is easy to see the material outcomes that La Posada represents.  
 
-<div class="carousel">
-  <div><img src="{{ site.baseurl }}/essays/la-posada-dinning-hall/images/lp-plan1.1.jpg"/></div>
-  <div><img src="{{ site.baseurl }}/essays/la-posada-dinning-hall/images/lp-plan2.1.jpg"/></div>
-  <div><img src="{{ site.baseurl }}/essays/la-posada-dinning-hall/images/lp-plan3.1.jpg"/></div>
-</div>
+{% assign images = "images/lp-plan1.1.jpg, images/lp-plan2.1.jpg, images/lp-plan3.1.jpg" | split: ', ' %}
+{% include images/carousel.html images=images id="carousel-plans" %}
 
 > These latter plans for La Posada shows that the space in-between the various dormitories was intended for student recreation and interaction within this space [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml) 
 
@@ -57,10 +59,8 @@ Ernest J. Kump, William W. Ellison, and many of the other people associated with
 ### A Change in Plans
 Before construction of La Posada Dining Hall, Sherman Smith the recently appointed administrative vice president, revised the initial plans for what would be La Posada Dining Hall. Sherman Smith having increased the maximum capacity to 1,525 people by enclosing the central patio, where in the original design this space would have been completely open to the outside elements. This early decision in the history of La Posada Dining Hall having completely altering the way that people would perceive not only the inside of the building, but the outside of the building. Ultimately reshaping the way people would interact with the space inside of La Posada Dining Hall and reshaping perceptions of the other buildings around La Posada.
 
-<div class="carousel">
-  <div><img src="{{ site.baseurl }}/essays/la-posada-dinning-hall/images/lp-firstfloor1.jpg"/></div>
-  <div><img src="{{ site.baseurl }}/essays/la-posada-dinning-hall/images/lp-second-basment-floor1.jpg"/></div>
-</div>
+{% assign images = "images/lp-firstfloor1.jpg, images/lp-second-basment-floor1.jpg" | split: ', ' %}
+{% include images/carousel.html images=images id="carousel-floorplans" %}
 
 > As of 1967 this was the design for the first floor of La Posada, reflecting the original design of Ernest J. Kump, lead design architect, and the alteration made by Sherman Smith. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)
 
@@ -68,7 +68,8 @@ Before construction of La Posada Dining Hall, Sherman Smith the recently appoint
 ### La Posada Today
 La Posada today is much like it was 50 years ago, but has gone through several small changes, that have modernized it while keeping it true to its original design. Recently in the summer of 2017, La Posada saw a few minor renovations including a new HVAC system, flooring, chef stations, lighting, and a new entrance. With UNM having grown in terms of space, students, dormitories and administrative buildings, and learning facilities, La Posada has become an ever increasing hub of student interaction. As renovations and student use has changed over the past 50 years, La Posada as a reflection of the culture of UNM has stayed the same, both a testament to UNM as an institution of learning that holds specific values and to the architects that designed it. 
 
-{% include juxtapose.html
+{% include images/juxtapose.html
+id="juxtapose-interior"
 image1="images/lp-eat2.jpg"
 image2="images/lp-eat.jpg"
 caption="La Posada circa 1968 [Left image source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/737/rec/8) and La Posada circa 2018s [Right image source](https://www.pinterest.com/pin/664984701200985280/).
