@@ -7,14 +7,12 @@ popup-teaser: Have you seen the various lobo statues around campus? Let's learn 
 card-description: Beginning with John Tatschl's Lobo statue erected in 1947, various other lobo statue have come to adorn the campus in the following decades. From the lobo overlooking the corner of campus to the smaller statues, the mascot of the university finds its home in various spots across the campus.
 card-image: /essays/lobo-statues/images/lobo-header-1.jpg
 header-image: images/lobo-header-1.jpg
-header-title: 
+header-title: The Lobo Statues
 header-position: 0px
 header-caption: "[PLACEHOLDER: describe the image]"
 category: Public Art
 ---
 
-
-# The Lobo Statues
 
 {% include images/figure.html class="img-left" width="65%" height="100" caption="One of the smaller _Spirit of the Lobo_ statues posed near the Duck Pond" image-path="images/lobo-snow-1.jpg"%} 
 
@@ -110,8 +108,7 @@ Lurking among the trees and bushes of central campus, you'll encounter smaller b
 
 <audio controls src="lobo-statues.mp3"></audio>
 
-## Bibliography
-
+{% capture bibliography %}
 - Highsmith, Carol M, photographer. One of several sculptures of a lobo, or timber wolf, on the campus of the University of New Mexico in Albuquerque, the largest city in New Mexico. United States New Mexico Bernalillo County Albuquerque, 2020. -12-27. Photograph. https://www.loc.gov/item/2020742577/.
 
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, collection UNMA 028, Box  60. Center for Southwest Research, University Libraries, University of New Mexico.
@@ -127,6 +124,8 @@ Lurking among the trees and bushes of central campus, you'll encounter smaller b
 - [UNM LibGuides](https://libguides.unm.edu/publicart)
 
 - [UNM News](https://news.unm.edu/news/unm-s-spirit-of-the-lobos-program-roams-campus)
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}
 
 [^mascot]: [UNM Traditions](https://www.unm.edu/welcome/traditions/index.html)
 [^tightgrove]: UNM Facility Planning Records, CSWR

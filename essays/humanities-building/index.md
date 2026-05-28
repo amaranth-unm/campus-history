@@ -6,7 +6,7 @@ date: 2019-04-10
 popup-teaser: An administration building with award-winning but highly controversial architecture
 card-description: Award-winning architecture that sparked intense philosophical debate among the administration building's intended residents
 card-image: /essays/humanities-building/images/humanities-building-old-plaza-bw.jpg
-header-title:
+header-title: Humanities Building
 header-image: images/humanities-building-old-plaza-bw.jpg
 type: offices
 start: 1972
@@ -14,8 +14,6 @@ end: 2026
 header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
-
-# Humanities Building
 
 Chances are, when you think of heated philosophical debates, controversial architecture, or defining the spirit of the humanities, the words “administration building” are not the first things to pop into your head. However, all of these things feature prominently in the story of the Humanities Building at the University of New Mexico.
 
@@ -149,10 +147,12 @@ The humanities are an important part of UNM's culture and structure. All incomin
 
 Because of this, the Humanities building occupies an important space, not only just geographically on campus, but also intellectually and experientially for the vast majority of the student population.
 
-## Bibliography
+{% capture bibliography %}
 
 - W. C. Kruger Architectural Drawings (unprocessed collection), stack 38, University of New Mexico Center for Southwest Research, University Libraries, University of New Mexico.
 
 - University of New Mexico, Dept. of Facility Planning architectural drawings, stack 20, drawer 3, University of New Mexico Center for Southwest Research.
 
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, Collection UNMA 028, Box 54. Center for Southwest Research, University Libraries, University of New Mexico.
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

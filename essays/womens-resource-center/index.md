@@ -1,7 +1,7 @@
 ---
 title: Womens Resource Center
 author: Adriana Gutierrez
-date: 2025-13-05
+date: 2025-05-13
 layout: essay
 card-image: /essays/womens-resource-center/images/wrc-building.jpeg
 popup-teaser: A living legacy of the women who reshaped UNM.
@@ -119,8 +119,10 @@ captions = captions
 
 
 
-## Bibliography
+{% capture bibliography %}
 
 - Women's Center, 1972-80, Box: 32. University of New Mexico Public Affairs Department Records, UNMA 047. UNM Center for Southwest Research & Special Collections. https://nmarchives.unm.edu/repositories/22/archival_objects/330535 Accessed May 15, 2025.
 
 - Women's Studies, 1972-79, Box: 32. University of New Mexico Public Affairs Department Records, UNMA 047. UNM Center for Southwest Research & Special Collections. https://nmarchives.unm.edu/repositories/22/archival_objects/330537 Accessed May 15, 2025.
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

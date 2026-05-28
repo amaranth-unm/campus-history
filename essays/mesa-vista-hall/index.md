@@ -19,8 +19,6 @@ header-caption: "The Construction of Mesa Vista Hall as a 400-person men's dorm"
 category: Dormitory
 ---
 
- 
-# Mesa Vista Hall
 {% include images/figure.html class="img-right" width="48%" caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-history-stays.jpg" %}
 
 This essay is mostly dummy text. The point is to visually illustrate various features that can be used on site essay pages. There is a separate [code page](../code) that walks through all the "features" used on this page and gives the code snippets that you can copy and paste into your essays. Or you can just edit this one, adding, rearranging, and deleting as necessary.
@@ -142,7 +140,7 @@ Praesent sed vehicula velit, vel hendrerit neque. Vivamus scelerisque sed nunc n
 Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend lectus in bibendum elementum. Vivamus ut velit dignissim, cursus libero nec, commodo orci. Morbi lacus metus, posuere ut pretium ac, malesuada id ligula. Maecenas eu auctor sapien. Sed gravida vel ipsum in porta. Nam vitae cursus elit. Morbi posuere lacinia sem a molestie. Etiam sagittis augue ut imperdiet aliquet. Donec urna lorem, pharetra in augue nec, tristique luctus enim.
 
 
-## Bibliography
+{% capture bibliography %}
 
 - Hooker, Van Dorn, Melissa Howard, and V. B Price. _Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989_. Albuquerque, NM: University of New Mexico Press, 2000.
 
@@ -151,3 +149,5 @@ Duis eros odio, fringilla et pulvinar vitae, eleifend quis elit. Sed eleifend le
 - University of New Mexico. Dept. of Facility Planning architectural drawings, 1892-2011, collection SWA UNMFPLAN Drawings, Stack 13	Drawer 01. Center for Southwest Research, University Libraries, University of New Mexico.
 
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, collection UNMA 028,Box  34. Center for Southwest Research, University Libraries, University of New Mexico.
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

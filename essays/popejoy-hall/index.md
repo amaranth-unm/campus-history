@@ -29,9 +29,9 @@ The story of the success of Popejoy Hall cannot be described without explaining 
 
 President Popejoy retired from office after twenty years in 1968. After his retirement the concert venue was given his name. Popejoy Hall is located in the Fine Arts building which it shares with the College of Fine Arts on the southside of the university's main campus. Rodey Theatre and Keller Hall are smaller venues located on the other side of the Fine Arts building.
 
-{% include images/figure.html class="img-left" width="45%" caption="Another diagram of the design of Popejoy Hall. Provided are the names of the architects- Holien and Buckley, the acoustical consultants- Bolt, Beranek, and Newman, and the theater design & engineering consultant- George C. Izenour." image-path="images/popejoy-design.png" %}
+{% include images/figure.html class="img-left" width="50%" caption="Another diagram of the design of Popejoy Hall. Provided are the names of the architects- Holien and Buckley, the acoustical consultants- Bolt, Beranek, and Newman, and the theater design & engineering consultant- George C. Izenour." image-path="images/popejoy-design.png" %}
 
-{% include images/figure.html class="img-right" width="45%" caption="An illustration of the interior of the concert venue. The names of the architects are in the caption- Edward Holien and William Buckley. " image-path="images/popejoy-architects.png" %}
+{% include images/figure.html class="img-right" width="50%" caption="An illustration of the interior of the concert venue. The names of the architects are in the caption- Edward Holien and William Buckley. " image-path="images/popejoy-architects.png" %}
 
 
 ## Legacy
@@ -40,14 +40,16 @@ Popejoy Hall is the largest performance hall of its type in New Mexico with a to
 
 {% include images/figure.html class="img-left" width="50%" caption="Popejoy Hall shortly after opening, Circa 1966." image-path="popejoy-hall/popejoy-66.png" %}
 
-{% include images/figure.html class="img-left" width="30%" caption="The Fine Arts Building today" image-path="popejoy-hall/popejoy-today.jpg" %}
+{% include images/figure.html class="img-left" width="50%" caption="The Fine Arts Building today" image-path="popejoy-hall/popejoy-today.jpg" %}
 
-{% include images/figure.html class="img-right" width="40%" caption="A picture of the Popejoy stage before modern renovations." image-path="popejoy-hall/popejoy-oldinterior.png" %}
+{% include images/figure.html class="img-right" width="50%" caption="A picture of the Popejoy stage before modern renovations." image-path="popejoy-hall/popejoy-oldinterior.png" %}
 
-{% include images/figure.html class="img-right" width="40%" caption="The interior of Popejoy Hall as it looks today." image-path="popejoy-hall/popejoy-newinterior.jpg" %}
+{% include images/figure.html class="img-right" width="50%" caption="The interior of Popejoy Hall as it looks today." image-path="popejoy-hall/popejoy-newinterior.jpg" %}
 
 
-## Sources
+{% capture bibliography %}
 
 - University of New Mexico Dept. of Facility Planning Records, 1889-ongoing, UNMA028, Box 48.
 - "Popejoy @ 50". Directed by Archie Chapa. Accessed May 10, 2019. http://popejoypresents.com/about/popejoy-50.
+{% endcapture %}
+{% include typography/bibliography.html title="Sources" content=bibliography %}

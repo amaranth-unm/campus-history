@@ -42,7 +42,9 @@ Since construction a walk was installed around the perimited. Small rocks were r
 
 {% include images/figure.html class="img-left" width="50%" caption="An island within the duck pond with a tree on it that no longer exist in the present." image-path="images/duck-pond-0005.png" %}
 
-## Bibliography
+{% capture bibliography %}
 - Hooker, Van Dorn, Melissa Howard, and V. B Price. Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989. Albuquerque, NM: University of New Mexico Press, 2000.
 
 - University of New Mexico Dept. of Facility Planning Records, 1889-ongoing, UNMA028, Box 57
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

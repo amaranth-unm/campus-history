@@ -1,7 +1,7 @@
 ---
 title: Center of the Universe
 author: Alex Wells
-date: 2019-5-10
+date: 2019-05-10
 layout: essay
 header-image: images/cotu-sketch.png
 header-title: The Center of the Universe

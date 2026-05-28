@@ -70,7 +70,9 @@ In many ways, the building represents the increasing scale of higher education a
 
 
 
-## Bibliography
+{% capture bibliography %}
 - Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989. Albuquerque, NM: University of New Mexico Press, 2000.
 - Miracle on the Mesa.
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, Collection UNMA 028, Box 96. Center for Southwest Research, University Libraries, University of New Mexico.
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

@@ -2,18 +2,17 @@
 title: University Police
 author: Luke Betzner
 layout: essay
-date: 2025-24-4
+date: 2025-04-24
 card-description: This overview is a bandaid holding together a sparse, truncated, and incomplete history of UNMPD. Who will take on the rewarding challenge of adding to it?
 card-image: /essays/university-police/images/1970-UNM-vs-BYU-Game.jpg
 popup-teaser: Do you like to find and fill archival gaps?
-header-title: 
+header-title: University Police
 header-image: images/1970-UNM-vs-BYU-Game.jpg
 header-position: 0px
 header-caption: "[PLACEHOLDER: describe the image]"
 category: Campus Services
 ---
 
-# University Police
  As with the many other essays to be found on this site, the idea for this page began with a question; namely, what can be known of the history of UNM's Police Department? 
 
 ## A Tale of Two Boxes
@@ -109,7 +108,7 @@ This portion of the webpage contains a 3d rendered image of a pinecone from the 
 
 
 
-## Bibliography
+{% capture bibliography %}
 - Pete Guevara,-current police lieutenant- in conversation with the author, in Hokona-Zuni Hall Basement, late April 2025.
 - Rosemary Melendrez, -former police security admin- telephone conversation with the author, Wednesday, May 1st @ 12:30 P.M.
 - Mike McGinnes, -former police detective- telephone conversation with the author, Tuesday, May 6th, 2025 @ 8:30 A.M.
@@ -119,3 +118,5 @@ This portion of the webpage contains a 3d rendered image of a pinecone from the 
 - University of New Mexico Hodgin and Rodey Halls Albuquerque, NM, 1952, Job Number 375-G-1, Stack: 1, Drawer: 20. John Gaw Meem Drawings and Plans, SWA JGM Drawings CSWR Microfilm NA737 M438 J64. UNM Center for Southwest Research & Special Collections.
 - https://en.wikipedia.org/wiki/List_of_presidents_of_the_University_of_New_Mexico
 - https://nmarchives.unm.edu/repositories/22/archival_objects/325077
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

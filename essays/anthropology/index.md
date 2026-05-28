@@ -18,7 +18,6 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 
-# Anthropology Building
 Where is the heart of the University of New Mexico? The stylistically striking Zimmerman Library? The ever-bustling Student Union Building? Definitely not a tucked-away science building on the edge of campus. But if the university has a historical heart, it lies in the Anthropology building. Shielded by massive pines on the western side of campus, this squat complex contains a lecture hall, labs, offices, and the Maxwell Museum of Anthropology. Though it has a low profile today, it was once the center of campus life as the original Student Union Building.
 
 ## Construction
@@ -33,13 +32,13 @@ In the 1950s, rising enrollment strained the resources of the diminutive Student
 {% include images/figure.html class="img-center" width="70%" caption="Three students leave the Student Union Building. A sign in the right window advertises the campus bookstore. Soon the campus would outgrow this building, and both the SUB and the bookstore would move. Source: Center for Southwest Research" image-path="images/anth-sub-exterior.jpg" %}
 
 ## Renovations
-{% include images/figure.html class="img-right" width="35%" caption="Daily Lobo article from August of 1960 detailing the shift from one Student Union to another, including renovations to the old SUB to better accommodate the Anthropology Department. Source: Center for Southwest Research" image-path="images/lobo-1960.png" %}
+{% include images/figure.html class="img-right" width="50%" caption="Daily Lobo article from August of 1960 detailing the shift from one Student Union to another, including renovations to the old SUB to better accommodate the Anthropology Department. Source: Center for Southwest Research" image-path="images/lobo-1960.png" %}
 
 Of all the changes the Anthropology building has endured over its lifetime, some of the most significant came in the 1970s. A decade of construction, renovation, and frustration kicked off in in 1970 with renovation of the Anthropology Annex (thanks to funds from the National Science Foundation) to create more space for departmental research and the Maxwell Museum. By 1979, more renovations were already being discussed as a part of a university-wide seating crisis.[^csw-2]
 
 The university experienced seating issues as it struggled to match classes to appropriately-sized classrooms, forcing the administration to re-evaluate the sizes of its lecture halls. When the Student Union moved out and the Anthropology Department moved in, the old ballroom of the building was converted into a massive lecture hall. Correspondence between university officials throughout the 1970s reveals frustrations with the acoustics of the space and the excess of seats compared the number of students using the room. Most people involved in the discussion agreed that the lecture hall needed a change. Many letters between instructors, administrators, and architects reveal that the process of actually solving these issues was a long and slow one. Renovations to the Anthropology lecture hall finally reached completion in 1982 and included splitting the lecture hall into multiple rooms. [^csw-3]
 
-{% include images/figure.html class="img-left" width="35%" caption="In an evocative letter to university secretary John Durrie, Dr. Fred Chreist (Speech and Pathology) outlines faculty complaints about the Anthropology lecture hall, and alludes to greater seating issues at the university. Source: Center for Southwest Research" image-path="images/anth-faculty-correspondence.jpg" %}
+{% include images/figure.html class="img-left" width="50%" caption="In an evocative letter to university secretary John Durrie, Dr. Fred Chreist (Speech and Pathology) outlines faculty complaints about the Anthropology lecture hall, and alludes to greater seating issues at the university. Source: Center for Southwest Research" image-path="images/anth-faculty-correspondence.jpg" %}
 
 {% include images/figure.html class="img-right" width="50%" caption="Contemporary layout of Anthropology building. Source: Center for Southwest Research" image-path="images/anth-plans.jpg" %}
 

@@ -7,13 +7,11 @@ popup-teaser: Laguna DeVargas Hall (LDV) is one of the most distinctive and more
 card-description: Laguna DeVargas Hall (LDV) is one of the most distinctive and more classical residence halls at UNM.
 card-image: /essays/laguna-devargas-hall/images/LagunaDeVargas.jpg
 header-image: images/LagunaDeVargas.jpg
-header-title: 
+header-title: Laguna DeVargas Hall
 header-position: 0px
 header-caption: "[PLACEHOLDER: describe the image]"
 category: Dormitory
 ---
-
-# Laguna DeVargas Hall
 
 {% include images/figure.html class="img-right" width="48%" caption="Laguna & DeVargas Halls. [Source](https://issuu.com/unmreslife/docs/housing_recruitment_brochure_2022-23_rev7_for_issu)" image-path="images/8c3ead16234e5425de1ca6fe0e829c9d.jpeg" %}
 
@@ -125,7 +123,7 @@ In the gathering for the ways of DeVargas, my team and I were able to spot and a
 
 <audio controls src="DeVargas Interview (1).mp3"></audio>
 
-## Bibliography
+{% capture bibliography %}
 
 - Ernest J. Kump Alchetron, https://alchetron.com/Ernest-J-Kump
   
@@ -136,3 +134,5 @@ In the gathering for the ways of DeVargas, my team and I were able to spot and a
 
 
 - UNM.edu https://events.unm.edu/amenities/accommodations.html
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

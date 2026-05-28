@@ -15,8 +15,6 @@ category: Dining
 ---
 
 
-# La Posada Dining Hall
-
 {% include images/juxtapose.html
 id="juxtapose-exterior"
 image1="images/la-posada-building-sign2.jpg"
@@ -77,7 +75,7 @@ caption="La Posada circa 1968 [Left image source](https://econtent.unm.edu/digit
 %}
 
 ___
-## Bibliography
+{% capture bibliography %}
 
 - Hooker, Van Dorn, Melissa Howard, and V. B Price. _Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989_. Albuquerque, NM: University of New Mexico Press, 2000.
 
@@ -86,3 +84,5 @@ ___
 - University of New Mexico. Dept. of Facility Planning architectural drawings, 1892-2011, collection SWA UNMFPLAN Drawings, Stack 13	Drawer 01. Center for Southwest Research, University Libraries, University of New Mexico.
 
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, collection UNMA 028,Box  34. Center for Southwest Research, University Libraries, University of New Mexico.
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

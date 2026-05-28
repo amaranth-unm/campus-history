@@ -7,7 +7,7 @@ popup-teaser: The long and storied history of one of UNM's lesser-known institut
 card-description: The concurrent stories of the development of the University of New Mexico Press and the changes its current home at 1717 Roma, once a sorority house, went through.
 header-image: images/PXL_20250501_220349996.jpg
 card-image: essays/unm-press/images/PXL_20250501_220349996.jpg
-header-title: 
+header-title: UNM Press
 header-position:
 type: offices
 start: 1928 
@@ -15,7 +15,6 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Office
 --- 
 
-# UNM Press
 The University of New Mexico Press has been a fixture of UNM for nearly a century. Compared to many of the other long-standing institutions on campus, though, the Press has shifted between many different locations over the years. Currently, it is based out of 1717 Roma Avenue NE, to the west of Dane Smith Hall and north of the Anthropology building; this location was first constructed as the Alpha Chi Omega sorority house in 1930-31, following the establishment of its UNM Chapter in 1918.[^Mirage35] The Press occupies the first floor and basement of the building, with one office on the upper level (the rest are reserved for overflow from Scholes Hall, across the street and to the east). 
 
 The Press is New Mexico's sole major book publisher and handles various regional projects, as well as broader scholarly books, poetry collections, and works of fiction. Its history is long and storied, and, as far as becoming a part of UNM goes, properly begins in 1929—incidentally, the same year that the ball got rolling for the construction of its current base of operations.
@@ -112,7 +111,7 @@ caption=""
 
 {% include images/figure.html
 class="img-center"
-width="35%"
+width="50%"
 caption=""
 image-path="images/Screenshot_2025-05-16_023922.png"
 %}
@@ -279,7 +278,7 @@ image-path="images/Screenshot_20250516_153240.jpg"
 ## Acknowledgments
 I would like to thank former Press Director Elizabeth Hadas, former Press employees Durwood Ball and David Holtby, and current Press employee Elise McHugh for their help in providing information on the Press's history from the late 1980s up until the present day.
 
-## Bibliography
+{% capture bibliography %}
 - _A History of the Buildings of the University of New Mexico: 1890-1934_ by Susan McColeman
 - “About Us.” El Palacio, March 14, 2019. https://elpalacio.org/about-us/.
 - Albuquerque Historical Society. 2022. “History of UNM Press: The Largest Book Publishing Company in New Mexico.” https://www.albuqhistsoc.org/programs/ahs-2022-2023-programs/history-of-unm-press-the-largest-book-publishing-company-in-new-mexico/, https://www.youtube.com/watch?v=7v7nNQ_MlxQ.
@@ -324,6 +323,8 @@ I would like to thank former Press Director Elizabeth Hadas, former Press employ
 - UNM Office of the Registrar. "1948-1949 CATALOG ISSUE- BULLETIN." (1948). https://digitalrepository.unm.edu/course_catalogs/54
 - UNM Office of the Registrar. "1951-1952 CATALOG ISSUE- BULLETIN." (1951). https://digitalrepository.unm.edu/course_catalogs/58
 - UNM Office of the Registrar. "1993-1995-UNM CATALOG." (1993). https://digitalrepository.unm.edu/course_catalogs/97
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}
 
 [^1940s]: Press Records - History of UNM Press,, 1940-1949, Box: 14. University of New Mexico Press records, UNMA 125. UNM Center for Southwest Research & Special Collections. 
 [^1942]: Press Records - History,, 1942-1950, Box: 7. University of New Mexico Press records, UNMA 125. UNM Center for Southwest Research & Special Collections.

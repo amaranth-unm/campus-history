@@ -6,7 +6,7 @@ date: 2019-04-20
 popup-teaser: Check out Sara Raynolds Hall and travel back in time one hundred years
 card-description: A Mayan Pueblo Revival building built in 1920 to house the Home Economics Department
 card-image: /essays/sara-raynolds-hall/images/SRH_construction1.jpg
-header-title:
+header-title: Sara Raynolds Hall
 header-image: images/SRH_construction1.jpg
 type: classrooms
 start: 1920
@@ -17,7 +17,6 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 
-# Sara Raynolds Hall
 It's 1920. The Great War had just ended. The men are coming back home and the women want more to do. A brand new building, Sara Raynolds Hall, is under construction on Central Avenue. It will house the expanding Home Economics Department, opening its doors for women throughout the community. 
 
 
@@ -33,13 +32,8 @@ The landscape includes several dozen evergreens including the largest cedar on c
 ## Early History
 Built in 1920, at a cost of $15,720, Sara Raynolds Hall was designed by Albuquerque’s first architect, Edward Buxton Christy (1860-1934) and professor Arno Leupold. It is one of a handful of buildings on campus to be on the [National Register of Historic Places](https://npgallery.nps.gov/AssetDetail/NRIS/88001544). Dedicated on Mother’s Day of 1920, the building was named after the mother of one of its biggest financial contributors, Joshua Raynolds, a local businessman. Although I could find no records of what early classes were taught here, typical Home Economics courses during this period emphasized a scientific and economic approach to childrearing, homemaking, and domestic skills. It is easy to envision Home Economics as just another institutional effort to reinforce traditional sex roles, but the history of this field is more complex and has direct ties to the increased literacy and employability of women and the suffrage movement.  
 
-<div class="carousel">
-  <div><img src="images/SRH_postcard.jpg"/></div>
-  <div><img src="images/srh-ej_merchant_letter.jpg"/></div>
-  <div><img src="images/srh-floor_plan.jpg"/></div>
-  <div><img src="images/srh-contract_bond_front_side.jpg"/></div>
-  <div><img src="images/srh-contract_bond_back_side.jpg"/></div>
-</div>
+{% assign images = "images/SRH_postcard.jpg, images/srh-ej_merchant_letter.jpg, images/srh-floor_plan.jpg, images/srh-contract_bond_front_side.jpg, images/srh-contract_bond_back_side.jpg" | split: ', ' %}
+{% include images/carousel.html images=images id="carousel-1" %}
 
 
 ## The Depression Years
@@ -71,11 +65,10 @@ Once a state-of-the-art facility built in the prevailing architectural style of 
 
 Sara Raynolds Hall is small and has seen better days, but it harkens back to a golden age of the university, a time between wars, shorty after statehood, when UNM was growing and so many things seemed possible.     
 
-<div class="carousel">
-  <div><img src="{{ site.baseurl }}/essays/sara-raynolds-hall/images/srh-front-facade.JPG"/></div>
-  <div><img src="{{ site.baseurl }}/essays/sara-raynolds-hall/images/srh-south-facade.JPG"/></div>
-  <div><img src="{{ site.baseurl }}/essays/sara-raynolds-hall/images/srh-NE-facade.JPG"/></div>
-</div>
+{% assign images = "images/srh-front-facade.JPG, images/srh-south-facade.JPG, images/srh-NE-facade.JPG" | split: ', ' %}
+{% include images/carousel.html images=images id="carousel-2" %}
 
-## Sources
+{% capture bibliography %}
 We live in a time between technologies. This project reprensents the crossroads between analog archives (all those dusty boxes, well-thumbed letters, and faded photographs) and digital knowledge (geo-referenced maps, digitized images, and code). Sifting through boxes at [The Southwest Center for Research](https://elibrary.unm.edu/cswr/) was the most delightful aspect of this project. I highly recommend it. You can find my sources in the Facility Planning Records Collection (UNMA 028) in Box 88. I invite you to continue my research. Happy hunting. 
+{% endcapture %}
+{% include typography/bibliography.html title="Sources" content=bibliography %}

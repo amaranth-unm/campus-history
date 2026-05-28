@@ -7,13 +7,12 @@ popup-teaser: Did you know that Albuquerque's first public museum was on campus?
 card-description: The Maxwell Museum of Anthropology has been providing students and the public alike with enriching experiences since 1932.
 card-image: /essays/maxwell-museum/images/1970s-maxwell.jpg
 header-image: images/1970s-maxwell.jpg
-header-title:
+header-title: Maxwell Museum
 header-position: 0px
 header-caption: "[PLACEHOLDER: describe the image]"
 category: Museum
 ---
 
-# Maxwell Museum
 Tucked away on the far western edge of campus, The Maxwell Museum of Anthropology provides visitors with exciting, enriching, and educational opportunities by "Working toward greater understandings of the fullness of human experiences in the Southwest and the world." 
 
 In the busy and bustling ecosystem that is UNM campus, it is easy for on-the-go students, faculty, and staff to keep their heads down, focused on exactly where they need to be and when they need to be there. But, by lifting their gaze, getting off the beaten path, taking in their surroundings, and stepping through the museum's doors, they have the opportunity to be transported across campus, across the world and emerge forever changed. 
@@ -105,7 +104,7 @@ image-path="images/kuna-invite1.jpg"
 
 {% include images/figure.html
 class="img-right"
-width="46%"
+width="50%"
 caption="Interior of the invitation."
 image-path="images/kuna-invite2.jpg"
 %}
@@ -123,7 +122,7 @@ Before her tenure as the chief curator at the Maxwell Museum, Mari Lyn Salvador 
 ### The Fetish Carvers of Zuni, 1991
 {% include images/figure.html
 class="img-right"
-width="33%"
+width="50%"
 caption="The Maxwell Foundation newsletter for early 1991, highlighting The Fetish Carvers of Zuni."
 image-path="images/maxwell-zuni.jpg"
 %}
@@ -155,7 +154,7 @@ A quick chat with Max will tell you that she's excited for new opportunites and 
 
 <audio controls src="max-audio.mp3"></audio>
 
-## Bibliography
+{% capture bibliography %}
 
 - "2022-23 Annual Report," Maxwell Museum of Anthropology, https://maxwellmuseum.unm.edu/news-events/newsletters-and-reports.
 
@@ -170,3 +169,5 @@ A quick chat with Max will tell you that she's excited for new opportunites and 
 - Maxwell Museum Institutional Archives, Exhibit Boxes, Kuna Women's Art, University of New Mexico, Albuquerque, New Mexico.
 
 - Maxwell Museum Institutional Archives, Exhibit Boxes, Zuni Fetish Carvers Exhibit at Maxwell, 1990, University of New Mexico, Albuquerque, New Mexico.
+{% endcapture %}
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}

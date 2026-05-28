@@ -20,7 +20,7 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Fix obvious typos, repeated words, spacing problems, and broken punctuation.
 - Remove duplicate blank lines or inconsistent whitespace.
 - Standardize image includes, captions, and nearby spacing when the intended image/caption is clear.
-- Move a top-level `#` heading that appears directly under the page header into the front matter `image-title` field, then remove that body `#` heading so the title displays on the hero image instead of repeating below it.
+- Move a top-level `#` heading that appears directly under the page header into the front matter `header-title` field, then remove that body `#` heading so the title displays on the hero image instead of repeating below it.
 - Add or normalize a front matter `category` field so the page-header eyebrow identifies the type of campus place, such as `Dormitory`, `Classroom Building`, `Student Resource`, `Landscape`, or `Public Art`.
 - Ensure the first content after the page header is a clear introductory lead paragraph: a short vignette or scene-setting entry point that orients the reader before section headings, images, pullquotes, or other components appear.
 - Add a neutral opening `##` section heading when an essay starts directly with body text after the page header.
@@ -84,9 +84,9 @@ When in doubt, preserve the original text and leave a note or ask for direction.
 ## Checklist For Each Essay
 
 - Front matter is intact and valid.
-- Front matter includes an `image-title` when the page has a hero image; this should contain the essay/building title that displays over the image.
+- Front matter includes a `header-title` when the page has a hero image; this should contain the essay/building title that displays over the image.
 - Front matter includes a normalized `category` for the page-header eyebrow.
-- Any body-level `#` heading immediately below the page header has been converted to `image-title` and removed from the body.
+- Any body-level `#` heading immediately below the page header has been converted to `header-title` and removed from the body.
 - The first body element after the page header is a clear lead paragraph, not an image, carousel, pullquote, raw HTML block, or heading.
 - Title, author, object links, and metadata are preserved.
 - Paragraphs are sized for online reading without changing the student's argument, sequence, or voice.

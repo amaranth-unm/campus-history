@@ -2,7 +2,7 @@
 title: Mitchell Hall
 author: L.C. Hampton
 layout: essay
-date: 2019-4-10
+date: 2019-04-10
 popup-teaser: Come take a look into the history behind this 1950's building
 card-description: Come take a look into the history behind this 1950's building
 card-image: /essays/mitchell-hall/images/mitchell-hall.jpg
@@ -13,8 +13,6 @@ header-title: Mitchell Hall
 header-caption: "[PLACEHOLDER: describe the image]"
 category: Classroom Building
 ---
-
-# Mitchell Hall
 
 ## Location
 Mitchell hall is located just south of Dane Smith Hall in-between the Duck Pond and Carlisle Gym. 
