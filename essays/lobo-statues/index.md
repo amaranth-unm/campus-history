@@ -14,9 +14,9 @@ category: Public Art
 ---
 
 
-{% include images/figure.html class="img-left" width="65%" height="100" caption="One of the smaller _Spirit of the Lobo_ statues posed near the Duck Pond" image-path="images/lobo-snow-1.jpg"%} 
-
 Among the numerous public art installations on campus, you'll encounter many iterations of the University's mascot, the Lobo. First suggested in 1920, the Lobo is a recognizable and beloved school symbol, representing teamwork and fearlessness.[^mascot] Let's take a tour of the statues around campus.
+
+{% include images/figure.html class="img-left" width="65%" height="100" caption="One of the smaller _Spirit of the Lobo_ statues posed near the Duck Pond" image-path="images/lobo-snow-1.jpg"%}
 
 ## Lobo In Tight Grove
 

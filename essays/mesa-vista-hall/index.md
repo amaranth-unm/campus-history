@@ -19,9 +19,9 @@ header-caption: "The Construction of Mesa Vista Hall as a 400-person men's dorm"
 category: Dormitory
 ---
 
-{% include images/figure.html class="img-right" width="48%" caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-history-stays.jpg" %}
-
 This essay is mostly dummy text. The point is to visually illustrate various features that can be used on site essay pages. There is a separate [code page](../code) that walks through all the "features" used on this page and gives the code snippets that you can copy and paste into your essays. Or you can just edit this one, adding, rearranging, and deleting as necessary.
+
+{% include images/figure.html class="img-right" width="48%" caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-history-stays.jpg" %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus. Praesent libero mi, pharetra vel neque sit amet, elementum tempor purus.[^note1]
 

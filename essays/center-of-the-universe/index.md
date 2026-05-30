@@ -18,8 +18,9 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Public Art
 ---
 
-## Controversy in Concrete
 Some may call it an eyesore. Others may call it misunderstood. From the moment the Center of the Universe was conceived by artist Bruce Nauman, it was met with controversy. This tower of concrete that juts out above, below, and to all sides and is lit only by halogen lamps has seen so much anger and outrage, that sometimes it’s hard to believe. Yet, despite all that’s happened to it over the thirty one years since its completion, the *Center of the Universe* continues to stand tall between Mitchell and Ortega hall.
+
+## Controversy in Concrete
 
 ## The Big Bang
 

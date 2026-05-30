@@ -16,9 +16,12 @@ category: Landscape
 ---
 
 
-{% include images/figure.html class="img-left" width="75%" caption="A photo of the Pond taken shortly after completion. shows a distinct lack of foliage on the peninsula and surrounding area." image-path="images/duck-pond-0002.png" %}
+Built in 1975, the Duck Pond was met with hesitation and heavy criticism from the campus community. It was eventually embraced and named by students, who have adored it ever since.
 
 ## Yatoka Hall & Y-1
+
+{% include images/figure.html class="img-left" width="75%" caption="A photo of the Pond taken shortly after completion. shows a distinct lack of foliage on the peninsula and surrounding area." image-path="images/duck-pond-0002.png" %}
+
 [Yatoka Hall](../essays/yatoka-hall) was originally built in 1928-29. It started off as a men's dormitory before being converted into offices. The offices housed the College of Business Administrations, laboratories for the College of Nursing, a U.S. post office, art studios, American Studies, and a Mr.s Blum’s coffee shop.Y-1 was an adjacent wood frame building built after World War II, It was also remodeled into offices. On January 6, 1975 both building began to be demolished and salvaged by the physical Plant Department.
 
 ## Before Construction

@@ -14,8 +14,7 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Classroom Building
 ---
 
-## Location
-Mitchell hall is located just south of Dane Smith Hall in-between the Duck Pond and Carlisle Gym. 
+Mitchell Hall is located just south of Dane Smith Hall, between the Duck Pond and Carlisle Gym. 
 
 {% include images/figure.html class="img-center" width="100%" caption="Mitchell Hall in 1951. Here you can see many newly trees that have been planted right out side and all around the newly built Mitchell Hall" image-path="images/mitchell-hall-bw-outside.jpg" %}
 

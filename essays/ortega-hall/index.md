@@ -15,6 +15,8 @@ category: Academic Building
 ---
 
 
+This 50,000 square foot classroom and faculty office building at the University of New Mexico also contains clusters of language labratories and audiovisual rooms as well as a large student lounge and library. Completed in 1977 for a cost of $1,440,000, this first increment in the main academic area of the central campus established the upper pedestrian walkway system which connects the major academic buildings south of the central plaza.
+
 {% include images/figure.html class="img-center" width="75%" caption="March, 9 1998; Looking Southeast towards Smith plaza on this gloomy winter day. The artwork of Bruce Nauman's Center of the Universe pictured on the rightside.[Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3352/rec/83)" image-path="images/ortega-hall-exterior-gloomy.jpg" %}
 
 ### Location
@@ -34,8 +36,7 @@ After the demolition of Zimmerman Stadium the University was trying to create mo
 
 {% include images/figure.html class="img-center" width="75%" caption="Exterior view of Ortega Hall, portraying the coloration and multidimesions of the buildings design" image-path="images/ortega-hall-today3.jpg" %}
 
-### The Exterior Design
-This 50,000 square foot classroom and faculty office building at the University of New Mexico also contains clusters of language labratories and audiovisual rooms as well as a large student lounge and library. Completed in 1977 for a cost of $1,440,000, this first increment in the main academic area of the central campus established the upper pedestrian walkway system which connects the major academic buildings south of the central plaza.  
+### The Exterior Design  
 
 {% include images/figure.html class="img-left" width="58%" caption="Black and White exterior image taken in 1978, protrays the architectural works of Ferguson, Stevens, Mallory, and Pearl. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/ortega-hall-exterior1.jpeg" %}
 

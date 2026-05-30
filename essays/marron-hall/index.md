@@ -15,9 +15,9 @@ category: Dormitory
 ---
 
 
-{% include images/figure.html class="img-right" width="50%" caption="Marron Hall circa late 90's-early 2000's" image-path="images/MarronHall.png" %}
+Marron Hall existed as a space long before the building came to be known as Marron Hall. What is now known as Marron Hall came to existence in 1921, when the original South Hall was built. South Hall was built as an addition to the original Hokona Hall. At the time the population of UNM was booming and female students needed a place to board at on campus, before that time students could stay at one of the few dorm rooms on campus. But even fefore the dorms were built it was thought that female students could board with Albuquerque families. The rush of students was so much that by 1931 an addition had to be made to the dorm. It is this additional part that is now a part of Marron Hall. It is that same year that Frances Halloran Marron, Marron Hall's namesake, was appointed to the UNM Board of Regents.
 
-Marron Hall existed as a space long before the building came to be known as Marron Hall. What is now known as Marron Hall came to existence in 1921, when the original South Hall was built. South Hall was built as an addition to the original Hokona Hall. At the time the population of UNM was booming and female students needed a place to board at on campus, before that time students could stay at one of the few dorm rooms on campus. But even fefore the dorms were built it was thought that female students could board with Albuquerque families. The rush of students was so much that by 1931 an addition had to be made to the dorm. It is this additional part that is now a part of Marron Hall. It is that same year that Frances Halloran Marron, Marron Hall’s namesake, was appointed to the UNM Board of Regents.
+{% include images/figure.html class="img-right" width="50%" caption="Marron Hall circa late 90's-early 2000's" image-path="images/MarronHall.png" %}
 
 {% include images/figure.html class="img-right" width="50%" caption="The original plans to the women's dorm. What would later become Marron Hall is the wing of the building labeled old addition." image-path="images/oldhokonahall.jpg" %}
 

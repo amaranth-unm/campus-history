@@ -14,10 +14,9 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Public Art
 ---
 
+Just at one of the main entrance points at the University of New Mexico (UNM), adjacent between Popejoy Hall and the main entrance of Johnson Center -- across from the Student Union Building -- lies a space on campus that brings attention to both visitors and students.
+
 {% include images/figure.html class="img-right" width="50%" caption="Betty's bronze scultures with a green hat placed on one of the heads" image-path="images/modern-art-intro.png" %}
-
-
-Just at one of the main entrance points at the University of New Mexico (UNM), adjacent between Popejoy Hall and the main entrance of Johnson Center -- across from the Student Union Building -- lies a space on campus that brings attention to both visitors and students. 
 
 This space, entitled, “Modern Art” features artist Betty Sabo who was an art student at UNM in the 1940’s. Behind these bronze sculptures that encapsulate “Modern Art”, lie representations of natural human form. 
 

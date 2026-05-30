@@ -15,6 +15,8 @@ category: Dining
 ---
 
 
+In an architectural sense, UNM has furiously sought to reflect itself within the space in which it surrounds. La Posada Dining Hall, Laguna and De Vargas Dormitory, and all other building that came before and after all have displayed that UNM wants to represent its unique modern South Western culture in its architecture. La Posadas, architecturally being built in an adobe style, reflecting UNMs latter 20th century culture, similar to other building built at the time like the Laguna Dormitory, De Vargas Dormitory, Kiva Lecture Hall, and the Farris Engineering Center.
+
 {% include images/juxtapose.html
 id="juxtapose-exterior"
 image1="images/la-posada-building-sign2.jpg"
@@ -30,8 +32,6 @@ From the 1970s to the 1980s, La Posada looks much more like it does now than it 
   class="pullquote"
   text="Louis Sullivan-'As you are, so are your buildings; and, as are your buildings, so are you. You and your architecture are the same. Each is a faithful portraits of the other.'"
   %}
-
-In an architectural sense, UNM has furiously sought to reflect itself within the space in which it surrounds. La Posada Dining Hall, Laguna and De Vargas Dormitory, and all other building that came before and after all have displayed that UNM wants to represent its unique modern South Western culture in its architecture. La Posadas, architecturally being built in an adobe style, reflecting UNMs latter 20th century culture, similar to other building built at the time like the Laguna Dormitory, De Vargas Dormitory, Kiva Lecture Hall, and the Farris Engineering Center. 	
 
 
 ### Planned Construction

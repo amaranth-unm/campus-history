@@ -13,11 +13,10 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Student Resource
 ---
 
-## Womens Resource Center
-{% include images/figure.html class="img-center" width="100%" caption="Womens resource center at UNM has evolved meraculously over the past 50 years into a home and inclusive space for many students and survivors. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/wrc-building.jpeg" %}
+For centuries, women were told to be silent, that their words meant nothing and an education for a woman was out of the ordinary. Today women's voices, create movements, win elections and rewrite laws. It was not long ago when women fought for a place in the classroom. Women at UNM made up less than 50% of total students in the 1970's. The climb for women at UNM has been a fight for equal opportunity, that continues to shape the institution that stands before us today.
 
 ## The Climb for Women at UNM
-For centuries, women were told to be silent, that their words meant nothing and an education for a woman was out of the ordinary. Today women's voices, create movements, win elections and rewrite laws. It was not long ago when women fought for a place in the classroom. Women at UNM made up less than 50% of total students in the 1970's. The climb for women at UNM has been a fight for equal opportunity, that continues to shape the institution that stands before us today. 
+
 {% include images/figure.html
   class="img-right"
   width="66%"

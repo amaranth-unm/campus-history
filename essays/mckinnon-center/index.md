@@ -15,11 +15,13 @@ header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 
+The McKinnon Center for Management is the staple of UNM’s northern edge of campus.  The multi-story building was constructed as a replacement for the deteriorating Anderson School of Management building, and $5 million of the total $25.4 million funds were donated to UNM by Ian and Sonnet McKinnon.
+
 {% include images/figure.html class="img-center" width="100%" caption="The McKinnon Center for Management, UNM's most modern development and the latest addition to The School of Management. [_Source_](https://www.mgt.unm.edu/building/construction-photos.asp)" image-path="images/mcm.jpg" %}
 
 ## Background
 
-The McKinnon Center for Management is the staple of UNM’s northern edge of campus.  The multi-story building was constructed as a replacement for the deteriorating Anderson School of Management building, and $5 million of the total $25.4 million funds were donated to UNM by Ian and Sonnet McKinnon.  The building became accessible to students in the summer of 2018 after a year and a half of construction dating back to December 2016.  The building adjacent to MCM previously known as the Graduate School of Management has now assumed the Anderson School of Management title.  Together, these buildings make up the school of business at UNM.
+The building became accessible to students in the summer of 2018 after a year and a half of construction dating back to December 2016.  The building adjacent to MCM previously known as the Graduate School of Management has now assumed the Anderson School of Management title.  Together, these buildings make up the school of business at UNM.
 
 ## Construction
 {% include images/figure.html class="img-right" width="50%" caption="MCM Blueprints, outlining the construction site.  Notice the extension of the outline into UNM's campus and how limiting it made surrounding pathways. [_Source_](https://www.mgt.unm.edu/building/default.asp)" image-path="images/mcm-blueprints.jpg" %}
