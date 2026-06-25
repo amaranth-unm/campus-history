@@ -43,10 +43,17 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Lists should use Markdown bullets or numbered lists, not manually typed numbers in paragraphs.
 - Image placement should follow Xanthan image includes or existing project patterns, not ad hoc HTML.
 - Image include widths should not be smaller than `50%` on essay pages. If an existing figure uses `width="33%"`, `width="40%"`, or another smaller value, raise it to at least `50%` unless there is a clear visual reason to ask first.
-- Wide horizontal images should usually be displayed at `width="100%"`. If an image has a strong landscape or panoramic ratio, roughly `1.6:1` or wider, do not float it at `50%`; give it the full content width so readers can inspect the visual evidence. If the image is low-resolution, decorative, or visually weak at full width, flag it rather than forcing the change.
+- Wide horizontal images should default to `width="100%"`, especially maps, plans, newspaper clippings, architectural drawings, construction photos, panoramas, and other visual evidence readers may need to inspect. Treat a strong landscape ratio, roughly `1.6:1` or wider, as a signal that the image should span the full content width.
+- Only keep a wide image below `100%` when there is a detectable reason: the source file is too small or blurry at full width, the image is decorative rather than evidentiary, the important detail is already legible at a smaller size, or the image is intentionally paired with adjacent prose or another image. In those cases, use at least `50%` and place text beside it only when the surrounding paragraph directly discusses the image.
+- Do not preserve a `48%`, `50%`, or `60%` width just because it already exists. If the image is wide and evidentiary, make it full width unless one of the exceptions above applies.
+- Use the `images/image-grid.html` include when two or three related images should be read together as one visual evidence set, such as matching clippings, paired invitations, before/after documents, or two images that were previously floated at `48%` only to appear side by side.
+- Use individual `images/figure.html` includes with `img-left` or `img-right` when an image is meant to sit beside and support a specific paragraph of prose. Do not use side-by-side floated figures just to create a gallery; use `image-grid` or `carousel` instead.
 - Captions should be kept close to the image they describe and formatted consistently.
 - URLs in image captions should be encapsulated as a `[source](URL)` link in the caption.
+- Image paths should resolve from the essay page directory. For essay-local files, use paths like `images/example.jpg`, not duplicated folder paths such as `popejoy-hall/example.jpg` or `essays/popejoy-hall/images/example.jpg`.
+- Check that every `image-path` value points to an existing file with the exact same spelling, extension, capitalization, spaces, and punctuation. Broken images are often caused by small path mismatches rather than missing files.
 - Images should not appear immediately before a heading; move the image to after the heading so the section title introduces the visual material.
+- `##` section headings should always come before any image include that belongs to that section. If an image include is immediately followed by an `##` heading, reverse the order unless the image is intentionally ending the previous section.
 - Carousel includes must be checked in the browser after standardization. Confirm that all carousel images render, arrows/pagination work, captions appear with the correct slide, and multiple carousels on the same page use unique `id` values.
 - Legacy raw carousel markup must be converted to the standard include. Replace blocks like `<div class="carousel"><div><img src="..."></div>...</div>` with `{% include images/carousel.html %}` using assigned `images`, optional `headers`, optional `captions`, and a unique `id` when more than one carousel appears on the page. Do not rely on hidden JavaScript fixes for old carousel markup.
 - Pullquotes should not be the first thing after a heading. Keep at least two sentences of body text between a heading and a pullquote so the section has enough typographic breathing room.
@@ -56,6 +63,23 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Object or essay links should use Markdown links or established Xanthan include patterns.
 - Do not use raw HTML for layout, spacing, images, captions, or lists when Markdown or a Xanthan include can do the job.
 - Do not hide substantive concluding prose in the bibliography drawer; only collapse source lists and citation material.
+
+## Light Prose Edits
+
+Use light prose edits to make essays easier to read online while keeping the student's voice, argument, and level of certainty intact. Edit the sentence's path, not its destination.
+
+- Preserve vivid, personal, funny, or distinctive student phrasing when it helps the essay feel authored. Fix the mechanics around it, but do not sand down personality just to make the collection sound uniform.
+- Remove assignment scaffolding when it is not doing meaningful work. Phrases such as `this essay will`, `the purpose of this page is`, `in this article`, or `in conclusion` can usually be cut or replaced with a direct statement about the place, object, source, or historical stakes.
+- Keep first person when it reveals research process, archival surprise, interpretive humility, or a meaningful encounter with evidence. Trim first person when it only narrates ordinary workflow or delays the historical point.
+- Break long paragraphs at natural turns: a new date or period, a new source, a new person, a new building use, a new example, or a shift from evidence to interpretation.
+- Split overloaded sentences that stack several clauses with `which`, `while`, `causing`, `because`, or repeated commas. Prefer two clear student-authored sentences over one tangled sentence.
+- Prefer concrete subjects and verbs. When a sentence begins with `there is`, `there are`, `it is important`, or `this shows`, revise only as much as needed to name the actor, source, building, event, or consequence.
+- Replace vague intensifiers and filler when the meaning is clear. Words such as `very`, `really`, `a lot`, `things`, `stuff`, `interesting`, `important`, and `unique` should usually point to specific evidence: enrollment growth, funding, architecture, activism, controversy, preservation, demolition, or archival absence.
+- Normalize time language. Prefer specific dates, decades, or periods over vague phrases such as `today`, `currently`, `back then`, `at this time`, or `nowadays` when a more precise reference is available.
+- Clarify chronology when the prose jumps between periods. Add or preserve light transition phrases such as `By 1949`, `In the early 1970s`, `After the renovation`, or `Decades later` when they help readers follow the sequence.
+- Keep hedging when the archive is genuinely incomplete. Do not convert `seems`, `suggests`, `may have`, or `more research is needed` into certainty unless the evidence clearly supports the stronger claim.
+- Make conclusions land on stakes rather than summary. A closing paragraph can point to continued use, memory, loss, archival gaps, campus change, or the building's present-day meaning without announcing `in conclusion`.
+- Correct typos, repeated words, apostrophes, capitalization, and grammar when the intended meaning is clear. Flag sentences where the fix would change the claim, interpretation, or tone.
 
 ## Avoid
 
@@ -94,8 +118,11 @@ When in doubt, preserve the original text and leave a note or ask for direction.
 - The lead paragraph provides a quick vignette or scene-setting introduction and receives the site's special first-paragraph typography.
 - Section headings begin after the lead paragraph, not before it.
 - Images and captions are formatted consistently.
+- All `image-path` values resolve to existing files, with no duplicated essay folder segments or capitalization/extension mismatches.
 - Figure include widths are `50%` or larger, except for explicit full-width/mobile behavior or an unusual case that has been flagged.
-- Wide horizontal images, roughly `1.6:1` or wider, are set to `width="100%"` unless low resolution or decorative use has been flagged.
+- Wide horizontal images, roughly `1.6:1` or wider, are set to `width="100%"` unless there is a detectable reason to keep them smaller, such as low resolution, blur, decorative use, or a direct text-and-image pairing.
+- Related side-by-side images use `images/image-grid.html` instead of separate floated `48%` figures when they function as one evidence set.
+- No image include appears immediately before an `##` heading unless it clearly belongs to the previous section and has been flagged as intentional.
 - Carousel images have been verified in the browser, including image loading, controls, captions, and unique IDs when more than one carousel appears on the page.
 - No legacy raw `<div class="carousel">` image blocks remain; all carousels use the standard `images/carousel.html` include.
 - Pullquotes are introduced by at least two sentences after a heading.

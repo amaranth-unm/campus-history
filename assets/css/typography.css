@@ -102,7 +102,7 @@ p {
 }
 
 .page-wrap .container > p:first-of-type {
-  font-size: clamp(1.34rem, 2vw, 1.63rem);
+  font-size: clamp(1.206rem, 1.8vw, 1.467rem);
   line-height: 1.7;
   color: var(--ink-soft);
   margin-top: var(--spacing-md);
@@ -299,28 +299,29 @@ FOOTNOTE STYLING
   align-items: center;
   justify-content: center;
   position: relative;
-  top: -0.15em;
+  top: -0.22em;
 
   /* Box Model */
-  width: 1.2rem;
-  height: 1.2rem;
-  padding: 0;
-  margin: 0 0.15em;
+  width: auto;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  padding: 0 0.35rem;
+  margin: 0 0.12em;
 
   /* Typography */
   font-family: var(--font-body);
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: 0.72rem;
+  font-weight: 700;
   line-height: 1;
   text-decoration: none;
-  color: white;
+  color: var(--unm-cherry);
 
   /* Visual */
-  background: var(--accent-primary);
-  border: 1px solid var(--accent-primary);
-  border-radius: 50%;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  opacity: 0.82;
+  background: color-mix(in srgb, var(--paper) 88%, white);
+  border: 1px solid color-mix(in srgb, var(--unm-cherry) 38%, transparent);
+  border-radius: 999px;
+  box-shadow: none;
+  opacity: 1;
 
   /* Interactivity */
   cursor: pointer;
@@ -330,15 +331,14 @@ FOOTNOTE STYLING
 .littlefoot__button:hover,
 .littlefoot__button:focus {
   /* Typography */
-  color: white;
+  color: var(--ink);
 
   /* Visual */
-  background: var(--interactive-hover);
-  border-color: var(--interactive-hover);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  background: color-mix(in srgb, var(--unm-high-noon) 32%, var(--paper));
+  border-color: var(--unm-sandia-sunset);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--unm-sandia-sunset) 22%, transparent);
   outline: none;
-  opacity: 1;
-  transform: scale(1.05);
+  transform: translateY(-1px);
 }
 
 /* Footnote popup styling */

@@ -138,30 +138,41 @@ image-path="images/centennial-hotel.jpg"
 ```
 
 
-### Side by side
-To achieve two images side by side use, make sure the width for each is 48%. (It's less than 50% to make room for margins.)
+### Image Grid
+Use an image grid when two or three related images should be read together as one evidence set. Use floated half-width figures only when an image is meant to sit beside a specific paragraph of prose.
 
-{% include images/figure.html class="img-left" width="48%" image-path="images/centennial-hotel.jpg" caption="Here's an image on the left."%}
+{% assign images =
+"images/centennial-hotel.jpg,
+images/mvh-construction.jpg" | split: ','
+%}
 
-{% include images/figure.html class="img-left" width="48%" image-path="images/centennial-hotel.jpg" caption="Here's an image on the right."%}
+{% assign captions =
+"Here's the first image.|
+Here's the second image." | split: '|'
+%}
 
-<p style="clear:both"></p>
-
+{% include images/image-grid.html
+images=images
+captions=captions
+columns=2
+%}
 
 {%raw%}
 ```
-{% include images/figure.html
-class="img-left"
-width="48%"
-caption="Here's an image on the left."
-image-path="images/centennial-hotel.jpg"
+{% assign images =
+"images/centennial-hotel.jpg,
+images/mvh-construction.jpg" | split: ','
 %}
 
-{% include images/figure.html
-class="img-left"
-width="48%"
-caption="Here's an image on the right."
-image-path="images/centennial-hotel.jpg"
+{% assign captions =
+"Here's the first image.|
+Here's the second image." | split: '|'
+%}
+
+{% include images/image-grid.html
+images=images
+captions=captions
+columns=2
 %}
 ```
 {%endraw%}
@@ -214,9 +225,6 @@ image1="images/kimo-1928.jpg"
 image2="images/kimo-1938.jpg"
 caption=""
 %}
-
-<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
 
 ```
@@ -376,4 +384,3 @@ Add the code, for that is:
 ```
 
 ---
-

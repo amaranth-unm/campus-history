@@ -79,37 +79,40 @@ One of the first exhibitions that the newly named Maxwell Museum mounted was *Ma
 
 The exhibition was organized thematically and by region, interweaving foundational information about the mechanics of sound as well as how music is incorporated into culture. First, visitors were introduced to the different types of musical instruments they may encounter throughout the exhibition. Next, were instruments and music of Indigenous North Americans, which were followed by various information on scales and melodies, and then the instruments and music of the African continent. The second half of the exhibition highlighted the social function of music, then instruments and music from Asia. The exhibition concluded with a section on contact phenomena or "When Musics Meet."
 
-{% include images/figure.html
-  class="img-left"
-  width="48%"
-  caption="An Albuquerque Journal article about the exhibition"
-image-path="images/abqjournal-music.jpg"
+{% assign music_maker_images =
+"images/abqjournal-music.jpg,
+images/kidd-instruments.jpg" | split: ','
 %}
 
-{% include images/figure.html
-  class="img-right"
-  width="48%"
-  caption="List of items in the Kidd Collection"
-image-path="images/kidd-instruments.jpg"
+{% assign music_maker_captions =
+"An Albuquerque Journal article about the exhibition.|
+List of items in the Kidd Collection." | split: '|'
+%}
+
+{% include images/image-grid.html
+images=music_maker_images
+captions=music_maker_captions
+columns=2
 %}
 
 ### YER DIALEGE! Kuna Women's Art, 1978-79
 
-{% include images/figure.html
-class="img-left"
-width="48%"
-caption="Invitation to the Yer Dialege exhibition opening."
-image-path="images/kuna-invite1.jpg"
+{% assign kuna_images =
+"images/kuna-invite1.jpg,
+images/kuna-invite2.jpg" | split: ','
 %}
 
-{% include images/figure.html
-class="img-right"
-width="50%"
-caption="Interior of the invitation."
-image-path="images/kuna-invite2.jpg"
+{% assign kuna_captions =
+"Invitation to the Yer Dialege exhibition opening.|
+Interior of the invitation." | split: '|'
 %}
 
-<br style= "clear: both"/>
+{% include images/image-grid.html
+images=kuna_images
+captions=kuna_captions
+columns=2
+%}
+
 Before her tenure as the chief curator at the Maxwell Museum, Mari Lyn Salvador spent time as a Peace Corps volunteer in Panama where she worked alongside Kuna craftswomen of the San Blas Islands. This experience provided the foundation for Salvador's further community, anthropological, and curatorial work, culminating in the exhibition *Yer Dialege* and its corresponding publication.
 
 *Yer Dialege* means beautiful in the Kuna language, and refers specifically to "objects of delight, including flowers, jewelry, and the finest elaborate embroidered molas (blouses)."[^note4] The exhibition displayed 125 molas of various colors, styles, and designs, and in doing so, communicated to visitors the importance of the enmeshed interconnectedness between art, aesthetics, and daily life in Kuna society.
@@ -148,11 +151,6 @@ image-path="images/maxwell-becomingus.jpg"
 %}
 The museum's age is starting to show in some cases, however, but a fresh look is on the horizon. The thirty five year old *Ancestors*, will be completely overhauled in the next several years to reflect new research, curatorial practices, and exhibition design techniques. In the meantime, the Maxwell's doors are still open, and still willing to transport you to across the state, across the country, or across the globe, right here on campus. 
 
-
-## In Her Own Words
-A quick chat with Max will tell you that she's excited for new opportunites and new friends!
-
-<audio controls src="max-audio.mp3"></audio>
 
 {% capture bibliography %}
 

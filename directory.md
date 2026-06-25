@@ -4,7 +4,7 @@ layout: wide
 date: 2024-04-13
 ---
 
-# Directory of Essays
+# Browse Essays
 
 {% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" | sort: "title" %}
 

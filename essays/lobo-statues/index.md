@@ -99,14 +99,6 @@ Lurking among the trees and bushes of central campus, you'll encounter smaller b
 
 {% include scrollybox/bg-multi-long-close.html %}
 
-## 3D Lobo Statue Scan 
-<div class="sketchfab-embed-wrapper"> <iframe title="Howling Lobo" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c7d2cc4c74c64067aac7000e5b4ef069/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/howling-lobo-c7d2cc4c74c64067aac7000e5b4ef069?utm_medium=embed&utm_campaign=share-popup&utm_content=c7d2cc4c74c64067aac7000e5b4ef069" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Howling Lobo </a> by <a href="https://sketchfab.com/vigilmaya?utm_medium=embed&utm_campaign=share-popup&utm_content=c7d2cc4c74c64067aac7000e5b4ef069" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> vigilmaya </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c7d2cc4c74c64067aac7000e5b4ef069" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-
-
-
-## A Conversation Between Two Lobo (Statues)
-
-<audio controls src="lobo-statues.mp3"></audio>
 
 {% capture bibliography %}
 - Highsmith, Carol M, photographer. One of several sculptures of a lobo, or timber wolf, on the campus of the University of New Mexico in Albuquerque, the largest city in New Mexico. United States New Mexico Bernalillo County Albuquerque, 2020. -12-27. Photograph. https://www.loc.gov/item/2020742577/.
@@ -125,6 +117,7 @@ Lurking among the trees and bushes of central campus, you'll encounter smaller b
 
 - [UNM News](https://news.unm.edu/news/unm-s-spirit-of-the-lobos-program-roams-campus)
 {% endcapture %}
+
 {% include typography/bibliography.html title="Bibliography" content=bibliography %}
 
 [^mascot]: [UNM Traditions](https://www.unm.edu/welcome/traditions/index.html)

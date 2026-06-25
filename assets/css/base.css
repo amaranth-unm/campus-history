@@ -500,6 +500,35 @@ figcaption a {
   padding-top: 0.28rem;
 }
 
+.image-grid {
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0 var(--spacing-xl);
+}
+
+.image-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.page-wrap .image-grid figure.image-grid__item {
+  float: none;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.image-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-grid figcaption {
+  margin-top: 0.5rem;
+}
+
 /*****************************************************
 FIGURE WRAP — two-column image + text layout
 *****************************************************/
@@ -683,19 +712,37 @@ DIRECTORY BROWSING
 
 .directory-tools {
   display: flex;
+  gap: 0.75rem;
   justify-content: flex-end;
+  align-items: center;
   max-width: 82rem;
   margin: 0 auto var(--spacing-lg);
-}
-
-.directory-tools a {
   font-family: var(--font-body);
   font-size: 0.86rem;
   font-weight: 800;
-  color: var(--unm-cherry);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  border-bottom: 2px solid var(--unm-high-noon);
+}
+
+.directory-tools span {
+  color: var(--ink-soft);
+}
+
+.directory-tools a,
+.directory-tools strong {
+  padding: 0.38rem 0.58rem;
+  border: 2px solid var(--unm-high-noon);
+  border-radius: var(--radius-sm);
+}
+
+.directory-tools a {
+  color: var(--unm-cherry);
+  background: transparent;
+}
+
+.directory-tools strong {
+  color: var(--ink);
+  background: var(--unm-high-noon);
 }
 
 .category-browser,
@@ -899,7 +946,7 @@ ESSAY PAGINATION
 .essay-pagination__item:hover {
   color: var(--ink);
   border-color: var(--unm-cherry);
-  box-shadow: var(--shadow-hover);
+  box-shadow: 0 16px 32px color-mix(in srgb, var(--unm-sandia-sunset) 24%, transparent);
   transform: translateY(-2px);
 }
 
@@ -1254,6 +1301,15 @@ DIRECTORY CARDS
     max-width: 100% !important;
     justify-self: stretch !important;
     margin: 0 0 var(--spacing-md) 0 !important;
+  }
+
+  .image-grid,
+  .image-grid--3 {
+    grid-template-columns: 1fr;
+  }
+
+  .page-wrap .image-grid figure.image-grid__item {
+    margin: 0 !important;
   }
 
 }

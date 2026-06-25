@@ -80,7 +80,7 @@ campus-history uses photographs at full fidelity.
 
 .page-header h1 {
   font-family: var(--font-display, Georgia, serif);
-  font-size: clamp(2.2rem, 6.4vw, 6rem);
+  font-size: clamp(1.98rem, 5.76vw, 5.4rem);
   font-weight: 700;
   color: #fffaf0;
   line-height: 0.95;

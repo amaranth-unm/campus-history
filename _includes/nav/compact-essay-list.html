@@ -1,5 +1,11 @@
 {% assign essays = include.essays | sort: "title" %}
 
+<div class="directory-tools">
+  <span>Find an essay:</span>
+  <a href="{{ '/directory/' | relative_url }}">By Category</a>
+  <strong>By Name</strong>
+</div>
+
 <div class="compact-essay-list">
   {% for essay in essays %}
     {% if essay.title and essay.card-description %}

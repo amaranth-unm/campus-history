@@ -1,10 +1,10 @@
 ---
-title: All Essays
+title: Browse Essays by Name
 layout: wide
 date: 2026-05-24
 ---
 
-# All Essays
+# Browse Essays
 
 {% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" | sort: "title" %}
 

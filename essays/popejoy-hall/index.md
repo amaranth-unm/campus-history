@@ -38,13 +38,13 @@ President Popejoy retired from office after twenty years in 1968. After his reti
 Popejoy Hall is the largest performance hall of its type in New Mexico with a total seating capacity of 1985 seats. It is the only venue where Broadway shows come to New Mexico and a wide variety of other shows and concerts happen year round. The Popejoy Schooltime Series provides opportunities for young school children to experience live theater, often for the first time. These reasons, and many others contribute to Popejoy Hall’s monumental place not just on the University of New Mexico’s campus, but in the city of Albuquerque. Today Popejoy Hall’s funding is completely independent of the University. The mission statement of Popejoy Hall is “to provide access to the performing arts for all New Mexicans”. The true impact of Popejoy Hall on campus and in the city is incalculable. 
 
 
-{% include images/figure.html class="img-left" width="50%" caption="Popejoy Hall shortly after opening, Circa 1966." image-path="popejoy-hall/popejoy-66.png" %}
+{% include images/figure.html class="img-left" width="50%" caption="Popejoy Hall shortly after opening, Circa 1966." image-path="images/popejoy-66.png" %}
 
-{% include images/figure.html class="img-left" width="50%" caption="The Fine Arts Building today" image-path="popejoy-hall/popejoy-today.jpg" %}
+{% include images/figure.html class="img-left" width="50%" caption="The Fine Arts Building today" image-path="images/popejoy-today.jpg" %}
 
-{% include images/figure.html class="img-right" width="50%" caption="A picture of the Popejoy stage before modern renovations." image-path="popejoy-hall/popejoy-oldinterior.png" %}
+{% include images/figure.html class="img-right" width="50%" caption="A picture of the Popejoy stage before modern renovations." image-path="images/popejoy-oldinterior.png" %}
 
-{% include images/figure.html class="img-right" width="50%" caption="The interior of Popejoy Hall as it looks today." image-path="popejoy-hall/popejoy-newinterior.jpg" %}
+{% include images/figure.html class="img-right" width="50%" caption="The interior of Popejoy Hall as it looks today." image-path="images/popejoy-newinterior.jpg" %}
 
 
 {% capture bibliography %}

@@ -1,15 +1,14 @@
 ---
-title: UNM Campus Histories
+title: About the project
 date: 2019-04-25
 layout: essay
 header-image: "/assets/images/1946 map to campus.jpg"
 header-position: "0px -20px"
 ---
 
-# About this project
-This project highlights how open-source digital tools can transform the way we research, learn, and share history. It provides a collaborative platform where students and faculty work together to explore and publish research on the history of the UNM campus and create a sense of shared space and community. Instead of Word docs that get discarded after the course ends, students do coursework that resonates outside the classroom.
+This project highlights how open-source digital tools can transform the way we research, learn, and share history. It provides a collaborative platform where students and faculty work together to explore and publish research on the history of the UNM campus and create a sense of shared space and community. 
 
-Our approach shows that course projects can be public, collaborative, and sustainable. The platform not only showcases student research but also serves as a model for how open-source values and digital humanities tools can expand access to knowledge and strengthen academic communities.
+Our approach shows that course projects can be public, collaborative, and sustainable. Instead of Word docs that get discarded after the course ends, students do coursework that resonates outside the classroom. The platform not only showcases student research but also serves as a model for how open-source values and digital humanities tools can expand access to knowledge and strengthen academic communities.
 
 ## Digital Literacy + Agency
 Building a website collaboratively---even just with pseudocode to format digital essays---teaches valuable digital literacy skills. Planning site structure, thinking through data organization, and drafting how content will flow introduces students to the logic behind digital platforms. This shifts participants from being passive consumers of digital content to active creators, helping them understand not just what digital tools do, but how they work and why certain design or technical decisions matter.

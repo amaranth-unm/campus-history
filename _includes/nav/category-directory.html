@@ -2,7 +2,9 @@
 {% assign categories = include.categories | default: "Academic Building|Arts Venue|Campus Services|Classroom Building|Dining|Dormitory|Historic Building|Landscape|Museum|Office|Public Art|Student Resource" | split: "|" %}
 
 <div class="directory-tools">
-  <a href="{{ '/all-essays/' | relative_url }}">View Compact List</a>
+  <span>Find an essay:</span>
+  <strong>By Category</strong>
+  <a href="{{ '/all-essays/' | relative_url }}">By Name</a>
 </div>
 
 <section class="category-browser" aria-labelledby="browse-by-category">
