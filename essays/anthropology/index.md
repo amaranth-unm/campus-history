@@ -14,7 +14,6 @@ end: 1960
 type2: classrooms
 start2: 1960
 header-title: Anthropology Building
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 
@@ -29,7 +28,7 @@ The 1930s marked one of several bursts of construction for the university thanks
 
 In the 1950s, rising enrollment strained the resources of the diminutive Student Union. Construction of a newer, larger building began in 1959, which would become the Student Union Building we know today, and the ‘old SUB’ was refitted for the purposes of the Anthropology Department. The transition required a number of interior renovations, including the addition of the Anthropology Annex (faculty offices and labs) and space for the Maxwell Museum of Anthropology. The Anthropology Department moved in to its current home from the Administrative Building (now Scholes Hall) in 1960.[^csw]
 
-{% include images/figure.html class="img-center" width="70%" caption="Three students leave the Student Union Building. A sign in the right window advertises the campus bookstore. Soon the campus would outgrow this building, and both the SUB and the bookstore would move. Source: Center for Southwest Research" image-path="images/anth-sub-exterior.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Three students leave the Student Union Building. A sign in the right window advertises the campus bookstore. Soon the campus would outgrow this building, and both the SUB and the bookstore would move. Source: Center for Southwest Research" image-path="images/anth-sub-exterior.jpg" %}
 
 ## Renovations
 {% include images/figure.html class="img-right" width="50%" caption="Daily Lobo article from August of 1960 detailing the shift from one Student Union to another, including renovations to the old SUB to better accommodate the Anthropology Department. Source: Center for Southwest Research" image-path="images/lobo-1960.png" %}
@@ -53,12 +52,13 @@ Once the bustling heart of campus life, today the Anthropology building is easy 
 When the Student Union moved east, the whole campus shifted with it, but fragments of the Anthropology building's past still remain. The main corridor maintains a persistent echo, an indication that the high ceilings were built to accommodate the noise of a crowd. Across the many renovations, the building remains consistent with John Gaw Meem's original vision, and it stands out as one of the most valuable historical buildings of the University of New Mexico. In these ways, the Anthropology building still is the heart of the university: the steadily-beating reminder of the university's past, even as it moves into the future.
 
 
+{% capture bibliography %}
+- Hooker, Van Dorn, Melissa Howard, and V. B Price. Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989. Albuquerque, NM: University of New Mexico Press, 2000.
 
-### Bibliography
-* Hooker, Van Dorn, Melissa Howard, and V. B Price. Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989. Albuquerque, NM: University of New Mexico Press, 2000.
+- University of New Mexico. Dept. of Facility Planning Records, 1889-, Collection UNMA 028, Box 1-2. Center for Southwest Research, University Libraries, University of New Mexico.
+{% endcapture %}
 
-* University of New Mexico. Dept. of Facility Planning Records, 1889-, Collection UNMA 028, Box 1-2. Center for Southwest Research, University Libraries, University of New Mexico.
-
+{% include typography/bibliography.html title="Bibliography" content=bibliography %}
 [^hooker]: Hooker, Van Dorn, Melissa Howard, and V. B Price. Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989. Albuquerque, NM: University of New Mexico Press, 2000, p. 77.
 
 [^csw]: University of New Mexico. Dept. of Facility Planning Records, 1889-, Collection UNMA 028, Box 1. Center for Southwest Research, University Libraries, University of New Mexico.

@@ -9,7 +9,6 @@ card-image: /essays/maxwell-museum/images/1970s-maxwell.jpg
 header-image: images/1970s-maxwell.jpg
 header-title: Maxwell Museum
 header-position: 0px
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Museum
 ---
 
@@ -136,7 +135,7 @@ Maxwell curator Marian Rodee and Pueblo of Zuni Arts and Crafts director James O
 *The Fetish Carvers of Zuni* helped to facilitate a strong and ongoing relationship between the Maxwell Museum and fetish artists, and even today, their beautiful art can be purchased in the museum store.
 {% include images/figure.html
   class="img-center"
-  width="50%"
+  width="100%"
   caption="An early outline of the exhibition."
 image-path="images/zuni-exhibit.jpg"
 %}

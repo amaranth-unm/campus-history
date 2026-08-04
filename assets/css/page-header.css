@@ -115,6 +115,20 @@ campus-history uses photographs at full fidelity.
   padding-bottom: 12vh;
 }
 
+.page-header--image-only {
+  height: clamp(26rem, 68vh, 44rem);
+  min-height: 26rem;
+  padding-bottom: 0;
+}
+
+.page-header--image-only .page-header-bg {
+  filter: brightness(0.82) saturate(1.04) contrast(1.02);
+}
+
+.page-header--image-only::after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.34) 0%, transparent 42%);
+}
+
 /* Top scrim to protect nav legibility on bright images */
 .page-header--hero::before {
   content: '';

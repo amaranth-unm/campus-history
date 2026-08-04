@@ -10,7 +10,6 @@ header-image: images/yatoka-hall-1928.JPG
 type: dorm
 start: 1928 
 header-title: Yatoka Hall
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Dormitory
 ---
 

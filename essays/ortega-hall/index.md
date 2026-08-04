@@ -10,19 +10,18 @@ header-title: Ortega Hall
 header-image: images/ortega-hall-exterior1.jpeg
 type: offices
 start: 1971
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 
 
 This 50,000 square foot classroom and faculty office building at the University of New Mexico also contains clusters of language labratories and audiovisual rooms as well as a large student lounge and library. Completed in 1977 for a cost of $1,440,000, this first increment in the main academic area of the central campus established the upper pedestrian walkway system which connects the major academic buildings south of the central plaza.
 
-{% include images/figure.html class="img-center" width="75%" caption="March, 9 1998; Looking Southeast towards Smith plaza on this gloomy winter day. The artwork of Bruce Nauman's Center of the Universe pictured on the rightside.[Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3352/rec/83)" image-path="images/ortega-hall-exterior-gloomy.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="March, 9 1998; Looking Southeast towards Smith plaza on this gloomy winter day. The artwork of Bruce Nauman's Center of the Universe pictured on the rightside.[Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3352/rec/83)" image-path="images/ortega-hall-exterior-gloomy.jpg" %}
 
 ### Location
 Ortega Hall is located southwest of Zimmermann Library and east of the Smith Plaza. 
 
-{% include images/figure.html class="img-center" width="75%" caption="Modern day showing the north side of Ortega Hall, Smith Plaza is due east which is the middle of campus. " image-path="images/ortega-hall-today2.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Modern day showing the north side of Ortega Hall, Smith Plaza is due east which is the middle of campus. " image-path="images/ortega-hall-today2.jpg" %}
 
 ### History of the Grounds
 The current location of Ortega Hall has been a busy area prior to the construction that created the hall. This area was first occupied by Zimmerman Stadium which had opened in 1938 and could hold 16,000 spectators for sporting events. The University decided to name the stadium at the first post-war Homecoming game. The President J. P. Wernette decided to dedicate the stadium in memoriam of Dr. James F. Zimmerman who was the former President of New Mexico. The stadium featured a track and field concept with stands only on the westside for fan attendance. Zimmerman Stadium was home to the New Mexico Lobo Football Team for 21 seasons with the Lobos battling other universities in atheltic competition. In 1960 the stadium turned over to intramural sports after the Lobo Football team had moved to what is now DreamStyle Stadium. After the demolition of Zimmerman Stadium in 1969 the University decided to rebuild on this area which is now occupied by Ortega Hall, Woodward Hall, and the Humanities Building. 
@@ -34,7 +33,7 @@ The current location of Ortega Hall has been a busy area prior to the constructi
 ### Construction of Ortega Hall 
 After the demolition of Zimmerman Stadium the University was trying to create more opportunity for student education. With the enrollment of the University rising they needed to build and expand the University. In 1964 The Daily Lobo released an article which discussed talk about the University planning on new construction. New Mexico's head architect Van Dorn Hooker released a statement saying "A faculty office and classroom building to be used primarily for the modern language department" Hooker said that this building would complete by second semester of 1971. In 1970 University President Ferrel Heady and Van Dorn Hooker gave the contractor job to K. L. House Construction Company, Inc. New Mexico allowed K. L. House a gross area of 53,043 square ft. and the architects of SMPC. The four that collaborated on the project consisted of Gordon Ferguson, Don Stevens, Robert Mallory, and George Pearl. Just over one year later, June 30, 1971 Ortega Hall was open and ready for University use for that coming fall semester. 
 
-{% include images/figure.html class="img-center" width="75%" caption="Exterior view of Ortega Hall, portraying the coloration and multidimesions of the buildings design" image-path="images/ortega-hall-today3.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Exterior view of Ortega Hall, portraying the coloration and multidimesions of the buildings design" image-path="images/ortega-hall-today3.jpg" %}
 
 ### The Exterior Design  
 

@@ -13,7 +13,6 @@ start: 1920
 end: 1963
 type2: offices
 start2: 1963
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 

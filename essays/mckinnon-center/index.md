@@ -11,7 +11,6 @@ header-image: images/mcm.jpg
 type: 
 start: 
 end:
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 

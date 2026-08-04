@@ -664,6 +664,7 @@ EDITORIAL CARDS
 
 .v-card .card-img-top {
   aspect-ratio: 4 / 3;
+  max-height: 100vh;
   object-fit: cover;
   border-width: 0 0 1px 0;
 }
@@ -921,33 +922,30 @@ ESSAY PAGINATION
   clear: both;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--spacing-md);
-  margin: var(--spacing-xxl) 0 var(--spacing-xl);
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--rule);
+  gap: clamp(1rem, 4vw, 2.5rem);
+  width: min(48rem, 100%);
+  margin: var(--spacing-xxl) auto var(--spacing-xl);
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--hairline);
 }
 
 .essay-pagination__item {
   display: flex;
-  min-height: 8rem;
+  min-height: 3.25rem;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem;
-  color: var(--ink);
-  background: var(--bg-card);
-  border: 1px solid var(--rule);
+  justify-content: center;
+  padding: 0.25rem 0;
+  color: var(--ink-soft);
   text-decoration: none;
+  border-bottom: 1px solid transparent;
   transition:
-    border-color var(--transition-fast),
-    box-shadow var(--transition-fast),
-    transform var(--transition-fast);
+    color var(--transition-fast),
+    border-color var(--transition-fast);
 }
 
 .essay-pagination__item:hover {
-  color: var(--ink);
-  border-color: var(--unm-cherry);
-  box-shadow: 0 16px 32px color-mix(in srgb, var(--unm-sandia-sunset) 24%, transparent);
-  transform: translateY(-2px);
+  color: var(--unm-cherry);
+  border-bottom-color: color-mix(in srgb, var(--unm-cherry) 38%, transparent);
 }
 
 .essay-pagination__item--next {
@@ -959,28 +957,23 @@ ESSAY PAGINATION
 }
 
 .essay-pagination__label {
-  width: max-content;
-  padding-top: 0.35rem;
-  border-top: 4px solid var(--unm-high-noon);
+  display: block;
+  margin-bottom: 0.25rem;
   font-family: var(--font-body);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
-  color: var(--unm-cherry);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.essay-pagination__item--next .essay-pagination__label {
-  align-self: flex-end;
+  color: var(--text-muted);
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .essay-pagination__title {
   display: block;
-  font-family: var(--font-heading);
-  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  font-family: var(--font-body);
+  font-size: clamp(0.98rem, 1.6vw, 1.12rem);
   font-weight: 700;
-  line-height: 1.18;
+  line-height: 1.25;
 }
 
 

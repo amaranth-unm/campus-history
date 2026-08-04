@@ -9,7 +9,6 @@ card-image: /essays/lobo-statues/images/lobo-header-1.jpg
 header-image: images/lobo-header-1.jpg
 header-title: The Lobo Statues
 header-position: 0px
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Public Art
 ---
 

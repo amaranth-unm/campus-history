@@ -10,7 +10,6 @@ header-image: images/mitchell-hall.jpg
 type: classrooms
 start: 1950
 header-title: Mitchell Hall
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Classroom Building
 ---
 
@@ -28,12 +27,12 @@ The regents elected to carry the heritage of age-old Spanish-Indian architectura
 
 ## The Exterior Design
 The exterior design of the building incorporates the fundamental forms reminiscent of the early building construction in the region. The exterior surfacing was a adobe colored stucco the decorative spandrels were modern concrete, they served as a structural function and are decorated with design patterns of the region. The windows were inexpensive steel sash with hopper vents to allow indirect ventilation 
-{% include images/figure.html class="img-middle" width="65%" caption="In this photo you can see the adobe stucco being applied and also you can see the designs between the window that follow patterns from the region" image-path="images/mitchell-hall-bw-construction.jpg" %}
+{% include images/figure.html class="img-middle" width="100%" caption="In this photo you can see the adobe stucco being applied and also you can see the designs between the window that follow patterns from the region" image-path="images/mitchell-hall-bw-construction.jpg" %}
 
 ## The Interior Design and Classrooms
 The interior of the building was designed with the three considerations. Low construction cost, efficiency for student use, and easy maintained. Partitions are painted masonry block. Ceilings throughout are suspended acoustical tile. All classroom floors are colored concrete while the corridor floors are asphalt tile. Corridor walls have a virtually indestructible plastic covered wainscot. The larger classrooms and lecture halls have built-in motion picture screens and sound system built in from the projector locations to the screen. All rooms have venetian blinds in two colors to eliminate glare and roller shades to darken the rooms for visual education. Classrooms had aluminum trimmed slate chalkboards for ease of maintenance and durability of use. Color schemes were designed according to the Harmon technic developed in conjunction to the Texas State School system by Darrel Boyed Harmon, Artificial lighting gives 30 foot-candles of illumination at writing height. Toilets have glazed structural tile walls and tile floors with wall hung fixtures to allow easy maintenance. The Program and clock system were of the latest electronic design. Using the standard electric current system as a signal carrier and eliminating the usual conduits to each room. An elevator was included to accommodate the paraplegic students and others unable to use steps. 
-{% include images/figure.html class="img-middle" width="85%" caption="Basement floor plans which housed the bathrooms and mechanical equipment" image-path="images/mitchell-hall-basement.jpg" %}
-{% include images/figure.html class="img-middle" width="85%" capttion="1st and 2nd floor plans which locates all of the 40 classes with many different sized classrooms" image-path="images/mitchell-hall-floor-plans-one.jpg" %}
+{% include images/figure.html class="img-middle" width="100%" caption="Basement floor plans which housed the bathrooms and mechanical equipment" image-path="images/mitchell-hall-basement.jpg" %}
+{% include images/figure.html class="img-middle" width="100%" caption="1st and 2nd floor plans which locates all of the 40 classes with many different sized classrooms" image-path="images/mitchell-hall-floor-plans-one.jpg" %}
 
 ## No Refrigeration
 In designing the heating and ventilating system for the building. The considerations were relatively simple. The high dry climate combined with the high number of warm sunny days in the winter allowed the use of a duct heating system for general heating. For additional heating on the small number of very cold days auxiliary heating from convectors in the classrooms was sufficient to make comfortable winter use of the building. For summer use an air washer system was combined with the duct system for cooling. The aridity of the climate as well as the expense involved eliminated the use of refrigeration. 

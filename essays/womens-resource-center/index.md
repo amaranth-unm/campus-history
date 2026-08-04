@@ -9,7 +9,6 @@ card-description: The Women's Resource Center carries forward a legacy of resist
 header-title: Womens Resource Center
 header-image: images/wrc-building.jpeg
 header-position: 0px
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Student Resource
 ---
 
@@ -109,14 +108,6 @@ images = images
 headers = headers
 captions = captions 
 %}
-
-## 3D Model:Button Made by Students at the WRC
-
-<div class="sketchfab-embed-wrapper"> <iframe title="Wrc Button" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d106a2c4bfa545b9bad96341ccc8779f/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/wrc-button-d106a2c4bfa545b9bad96341ccc8779f?utm_medium=embed&utm_campaign=share-popup&utm_content=d106a2c4bfa545b9bad96341ccc8779f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Wrc Button </a> by <a href="https://sketchfab.com/agutierrez-history?utm_medium=embed&utm_campaign=share-popup&utm_content=d106a2c4bfa545b9bad96341ccc8779f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> agutierrez-history </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=d106a2c4bfa545b9bad96341ccc8779f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-
-
-
-
 
 {% capture bibliography %}
 

@@ -11,7 +11,6 @@ header-image: images/humanities-building-old-plaza-bw.jpg
 type: offices
 start: 1972
 end: 2026
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 
@@ -19,7 +18,7 @@ Chances are, when you think of heated philosophical debates, controversial archi
 
 {% include images/figure.html
 class="img-center"
-width="66%"
+width="100%"
 caption="The physical form of the Humanities Building has not changed since its original construction in 1973, but its functions and the spaces around it on campus have changed dramatically in the years since."
 image-path="images/humanities-building.jpg"
 %}

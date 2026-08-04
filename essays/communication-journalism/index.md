@@ -10,7 +10,6 @@ card-description: Built in 1949, the Communication & Journalism building origina
 card-image: /essays/communication-journalism/images/cj-front.jpg
 type: offices
 start: 1949
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Academic Building
 ---
 

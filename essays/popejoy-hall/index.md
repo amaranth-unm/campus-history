@@ -10,7 +10,6 @@ header-title: Popejoy Hall
 header-image: images/popejoy-66.png
 type: activity
 start: 1966
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Arts Venue
 ---
 

@@ -13,7 +13,6 @@ end: 1898
 type2: classrooms
 start2: 1936
 header-title: Hodgin Hall
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Historic Building
 ---
 
@@ -27,7 +26,7 @@ If you aren’t familiar with the University Building and do not know where it i
 ---
 A lonely site west of the Sandia Mountains laid twenty acres of land that were generously donated for the future campus.  Amongst rocky soil and fields of chamiso laid the ground where the UNM’s first building was sought out to be built. The University building was completed in 1892 after the Territorial Act in 1889. This building was the sole location for the Preparatory and Normal School, severing one hundred and eight students in fall of 1892.
 
-{% include images/figure.html class="img-right" width="65%" caption="Original Document Proclaiming Student Enrollment and the Only School Building in Territory - Found in South Western Research Photographs" image-path="hodgin-hall/hodgin-hall-text-within-walls.PNG" %}
+{% include images/figure.html class="img-right" width="65%" caption="Original Document Proclaiming Student Enrollment and the Only School Building in Territory - Found in South Western Research Photographs" image-path="images/hodgin-hall-text-within-walls.PNG" %}
 
 This building has evolved over time with many name changes which are represented on the timeline below and is also currently listed as a prehistorical property in the New Mexico Register of Culture Properties.
 
@@ -74,7 +73,7 @@ Did you know that Hodgin Hall holds the memories and evidence of our past tradit
 How about the fact the UNM’s original school colors were gold and black but changed in 1869 to reflect the silvery ribbon of the Rio Grande and the sunset crimson of the Sandia Mountains. These unrepresented facts and histories are all under one roof.
 This building is literally designed to showcase a Hall of Fame.  Why have we so willingly neglected this historical building? How can we know where we are going if we do not know and validly respect UNM’s history?
 
-{% include images/figure.html class="img-center" width="80%" caption="Hall of Fame Claiming Original Document Found in Southern Western Research Photographs" image-path="hodgin-hall/hodgin-hall-hall-of-fame-text.JPG" %}
+{% include images/figure.html class="img-center" width="100%" caption="Hall of Fame Claiming Original Document Found in Southern Western Research Photographs" image-path="images/hodgin-hall-hall-of-fame-text.JPG" %}
 
 ## What Developed Out of the First Building on the UNM Campus
 The plan for this landmark was envisioned to someday shape the surrounding space. What we know as Albuquerque, NM did not exist long ago. This building was built in a completely empty space with nothing surrounding but dirt in hopes that a community would develop and grow filing the area around. Today we can clearly see this landmark of UNM as a showcase of visionary, creativity and history which initiated the city of Albuquerque as we know it today.

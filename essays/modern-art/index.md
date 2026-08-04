@@ -10,7 +10,6 @@ header-title: Modern Art
 header-image: images/modern-art-intro.png
 type: art
 start: 
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Public Art
 ---
 

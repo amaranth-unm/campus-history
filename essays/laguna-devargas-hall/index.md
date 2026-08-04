@@ -9,7 +9,6 @@ card-image: /essays/laguna-devargas-hall/images/LagunaDeVargas.jpg
 header-image: images/LagunaDeVargas.jpg
 header-title: Laguna DeVargas Hall
 header-position: 0px
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Dormitory
 ---
 
@@ -112,16 +111,6 @@ images = images
 %}
 [Source](https://unm.on.worldcat.org/search?search1=KW%3A%20&queryString=KW%3A%20%28Laguna%20DeVargas%29&clusterResults=true&stickyFacetsChecked=on&changedFacet=scope&groupVariantRecords=false&bookReviews=off)
 
-
-## 3D DeVargas soap bottle scan 
-<div class="sketchfab-embed-wrapper"> <iframe title="Meyers Soap Bottle" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/51017e01c9084e36a3fb98781a4c59f4/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/meyers-soap-bottle-51017e01c9084e36a3fb98781a4c59f4?utm_medium=embed&utm_campaign=share-popup&utm_content=51017e01c9084e36a3fb98781a4c59f4" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Meyers Soap Bottle </a> by <a href="https://sketchfab.com/Brodriguez777?utm_medium=embed&utm_campaign=share-popup&utm_content=51017e01c9084e36a3fb98781a4c59f4" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Brodriguez777 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=51017e01c9084e36a3fb98781a4c59f4" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-
-
-
-## Interview with the one and only!
-In the gathering for the ways of DeVargas, my team and I were able to spot and ask DeVargas some questions about himself along with quick facts. In my time spent with him, I collected the vibe that he was a very chill and down to Earth being...well, you kinda need to be down to Earth if you want to be a functional building. Please take a listen to this little snippet of the interview with DeVargas found here. 
-
-<audio controls src="DeVargas Interview (1).mp3"></audio>
 
 {% capture bibliography %}
 

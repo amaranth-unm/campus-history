@@ -10,7 +10,6 @@ header-title: Marron Hall
 header-image: images/marron-hall.jpg
 type: dorm
 start: 1921
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Dormitory
 ---
 

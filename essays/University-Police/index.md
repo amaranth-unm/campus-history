@@ -9,7 +9,6 @@ popup-teaser: Do you like to find and fill archival gaps?
 header-title: University Police
 header-image: images/1970-UNM-vs-BYU-Game.jpg
 header-position: 0px
-header-caption: "[PLACEHOLDER: describe the image]"
 category: Campus Services
 ---
 
