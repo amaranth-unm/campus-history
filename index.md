@@ -8,12 +8,10 @@ header-title: UNM Campus Histories
 header-subtitle: a student-driven digital history collaboration
 header-caption: Hodgin Hall and the Sandia Mountains
 header-position: 0px 0px
-hide-header-content: true
 category: Digital History
 ---
 
-{% assign essay_pages = site.pages | where_exp: "page", "page.path contains 'essays/'" | where: "name", "index.md" | sort: "title" %}
-{% assign essays = essay_pages | where_exp: "essay", "essay.title != 'Mesa Vista Hall'" %}
+{% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" | where: "name", "index.md" | sort: "title" %}
 {% assign featured = essays | where: "title", "Hodgin Hall" | first %}
 {% capture feature_json %}
 [
@@ -40,11 +38,11 @@ category: Digital History
 <div class="home-magazine">
   <section class="home-deck" aria-labelledby="home-deck-title">
     <div class="home-deck__lead">
-      <p class="home-kicker">Campus History Magazine</p>
-      <h1 id="home-deck-title">Every campus landmark has a backstory.</h1>
-      <p>UNM Campus Histories collects student-built essays about the buildings, landscapes, public art, and everyday places that shape university life. The project treats the campus as an archive: something walked through, argued over, preserved, renamed, repaired, and remembered.</p>
+      <h2 id="home-deck-title">Spaces have histories, too.</h2>
+      <p>UNM Campus Histories collects student-built essays about the buildings, landscapes, public art, and everyday places that shape university life. The project tries to make history more visible.</p>
       <div class="home-actions" aria-label="Homepage links">
-        <a class="home-button" href="{{ '/directory/' | relative_url }}">Browse by Category</a>
+        <a class="home-button home-button--quiet" href="{{ '/all-essays/' | relative_url }}">Browse by Name</a>
+        <a class="home-button home-button--quiet" href="{{ '/directory/' | relative_url }}">Browse by Category</a>
         <a class="home-button home-button--quiet" href="{{ '/map/' | relative_url }}">Explore the Map</a>
       </div>
     </div>
@@ -85,7 +83,7 @@ category: Digital History
   <section class="home-index" aria-labelledby="strong-work">
     <div class="home-section-heading">
       <p class="home-kicker">Curated Reading</p>
-      <h2 id="strong-work">Strong student work</h2>
+      <h2 id="strong-work">Recommended Essays</h2>
     </div>
     <div class="home-essay-list">
       {% assign strong_cards = "Humanities Building|Dane Smith Hall|Laguna DeVargas Hall|Duck Pond|Maxwell Museum|UNM Press|Lobo Statues|Womens Resource Center" | split: "|" %}
@@ -114,7 +112,7 @@ category: Digital History
       <p class="home-kicker">About the Project</p>
       <h2 id="home-about-title">A public archive of student research</h2>
     </div>
-    <p>Campus Histories turns course research into a shared record of UNM's buildings, landscapes, public art, and everyday places. The project asks students to treat the campus as an archive and to publish work that can keep circulating after the semester ends.</p>
+    <p>Campus Histories turns explorations of UNM's official archive into a shared record of UNM's buildings, landscapes, public art, and everyday places. The project asks students to collaborate on a digital project that can keeps circulating long after the semester ends.</p>
     <a class="home-text-link" href="{{ '/about/' | relative_url }}">Read about the project</a>
   </section>
 

@@ -17,6 +17,9 @@ header-image: images/mvh-construction.jpg
 header-position: 10px
 header-caption: "The Construction of Mesa Vista Hall as a 400-person men's dorm"
 category: Dormitory
+# Dummy essay kept as a formatting demo — not built into the site.
+# Set to true (or delete this line) once a real essay replaces it.
+published: false
 ---
 
 This essay is mostly dummy text. The point is to visually illustrate various features that can be used on site essay pages. There is a separate [code page](../code) that walks through all the "features" used on this page and gives the code snippets that you can copy and paste into your essays. Or you can just edit this one, adding, rearranging, and deleting as necessary.
