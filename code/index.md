@@ -24,12 +24,18 @@ All essays MUST BEGIN with the following metadata at the top of the page, with t
 ---
 title: Mesa Vista Hall
 author: Fred Gibbs
-layout: unm-base
-date: 2025-04-17
+layout: essay
+date: 2026-11-12
+header-title: Mesa Vista Hall
+category: Dormitory
+popup-teaser: A one-sentence teaser for the map or directory.
+card-description: A two-sentence description that helps readers decide to open your essay.
+card-image: /essays/mesa-vista-hall/images/mvh-construction.jpg
+header-image: images/mvh-construction.jpg
 ---
 ```
 
-Obviously, change the title, author, and date for your own essay, but keep the layout set to `unm-base`.
+Obviously, change the title, author, date, folder name, category, descriptions, and image filenames for your own essay, but keep the layout set to `essay`.
 
 ---
 
@@ -100,7 +106,7 @@ There is one basic way we will embed images in our essay files. Note that it is 
 
 ### Standard Usage
 
-{% include images/figure.html class="img-right" width="33%" caption="Mesa Vista Hall" image-path="images/centennial-hotel.jpg" %}
+{% include images/figure.html class="img-right" width="50%" caption="Mesa Vista Hall" image-path="images/centennial-hotel.jpg" %}
 
 You can set the parameter to be whatever percent of the page width you want.
 
@@ -111,7 +117,7 @@ To embed the image above, we use:
 ```
 {%raw%}{% include images/figure.html
   class="img-right"
-  width="33%"
+  width="50%"
   caption="Centennial Hotel"
   image-path="images/centennial-hotel.jpg"
 %}{%endraw%}
@@ -121,9 +127,9 @@ To embed the image above, we use:
 ### Half-width
 {% include images/figure.html class="img-left" width="50%" image-path="images/centennial-hotel.jpg" caption="Obviously we need a 50% image somewhere with text wrapping around it."%}
 
-Here's a half-page image just for fun. Use the `width` parameter to set whatever percent you want. Usually, keeping images aligned with standard widths like 25%, 33%, 50%, 66% is best. 
+Here's a half-page image just for fun. Use the `width` parameter to set whatever percent you want. Usually, keeping images aligned with standard widths like 50%, 66%, 75%, or 100% is best. 
 
-Sometimes you need something a little different, though, so you _can_ enter whatever number you want for the `width` parameter.
+For evidence that readers need to inspect closely, especially maps, plans, clippings, and wide archival photographs, `100%` is usually best.
 
 <p style="clear:both"></p>
 

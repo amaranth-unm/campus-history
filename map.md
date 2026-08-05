@@ -31,12 +31,14 @@ title: UNM Campus History Essay Map
 <div id="map-data" style="display:none;">
   {% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" %}
   {% for page in essays %}
+  {% unless page.path contains 'starter-essay' %}
   {% assign folder = page.url | split: '/' | slice: 2, 1 | first %}
   <div class="map-point" data-name="{{ page.title | escape }}" data-popup-teaser="{{ page.popup-teaser | escape }}"
     data-kml-path="{{ site.baseurl }}/assets/kml/{{ folder }}.kml"
     data-card-image="{{ site.baseurl }}{{ page.card-image | escape }}" data-start="{{ page.start | escape }}"
     data-url="{{ site.baseurl }}{{ page.url }}" data-folder="{{ folder | downcase | replace: ' ', '-' }}">
   </div>
+  {% endunless %}
   {% endfor %}
 </div>
 
@@ -134,5 +136,4 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png
     updateKmlLayers(parseInt(slider.value));
   });
 </script>
-
 

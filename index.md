@@ -19,6 +19,7 @@ category: Digital History
 [
 {% assign feature_count = 0 %}
 {% for item in essays %}
+  {% unless item.path contains 'starter-essay' %}
   {% if item.title and item.card-description and item.card-image %}
     {% if feature_count > 0 %},{% endif %}
     {
@@ -30,6 +31,7 @@ category: Digital History
     }
     {% assign feature_count = feature_count | plus: 1 %}
   {% endif %}
+  {% endunless %}
 {% endfor %}
 ]
 {% endcapture %}

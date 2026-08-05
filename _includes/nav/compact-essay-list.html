@@ -8,6 +8,7 @@
 
 <div class="compact-essay-list">
   {% for essay in essays %}
+    {% unless essay.path contains 'starter-essay' %}
     {% if essay.title and essay.card-description %}
     <article class="compact-essay">
       <a href="{{ essay.url | relative_url }}">
@@ -22,5 +23,6 @@
       </a>
     </article>
     {% endif %}
+    {% endunless %}
   {% endfor %}
 </div>
