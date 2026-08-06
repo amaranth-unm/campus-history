@@ -13,7 +13,7 @@ header-title: Yatoka Hall
 category: Dormitory
 ---
 
-Yatoka Hall has a very interesting history as part of the UNM campus, mainly because very few people remember that it existed. The space that once belonged to Yatoka Hall is now significantly overshadowed by this space's current use, the [Duck Pond](https://unm-campus-histories.github.io/spaces/essays/quintana-duck-pond). Yatoka Hall served various purposes throughout its years of operation, but ultimately, UNM decided that a nature site would be more suitable for this location. A brief look at Yatoka Hall's history will explain why this decision was easy to make and why Yatoka Hall is almost forgotten.
+Yatoka Hall has a very interesting history as part of the UNM campus, mainly because very few people remember that it existed. The space that once belonged to Yatoka Hall is now significantly overshadowed by this space's current use, the [Duck Pond](../duck-pond/). Yatoka Hall served various purposes throughout its years of operation, but ultimately, UNM decided that a nature site would be more suitable for this location. A brief look at Yatoka Hall's history will explain why this decision was easy to make and why Yatoka Hall is almost forgotten.
 
 ## Early Days
 {% include images/figure.html class="img-center" width="100%" caption="Yatoka Hall-1928. Post construction with a circular, dirt driveway." image-path="images/yatoka-hall-1928.JPG" %}

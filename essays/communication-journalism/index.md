@@ -17,7 +17,7 @@ The Communication and Journalism Building (C & J) is a two-story, Spanish Pueblo
 
 
 ## Early History
-C & J was built in 1949 by Santa Fe architect, John Gaw Meem-Hugo Zehner and Associates with a construction cost of $147,398 and project cost of $166,470. It was built after the chemical engineering building with a completion date on August 3, 1949. Meem's work is popular on UNM campus and in various locations across New Mexico. His work includes the famous [Zimmerman Library.](www.https://unm-campus-histories.github.io/spaces/essays/zimmerman.html)
+C & J was built in 1949 by Santa Fe architect, John Gaw Meem-Hugo Zehner and Associates with a construction cost of $147,398 and project cost of $166,470. It was built after the chemical engineering building with a completion date on August 3, 1949. Meem's work is popular on UNM campus and in various locations across New Mexico. His work includes the famous Zimmerman Library.
 
 Before 1947 some of the first journalism classes were held in the World War II barracks near University Avenue. In the beginning, journalism was only offered to students through the English department. The English department had only a few teachers who specialized in the field of journalism. There were two professors teaching literature and writing courses, limited courses were offered for students interested in journalism but did include some journalistic, short-story writing and book reviewing. 
 
