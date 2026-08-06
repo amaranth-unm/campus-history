@@ -33,12 +33,12 @@ Inside the building is a three-story open atrium that functions as a student com
 
 Before Dane Smith Hall was built, the area was home to a small residential neighborhood occupied by several UNM professors and faculty members. The neighborhood represented an earlier stage in the university’s development, when the campus was smaller and more closely connected to surrounding residential areas.
 
- {% include images/figure.html class="left" width="100%" caption="Birds-eye view of the current layout of Dane Smith Hall on top of the original neighborhood that was replaced for the facility." image-path="images/DSHLayout.jpg" %}
+ {% include images/figure.html class="img-center" width="100%" caption="Birds-eye view of the current layout of Dane Smith Hall on top of the original neighborhood that was replaced for the facility." image-path="images/DSHLayout.jpg" %}
 
 
 Dane Farnsworth Smith, the building’s namesake, lived in one of the homes on Roma Avenue with his wife. Several other professors from this neighborhood later had campus buildings named after them, including Coach Johnson (Johnson Gym), Professor Clark (Clark Hall), and Stuart Northrop (Northrop Hall). The removal of the neighborhood to make way for Dane Smith Hall symbolizes the transformation of UNM throughout the twentieth century from a relatively small regional institution into a large modern university.
 
-{% include images/figure.html class="left" width="100%" caption="Professor Dane Smith's house on Roma Ave. It was one of many houses that were demolished and replaced with Dane Smith Hall" image-path="images/DSHHouse.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Professor Dane Smith's house on Roma Ave. It was one of many houses that were demolished and replaced with Dane Smith Hall" image-path="images/DSHHouse.jpg" %}
 
 
 
@@ -66,7 +66,7 @@ The building hosts a wide variety of courses, including mathematics, political s
 
 In many ways, the building represents the increasing scale of higher education at the end of the twentieth century. Earlier periods of UNM history described in *Miracle on the Mesa* focused on a smaller university with close ties to local communities and relatively small enrollments. By the 1990s, however, UNM had become a much larger institution serving thousands of students from across New Mexico and beyond. Buildings like Dane Smith Hall were part of the university’s effort to adapt to mass higher education and the growing expectation that public universities provide both access and modern facilities.
 
-{% include images/figure.html class="center" width="100%" caption="A modern view of Dane Smith Hall" image-path="images/dane.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="A modern view of Dane Smith Hall" image-path="images/dane.jpg" %}
 
 
 

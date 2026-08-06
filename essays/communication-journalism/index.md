@@ -24,9 +24,21 @@ Before 1947 some of the first journalism classes were held in the World War II b
 By 1920, the department had increased in size and two new lecturers were added to accommodate the English department, it was not until after World War II, that many returning veterans took advantage of the military's [G.I Bill](https://www.va.gov/education/about-gi-bill-benefits/) education benefits causing universities across the United States to see an increase in enrollment. With the increase of student enrollments, journalism would eventually form its own independent department. Keen Rafferty, a former editor at the Baltimore Sun, came to UNM in 1942 to serve as the news service director and department's chairman. Keen helped the department fast track its national accrediation in 1955. The C & J building originally housed the Printing Plant, post office and UNM Press. 
 
 
-{% include images/figure.html class="img-right" width="48%" caption="Construction in 1963 of the add ons to the C & J Building with Sara Raynolds Hall and R-1 building in the background." image-path="images/cj-construction-1961.jpg" %}
-{% include images/figure.html class="img-left" width="48%" caption="Bricks make up the addition that will be the annex to the Journalism building in 1965." image-path="images/cj-annex-1965.jpg" %}
+{% assign cj_construction_images =
+"images/cj-construction-1961.jpg,
+images/cj-annex-1965.jpg" | split: ','
+%}
 
+{% assign cj_construction_captions =
+"Construction in 1963 of the add ons to the C & J Building with Sara Raynolds Hall and R-1 building in the background.|
+Bricks make up the addition that will be the annex to the Journalism building in 1965." | split: '|'
+%}
+
+{% include images/image-grid.html
+images=cj_construction_images
+captions=cj_construction_captions
+columns=2
+%}
 
 ## Additions and Today
 In 1963 the journalism building would undergo construction again for new additions by the same architect firm with a construction cost of $161,898. There were also letters between the Secretary of the University, John Durrie of the Student Pubilcations Board, to John Gaw Meem-Hugo Zehner and Associates to improve classroom acoustics. In 1991 and 2007, there were renovations done on the journalism bulding to improve the building quality and structure. Today, the department offers more opportunities for students seeking a degree in journalism or communications such as: concentrations in multimedia journalism, strategic communication or digital field multimedia.  

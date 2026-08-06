@@ -18,7 +18,7 @@ category: Historic Building
 
 If you aren’t familiar with the University Building and do not know where it is located, you are not alone. This University Building has had four name changes and is currently called Hodgin Hall, Alumni Center. This building is located off the corner of Central and University, previously railyard road, and is the heart and backbone of UNM. Some would say it is the unexplored heart, but we will get into that later. Hodgin Hall is where it all started. That’s correct, it is the very first building that was constructed on UNM’s campus and was the only building for almost a decade.
 
-{% include images/figure.html class="img-left" width="60%" caption="Hodgin Hall previously known as the University Building was built in 1892 and is the oldest building on the UNM campus." image-path="images/hodgin-hall-main-pic.PNG" %}
+{% include images/figure.html class="img-center" width="100%" caption="Hodgin Hall previously known as the University Building was built in 1892 and is the oldest building on the UNM campus." image-path="images/hodgin-hall-main-pic.PNG" %}
 
 ---
 {% include images/figure.html class="img-right" width="50%" caption="Hodgin-Hall-Brigade-Est-1992" image-path="images/hodgin-hall-brick.jpg" %}
@@ -46,9 +46,21 @@ This building has evolved over time with many name changes which are represented
 ## Remodel (1906)
 In 1906 the decision to have the building remodeled, which was called the Administration Building at the time, was essential due the original roof design having poor structural integrity and was foreseen to be problematic in the future. This gave way for the opportunity to have the building suit the traditional Pueblo culture style. In 1908, a massive remodel was underway to change the building’s red bric–k Victorian appearance. The pitched roof was removed, stucco concealed the salmon colored brick and large vigas supported the entry way. An additional room, Rodney Hall, was constructed, and the project was completed in 1909 for a total of $17,309.  
 
-{% include images/figure.html class="img-right" width="50%" caption="Registered Cultural Property – State of New Mexico " image-path="images/hodgin-hall-landmark.PNG" %}
+{% assign hodgin_landmarks_images =
+"images/hodgin-hall-landmark.PNG,
+images/hodgin-hall-registered.PNG" | split: ','
+%}
 
-{% include images/figure.html class="img-left" width="50%" caption="Historical Landmark Hodgin Hall 1892, 1909 " image-path="images/hodgin-hall-registered.PNG" %}
+{% assign hodgin_landmarks_captions =
+"Registered Cultural Property – State of New Mexico|
+Historical Landmark Hodgin Hall 1892, 1909" | split: '|'
+%}
+
+{% include images/image-grid.html
+images=hodgin_landmarks_images
+captions=hodgin_landmarks_captions
+columns=2
+%}
 
 ## Preservation and Restoration (1975)
 This building is listed as a U.S. National Register of Historic Places which essentially means it has been deemed worthy of preserving its historical significance. In 1975, a petition for preservation and restoration of Hodgin Hall was granted so long as the University Alumni were able to come up with the funds. With the help of devoted alumni and dear friends of the University, funding was met. The alums fundraiser campaign contributed immensely to the restoration which was completed in 1983 for over $1,000,000.

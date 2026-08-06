@@ -31,18 +31,20 @@ In the initial stages of the design process, the department heads from English, 
 
 Together, they drafted a 50+ page document titled "The Conception of a Humanities Building" in which they list practical details about the kinds of spaces and tools they needed, but they also devoted significant space in the document to a discussion of how a humanities building should look and feel in order to complement the disciplinary goals of the departments it houses.
 
-{% include images/figure.html
-class="img-left"
-width="50%"
-caption="Sherman Smith sent this project approval letter to the heads of the departments that would be housed in the new Humanities Building, inviting their participation but also stressing the need for efficiency and speed in the building design and approval process."
-image-path="images/humanities-building-approval-letter.jpg"
+{% assign humanities_documents_images =
+"images/humanities-building-approval-letter.jpg,
+images/humanities-building-conception-of-a-humanities-building.jpg" | split: ','
 %}
 
-{% include images/figure.html
-class="img-right"
-width="50%"
-caption="Leaders in English, History, and Philosophy wrote 'The Conception of the Humanities Building' in 1971, and on the very first page, they set the tone for the entire document with their desire for the building to 'express...humane wisdom, vision and knowledge in an architectural form'"
-image-path="images/humanities-building-conception-of-a-humanities-building.jpg"
+{% assign humanities_documents_captions =
+"Sherman Smith sent this project approval letter to the heads of the departments that would be housed in the new Humanities Building, inviting their participation but also stressing the need for efficiency and speed in the building design and approval process.|
+Leaders in English, History, and Philosophy wrote 'The Conception of the Humanities Building' in 1971, and on the very first page, they set the tone for the entire document with their desire for the building to 'express...humane wisdom, vision and knowledge in an architectural form'" | split: '|'
+%}
+
+{% include images/image-grid.html
+images=humanities_documents_images
+captions=humanities_documents_captions
+columns=2
 %}
 
 The document is surprisingly poetic and demonstrates an immediate engagement with not just the physical details of the building, but also with what the space will represent for the students and faculty members who use it. In the first paragraph, they begin the conversation about architecture by offering a definition of the humanities:

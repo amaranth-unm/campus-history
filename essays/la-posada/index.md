@@ -19,7 +19,7 @@ In an architectural sense, UNM has furiously sought to reflect itself within the
 
 {% include images/juxtapose.html
 id="juxtapose-exterior"
-image1="images/la-posada-building-sign2.jpg"
+image1="images/la-posada-building-sign.jpg"
 image2="images/lp-outside-comparison.jpg"
 caption="La Posada circa 1970s [Left image source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/21/rec/1) and La Posada circa 1980s [Right image source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/19/rec/3).
 From the 1970s to the 1980s, La Posada looks much more like it does now than it did in the 1970s. This primarily due to the central courtyard, changing the space from something that was unused dirt land to a robust human sprawl."
@@ -37,11 +37,21 @@ From the 1970s to the 1980s, La Posada looks much more like it does now than it 
 ### Planned Construction
 During the consideration of whether or not La Posada Dining Hall would be built by the University of New Mexico Board of Regents in 1966, other buildings including the Farris Engineering Center, a the dorm which would be later known as Laguna Dormitory, and De Vargas Dormitory were also proposed. This proposal was in direct response to counter another proposal for a high-rise dormitory complex. These dormitories and dining hall all being later approved for construction in 1966 by the UNM Board of Regents. After a series of bids, the UNM board of Regents contracted Lembke Construction Company to build what would be La Posada Dining Hall.
 
-{% include images/figure.html class="img-right" width="48%" caption="After the approval of La Posadas, construction started soon after. This photo showing construction of La Posada being well underway as of September 13, 1968. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/lp-9-13-6-construction.PNG" %}
+{% assign posada_construction_images =
+"images/lp-9-13-6-construction.PNG,
+images/lp-10-23-68construction.PNG" | split: ','
+%}
 
-{% include images/figure.html class="img-right" width="48%" caption="Construction as of October 23, 1968, shows how the construction of La Posada completely altered the space it now takes up. Where there was unused land across from the UNM Information Technologies building is now a dining hall complex.
-   [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/lp-10-23-68construction.PNG" %}
-   
+{% assign posada_construction_captions =
+"After the approval of La Posadas, construction started soon after. This photo showing construction of La Posada being well underway as of September 13, 1968. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)|
+Construction as of October 23, 1968, shows how the construction of La Posada completely altered the space it now takes up. Where there was unused land across from the UNM Information Technologies building is now a dining hall complex. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" | split: '|'
+%}
+
+{% include images/image-grid.html
+images=posada_construction_images
+captions=posada_construction_captions
+columns=2
+%}
 
 ### Out of Plan Into the Fire
 Ernest J. Kump (design architect) along with William W. Ellison (project architect) were selected to design a dormitory complex with corresponding food services. Ernest J. Kump deciding that to best way to utilize the limited construction space was to  the high-rise dormitory was to build a separate dining hall and two three story dormitories that were connected with a large courtyard. This idea incorporating much more human interaction with the space in-between building compared to one large high-rise dormitory.

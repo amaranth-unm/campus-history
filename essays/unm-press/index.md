@@ -6,7 +6,7 @@ date: 2025-05-16
 popup-teaser: The long and storied history of one of UNM's lesser-known institutions and the building it currently resides in
 card-description: The concurrent stories of the development of the University of New Mexico Press and the changes its current home at 1717 Roma, once a sorority house, went through.
 header-image: images/PXL_20250501_220349996.jpg
-card-image: essays/unm-press/images/PXL_20250501_220349996.jpg
+card-image: /essays/unm-press/images/PXL_20250501_220349996.jpg
 header-title: UNM Press
 header-position:
 type: offices
@@ -28,7 +28,7 @@ image-path="images/ULPhotoImag_3418_medium.jpg"
 
 {% include images/figure.html
   class="img-center"
-  width="60%"
+  width="100%"
   caption=""
 image-path="images/PXL_20250501_220133669.jpg"
 %}
@@ -56,7 +56,7 @@ After that, one of the buildings was reappropriated as a music studio for a shor
 
 {% include images/figure.html
 class="img-center"
-width="60%"
+width="100%"
 caption=""
 image-path="images/Screenshot_2025-05-16_025216.png"
 %}
@@ -64,7 +64,7 @@ image-path="images/Screenshot_2025-05-16_025216.png"
 
 {% include images/figure.html
 class="img-center"
-width="60%"
+width="100%"
 caption=""
 image-path="images/Screenshot_2025-05-01_180119.png"
 %}
@@ -85,7 +85,7 @@ Between 1933 and 1943, the Press published 56 total books. Book publishing wasn'
 
 {% include images/figure.html
 class="img-center"
-width="90%"
+width="100%"
 caption=""
 image-path="images/Screenshot_20250516_162707.jpg"
 %}
@@ -109,7 +109,7 @@ caption=""
 
 {% include images/figure.html
 class="img-center"
-width="50%"
+width="100%"
 caption=""
 image-path="images/Screenshot_2025-05-16_023922.png"
 %}
@@ -122,7 +122,7 @@ That is not to say there were not any positive developments with the Press aroun
 
 {% include images/figure.html
 class="img-center"
-width="60%"
+width="100%"
 caption=""
 image-path="images/Journalism-and-UNM-Press-building-1949.png"
 %}
@@ -145,7 +145,7 @@ The architect Louis G. Hesselden was brought on to design and build an addition 
 
 {% include images/figure.html
 class="img-center"
-width="60%"
+width="100%"
 caption=""
 image-path="images/PXL_20250501_160143468.jpg"
 %}
@@ -170,7 +170,7 @@ image-path="images/The_Mirage_1966_copy_1.pdf.png"
 
 {% include images/figure.html
 class="img-center"
-width="60%"
+width="100%"
 caption=""
 image-path="images/Screenshot_2025-05-19_224254.png"
 %}

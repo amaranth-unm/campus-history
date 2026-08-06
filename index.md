@@ -19,13 +19,23 @@ category: Digital History
 {% for item in essays %}
   {% unless item.path contains 'starter-essay' %}
   {% if item.title and item.card-description and item.card-image %}
+    {% comment %}
+      Store root-relative paths here, with no baseurl. The script below prepends
+      site.baseurl when it swaps in a random essay, so running these through
+      relative_url would duplicate the baseurl in production.
+    {% endcomment %}
+    {% assign card_image = item.card-image | strip %}
+    {% unless card_image contains '://' %}
+      {% assign card_image_first = card_image | slice: 0, 1 %}
+      {% if card_image_first != '/' %}{% assign card_image = card_image | prepend: '/' %}{% endif %}
+    {% endunless %}
     {% if feature_count > 0 %},{% endif %}
     {
       "title": {{ item.title | jsonify }},
       "category": {{ item.category | default: "Campus History" | jsonify }},
       "description": {{ item.popup-teaser | default: item.card-description | jsonify }},
-      "url": {{ item.url | relative_url | jsonify }},
-      "image": {{ item.card-image | relative_url | jsonify }}
+      "url": {{ item.url | jsonify }},
+      "image": {{ card_image | jsonify }}
     }
     {% assign feature_count = feature_count | plus: 1 %}
   {% endif %}

@@ -20,7 +20,7 @@ It's 1920. The Great War had just ended. The men are coming back home and the wo
 
 
 ## Overview 
-{% include images/figure.html class="right" width="50%" caption="The construction of Sara Raynolds Hall" image-path="images/SRH_construction1.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The construction of Sara Raynolds Hall" image-path="images/SRH_construction1.jpg" %}
 
 Sara Raynolds Hall is a single-story Mayan Pueblo Revival building on the southern edge of the main campus of the University of New Mexico. It sits on a small rise just north of Central Avenue, with its front facade facing west to Terrance Street. It is a U-shaped brick and stucco building with 12-over-1 double hung wood windows and exaggerated, geometric buttresses on the exterior corners of the building. 
 
@@ -54,7 +54,7 @@ images = images
 ## Sara Raynolds Hall Shifts Use
 In 1963, the College of Education Complex was completed and included a new Home Economics Building as part of its plan. Following that move, Sara Raynolds Hall was used as studios for graduate students in the Art Department. It was added to the National Register of Historic Places and the New Mexico Register of Cultural Properties in 1988. 
 
-{% include images/figure.html class="img-left" width="100%" caption="Commemoration of the new Home Economics Building, 1963. A time capsule was inserted behind this placard as part of the construction of the new Education Complex." image-path="images/srh-1960s-placard.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Commemoration of the new Home Economics Building, 1963. A time capsule was inserted behind this placard as part of the construction of the new Education Complex." image-path="images/srh-1960s-placard.jpg" %}
 
 
 ## Sara Raynolds Hall Today 

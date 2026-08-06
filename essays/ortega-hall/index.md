@@ -26,9 +26,21 @@ Ortega Hall is located southwest of Zimmermann Library and east of the Smith Pla
 ### History of the Grounds
 The current location of Ortega Hall has been a busy area prior to the construction that created the hall. This area was first occupied by Zimmerman Stadium which had opened in 1938 and could hold 16,000 spectators for sporting events. The University decided to name the stadium at the first post-war Homecoming game. The President J. P. Wernette decided to dedicate the stadium in memoriam of Dr. James F. Zimmerman who was the former President of New Mexico. The stadium featured a track and field concept with stands only on the westside for fan attendance. Zimmerman Stadium was home to the New Mexico Lobo Football Team for 21 seasons with the Lobos battling other universities in atheltic competition. In 1960 the stadium turned over to intramural sports after the Lobo Football team had moved to what is now DreamStyle Stadium. After the demolition of Zimmerman Stadium in 1969 the University decided to rebuild on this area which is now occupied by Ortega Hall, Woodward Hall, and the Humanities Building. 
 
-{% include images/figure.html class="img-left" width="50%" caption="Zimmerman Stadium in the 1930's, fans gathered in the stands cheering on their Lobo Football Team.[Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/2693/rec/21)" image-path="images/oretga-hall-zimfield1.jpg" %}
+{% assign ortega_stadium_images =
+"images/oretga-hall-zimfield1.jpg,
+images/ortega-hall-zimbleacher.jpg" | split: ','
+%}
 
-{% include images/figure.html class="img-right" width="50%" caption="Zimmerman Stadium in the 1960's, Photographer looking Northeast looking at Sandia Mountain. Photographer standing where the future Ortega Hall will be built. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/2655/rec/23)" image-path="images/ortega-hall-zimbleacher.jpg" %}
+{% assign ortega_stadium_captions =
+"Zimmerman Stadium in the 1930's, fans gathered in the stands cheering on their Lobo Football Team.[Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/2693/rec/21)|
+Zimmerman Stadium in the 1960's, Photographer looking Northeast looking at Sandia Mountain. Photographer standing where the future Ortega Hall will be built. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/2655/rec/23)" | split: '|'
+%}
+
+{% include images/image-grid.html
+images=ortega_stadium_images
+captions=ortega_stadium_captions
+columns=2
+%}
 
 ### Construction of Ortega Hall 
 After the demolition of Zimmerman Stadium the University was trying to create more opportunity for student education. With the enrollment of the University rising they needed to build and expand the University. In 1964 The Daily Lobo released an article which discussed talk about the University planning on new construction. New Mexico's head architect Van Dorn Hooker released a statement saying "A faculty office and classroom building to be used primarily for the modern language department" Hooker said that this building would complete by second semester of 1971. In 1970 University President Ferrel Heady and Van Dorn Hooker gave the contractor job to K. L. House Construction Company, Inc. New Mexico allowed K. L. House a gross area of 53,043 square ft. and the architects of SMPC. The four that collaborated on the project consisted of Gordon Ferguson, Don Stevens, Robert Mallory, and George Pearl. Just over one year later, June 30, 1971 Ortega Hall was open and ready for University use for that coming fall semester. 
@@ -37,9 +49,9 @@ After the demolition of Zimmerman Stadium the University was trying to create mo
 
 ### The Exterior Design  
 
-{% include images/figure.html class="img-left" width="58%" caption="Black and White exterior image taken in 1978, protrays the architectural works of Ferguson, Stevens, Mallory, and Pearl. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/ortega-hall-exterior1.jpeg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Black and White exterior image taken in 1978, protrays the architectural works of Ferguson, Stevens, Mallory, and Pearl. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/ortega-hall-exterior1.jpeg" %}
 
-{% include images/figure.html class="img-right" width="50%" caption="Black and White exterior image taken in 1978, photographer facing East to show different angles of the architecture. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/ortega-hall-exterior-bw.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Black and White exterior image taken in 1978, photographer facing East to show different angles of the architecture. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/ortega-hall-exterior-bw.jpg" %}
 
 ### Interior Design 
 Ortega Hall, designed for the Department of Modern and Classical Languages, providing four levels of classrooms and faculty offices on a 22 ft. 6 in. module. This module can serve as a typical classroom or a group of four offices. Non-conforming elements on the first level consist of a cluster of six language labratories under control of a central console area. A similar cluster of six audiovisual classrooms grouped for rear screen projection from a central projection room. The roof over these areas becomes the pedestrian platform which forms a base of the building and provides the main circulation level for future buildings in this location. The upper and most visible portion of the structure is made up of three floors of the offices and classrooms. Dean's suites, secretarial areas, conference rooms and unspecialized classrooms having the most use are located on the second level. An interior two-story lounge for faculty staff is located on the third level covered with a skylight allowing natural light to pass through. 

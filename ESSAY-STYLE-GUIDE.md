@@ -42,12 +42,9 @@ All essay content should be written in Markdown or use established Xanthan frame
 - Remove `<br>` tags immediately before headings; use normal Markdown spacing instead.
 - Lists should use Markdown bullets or numbered lists, not manually typed numbers in paragraphs.
 - Image placement should follow Xanthan image includes or existing project patterns, not ad hoc HTML.
-- Image include widths should not be smaller than `50%` on essay pages. If an existing figure uses `width="33%"`, `width="40%"`, or another smaller value, raise it to at least `50%` unless there is a clear visual reason to ask first.
-- Wide horizontal images should default to `width="100%"`, especially maps, plans, newspaper clippings, architectural drawings, construction photos, panoramas, and other visual evidence readers may need to inspect. Treat a strong landscape ratio, roughly `1.6:1` or wider, as a signal that the image should span the full content width.
-- Only keep a wide image below `100%` when there is a detectable reason: the source file is too small or blurry at full width, the image is decorative rather than evidentiary, the important detail is already legible at a smaller size, or the image is intentionally paired with adjacent prose or another image. In those cases, use at least `50%` and place text beside it only when the surrounding paragraph directly discusses the image.
-- Do not preserve a `48%`, `50%`, or `60%` width just because it already exists. If the image is wide and evidentiary, make it full width unless one of the exceptions above applies.
+- Figures should default to `width="100%"` with `class="img-center"`. See "Figure Widths" below for the full rule, the exceptions, and why small percentages do not do what they look like they do.
 - Use the `images/image-grid.html` include when two or three related images should be read together as one visual evidence set, such as matching clippings, paired invitations, before/after documents, or two images that were previously floated at `48%` only to appear side by side.
-- Use individual `images/figure.html` includes with `img-left` or `img-right` when an image is meant to sit beside and support a specific paragraph of prose. Do not use side-by-side floated figures just to create a gallery; use `image-grid` or `carousel` instead.
+- Use individual `images/figure.html` includes with `img-left` or `img-right` only when the surrounding paragraph explicitly discusses the image, for example "the figure to the right shows...". Do not use side-by-side floated figures to create a gallery; use `image-grid` or `carousel` instead.
 - Captions should be kept close to the image they describe and formatted consistently.
 - URLs in image captions should be encapsulated as a `[source](URL)` link in the caption.
 - Image paths should resolve from the essay page directory. For essay-local files, use paths like `images/example.jpg`, not duplicated folder paths such as `popejoy-hall/example.jpg` or `essays/popejoy-hall/images/example.jpg`.
@@ -119,9 +116,10 @@ When in doubt, preserve the original text and leave a note or ask for direction.
 - Section headings begin after the lead paragraph, not before it.
 - Images and captions are formatted consistently.
 - All `image-path` values resolve to existing files, with no duplicated essay folder segments or capitalization/extension mismatches.
-- Figure include widths are `50%` or larger, except for explicit full-width/mobile behavior or an unusual case that has been flagged.
-- Wide horizontal images, roughly `1.6:1` or wider, are set to `width="100%"` unless there is a detectable reason to keep them smaller, such as low resolution, blur, decorative use, or a direct text-and-image pairing.
+- Every figure is `width="100%"` with `class="img-center"` unless it meets one of the three exceptions in "Figure Widths" (tall portrait, small source file, or prose that explicitly refers to the image's position).
+- No figure that stays below `100%` is left floating without prose that discusses it; small and portrait figures are centered, not floated.
 - Related side-by-side images use `images/image-grid.html` instead of separate floated `48%` figures when they function as one evidence set.
+- No two floated figures sit back to back. Two floats cannot fit side by side in the content column, so they stack and squeeze the text beside them.
 - No image include appears immediately before an `##` heading unless it clearly belongs to the previous section and has been flagged as intentional.
 - Carousel images have been verified in the browser, including image loading, controls, captions, and unique IDs when more than one carousel appears on the page.
 - No legacy raw `<div class="carousel">` image blocks remain; all carousels use the standard `images/carousel.html` include.
@@ -158,6 +156,84 @@ Preferred categories:
 - `Student Resource`
 
 When standardizing an essay, choose the closest category from this list. If none fits, use a concise title-case category and flag it for review rather than inventing several near-duplicates. For example, prefer `Dormitory` over separate variants like `Dorm`, `Residence Hall`, or `Student Housing` unless the project later decides to expand the vocabulary.
+
+## Figure Widths
+
+### Why small percentages do not work
+
+The essay content column is `48rem` (768px). `assets/css/base.css` puts a floor under every figure:
+
+- A **floated** figure (`img-left`, `img-right`, `left`, `right`) has `min-width: min(26rem, 100%)`, so it can never render narrower than **416px**, which is 54% of the column.
+- A **centered** figure (`img-center`, `img-middle`, `center`) has `min-width: min(32rem, 100%)`, so it can never render narrower than **512px**, which is 67% of the column.
+
+Two consequences follow, and both were visible across the collection before it was normalized:
+
+- `width="33%"`, `width="40%"`, `width="48%"`, and `width="50%"` all render identically on a floated figure. Any centered figure below `67%` renders at 512px regardless of whether it says `50%`, `60%`, or `65%`. Fiddling with these numbers does nothing.
+- Two floated figures placed back to back cannot sit side by side, because 416px + 416px + margin exceeds 768px. They stack instead, each pushing the body text into a ~330px column that reads badly. Anything meant to be read as a pair must use `image-grid`, which is a real CSS grid and ignores the float floor.
+
+Do not try to fix this by editing the percentages. Use the decision rule below, and if a figure genuinely needs a size between the floor and full width, change the CSS rather than the essay.
+
+### The decision rule
+
+Default to full width:
+
+```liquid
+{% include images/figure.html
+  class="img-center"
+  width="100%"
+  caption="..."
+  image-path="images/example.jpg"
+%}
+```
+
+Use `width="100%"` with `class="img-center"` when all three hold:
+
+- The source file is at least roughly **700px wide**, so full width does not upscale it into mush.
+- The aspect ratio is **1.0 or wider** (landscape or square).
+- No prose is written to sit beside it.
+
+Keep a figure below full width only for one of these three reasons:
+
+1. **Tall portrait**, roughly narrower than `1.0:1`. At 768px wide, a `0.6:1` document renders about 1280px tall and swallows the screen. Center these and leave them at `50%`–`75%`; they will render at 512px or a little more.
+2. **Small source file**, roughly under 650px wide. Full width visibly softens scanned documents and newspaper clippings. Center these at a width near their native size. Flag anything badly undersized so a better scan can replace it, rather than blowing it up.
+3. **Prose that explicitly refers to the image's position**, for example "the figure to the right highlights statistics from 1972-73". Keep the float, and keep it on the side the prose names. This is the only reason to float a figure.
+
+A figure that stays small for reason 1 or 2 should still be **centered, not floated**. A 416px float leaves a ~330px text column, which is the layout problem this rule exists to remove.
+
+### Pairs and sets
+
+When two or three figures appear back to back:
+
+- If they are portrait documents, scans, or small images, combine them into `images/image-grid.html` with `columns=2`. Two grid cells are about 372px each, close to the native size of most archival scans, and they genuinely sit side by side.
+- If they are all large landscape images, make each one `width="100%"` and let them stack. A 2-up grid would shrink good photographs for no reason.
+- Do not mix ratios inside one grid. Two images at `1.9:1` and `1.0:1` in the same row look lopsided; stack those at full width instead.
+
+Captions move into the grid's `captions` list, split on `|` so caption text can contain commas and Markdown links:
+
+```liquid
+{% assign pond_criticism_images =
+"images/duck-pond-0004.png,
+images/duck-pond-0003.png" | split: ','
+%}
+
+{% assign pond_criticism_captions =
+"A letter of complaint against the pond, sent by Tom Zepper, Assistant Dean.|
+A Daily Lobo article from October 8, 1975 calling it the Concrete Pond." | split: '|'
+%}
+
+{% include images/image-grid.html
+images=pond_criticism_images
+captions=pond_criticism_captions
+columns=2
+%}
+```
+
+Caption text in these `assign` blocks cannot contain a double quote or a `|`, since those characters delimit the string and the list. Rewrite with single quotes if needed.
+
+### Placement
+
+- An `include` placed on the same line as the paragraph that follows it renders inline and wraps that paragraph. If the wrap is not deliberate, put the include on its own line with a blank line after it.
+- Keep `##` section headings above the figures that belong to them.
 
 ## Bibliography Drawer Pattern
 
