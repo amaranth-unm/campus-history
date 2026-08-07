@@ -12,13 +12,31 @@ category: Digital History
 ---
 
 {% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" | where: "name", "index.md" | sort: "title" %}
-{% assign featured = essays | where: "title", "Hodgin Hall" | first %}
+
+{% comment %}
+  Which essays appear in the Featured and Recommended blocks is curated in
+  _data/homepage.yml by folder name. See that file for the rationale.
+
+  Liquid has no lookup-by-key, so each slug is resolved by scanning `essays`
+  for a matching folder. Both sides are downcased so a capitalised folder like
+  essays/University-Police/ still matches a lowercase entry in the data file.
+{% endcomment %}
+
+{% assign featured = nil %}
 {% capture feature_json %}
 [
 {% assign feature_count = 0 %}
-{% for item in essays %}
-  {% unless item.path contains 'starter-essay' %}
-  {% if item.title and item.card-description and item.card-image %}
+{% for slug in site.data.homepage.featured %}
+  {% assign slug_norm = slug | downcase %}
+  {% assign item = nil %}
+  {% for candidate in essays %}
+    {% assign candidate_folder = candidate.url | split: '/' | slice: 2, 1 | first | downcase %}
+    {% if candidate_folder == slug_norm %}
+      {% assign item = candidate %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% if item and item.title and item.card-description and item.card-image %}
     {% comment %}
       Store root-relative paths here, with no baseurl. The script below prepends
       site.baseurl when it swaps in a random essay, so running these through
@@ -38,8 +56,9 @@ category: Digital History
       "image": {{ card_image | jsonify }}
     }
     {% assign feature_count = feature_count | plus: 1 %}
+    {% comment %} First resolved entry is the pre-JavaScript default. {% endcomment %}
+    {% unless featured %}{% assign featured = item %}{% endunless %}
   {% endif %}
-  {% endunless %}
 {% endfor %}
 ]
 {% endcapture %}
@@ -96,9 +115,17 @@ category: Digital History
       <h2 id="strong-work">Recommended Essays</h2>
     </div>
     <div class="home-essay-list">
-      {% assign strong_cards = "Humanities Building|Dane Smith Hall|Laguna DeVargas Hall|Duck Pond|Maxwell Museum|UNM Press|Lobo Statues|Womens Resource Center" | split: "|" %}
-      {% for title in strong_cards %}
-        {% assign essay = essays | where: "title", title | first %}
+      {% comment %} Curated, in order, in _data/homepage.yml. {% endcomment %}
+      {% for slug in site.data.homepage.recommended %}
+        {% assign slug_norm = slug | downcase %}
+        {% assign essay = nil %}
+        {% for candidate in essays %}
+          {% assign candidate_folder = candidate.url | split: '/' | slice: 2, 1 | first | downcase %}
+          {% if candidate_folder == slug_norm %}
+            {% assign essay = candidate %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
         {% if essay and essay.card-description and essay.card-image %}
         <article class="home-essay-row">
           <a href="{{ essay.url | relative_url }}">

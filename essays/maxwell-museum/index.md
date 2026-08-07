@@ -16,10 +16,6 @@ Tucked away on the far western edge of campus, The Maxwell Museum of Anthropolog
 
 In the busy and bustling ecosystem that is UNM campus, it is easy for on-the-go students, faculty, and staff to keep their heads down, focused on exactly where they need to be and when they need to be there. But, by lifting their gaze, getting off the beaten path, taking in their surroundings, and stepping through the museum's doors, they have the opportunity to be transported across campus, across the world and emerge forever changed. 
 
->"Have you been to the latest exhibition at the Maxwell Museum of Anthropology?"
-<br>"Honestly, I didn't even know we had a museum of anthropology."
-<br> -Excerpt from a real-life on campus conversation
-
 {% include images/juxtapose.html
 image1="images/1970s-maxwell.jpg"
 image2="images/2025-front.jpg"

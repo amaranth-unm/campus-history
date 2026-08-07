@@ -149,6 +149,14 @@ essays/mesa-vista-hall/images/mvh-today.jpg
 
 Image paths must match exactly, including capitalization, spaces, punctuation, and file extension. `mvh.jpg`, `MVH.jpg`, and `mvh.jpeg` are three different filenames.
 
+### How big should images be?
+
+Save images **at least 768 pixels wide**, and closer to **1500 pixels** if the archive gives you the option. The text column is 768 pixels, so anything narrower gets stretched to fit and looks blurry on the page. Downloading the largest version a digital collection offers is almost always the right move — the site will scale it down cleanly, but it cannot invent detail that is not in the file.
+
+Before/after sliders are stricter. Both images should be at least 768 pixels wide **and roughly the same shape**, because the slider is sized from the first image and crops the second one to match. Two landscape photographs work well; a tall document paired with a wide photograph will get its top and bottom cut off.
+
+If the only scan you can find is small, use it and say so in your pull request rather than stretching it — a note about a low-resolution source is more useful than a blurry image.
+
 Use the Campus History image include instead of regular Markdown image syntax:
 
 {% raw %}

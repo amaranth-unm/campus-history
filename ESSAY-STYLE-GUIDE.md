@@ -230,6 +230,17 @@ columns=2
 
 Caption text in these `assign` blocks cannot contain a double quote or a `|`, since those characters delimit the string and the list. Rewrite with single quotes if needed.
 
+### Before and after sliders
+
+`images/juxtapose.html` takes no `width` and no `class`. Every slider fills the 768px text column, so the width decision above does not apply here — the only lever is the source files.
+
+The slider takes its dimensions from **`image1`**. That has two consequences worth knowing before choosing a pair:
+
+- **`image1` sets the minimum size.** Below 768px wide it gets upscaled to fill the column. Aim for at least **768px**, and **1536px** to stay sharp on a retina display. A 552px scan stretched 39% looks visibly soft, and no amount of markup will fix it — replace the file.
+- **`image1` sets the aspect ratio.** `image2` is cropped to match. A landscape "before" paired with a portrait "after" will cut the top and bottom off the second image, and nothing warns you.
+
+Pick pairs shot from roughly the same distance and orientation. Two landscape photographs of the same façade compare well; a portrait document against a landscape photograph does not. Portrait pairs are worst — at 768px wide, a `0.7:1` pair renders about 1100px tall and swallows the screen, the same failure the width rule above exists to prevent.
+
 ### Placement
 
 - An `include` placed on the same line as the paragraph that follows it renders inline and wraps that paragraph. If the wrap is not deliberate, put the include on its own line with a blank line after it.

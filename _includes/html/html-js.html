@@ -6,6 +6,47 @@
 <!-- Juxtapose JS for image comparison -->
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 
+<!-- Juxtapose full-width fit.
+     Juxtapose sizes each slider from the source images and refuses to upscale
+     past them, so a small source renders a slider narrower than the column.
+     Everything inside the slider is sized in percentages off the container's
+     inline width/height, so we stretch the container to the column and keep
+     the aspect ratio Juxtapose worked out. Upscaling a small image will look
+     soft — supply images at least as wide as the 48rem text column. -->
+<script>
+  (function () {
+    function fitJuxtapose() {
+      document.querySelectorAll('.juxtapose-figure > .juxtapose').forEach(function (el) {
+        var width = parseFloat(el.style.width);
+        var height = parseFloat(el.style.height);
+        if (!width || !height) return; // Juxtapose has not sized it yet
+        if (!el.dataset.jxAspect) {
+          // Capture Juxtapose's own ratio once, before we overwrite its numbers.
+          el.dataset.jxAspect = String(width / height);
+        }
+        var aspect = parseFloat(el.dataset.jxAspect);
+        var target = el.parentElement.clientWidth;
+        if (!target || !aspect) return;
+        el.style.width = target + 'px';
+        el.style.height = (target / aspect) + 'px';
+      });
+    }
+
+    window.addEventListener('load', function () {
+      fitJuxtapose();
+      // Sliders finish sizing as their images decode, so re-fit for a moment.
+      var tries = 0;
+      var timer = setInterval(function () {
+        fitJuxtapose();
+        if (++tries > 10) clearInterval(timer);
+      }, 200);
+    });
+
+    // Registered after Juxtapose's own resize handler, so this wins.
+    window.addEventListener('resize', fitJuxtapose);
+  })();
+</script>
+
 <!-- littlefoot JS for clickable footnotes -->
 <script src="https://unpkg.com/littlefoot/dist/littlefoot.js" type="application/javascript"></script>
 <script type="application/javascript">

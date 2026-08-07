@@ -454,6 +454,15 @@ figure {
   min-width: 100%;
 }
 
+/* Juxtapose sliders fill the text column. Without this the figure sizes to its
+   content, so the fit script in html-js.html measures a parent that grows on
+   every pass and the slider walks off the column. */
+.page-wrap figure.juxtapose-figure {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--spacing-lg);
+}
+
 /* Float-based image alignment — used in figure.html via class="img-right" etc. */
 .img-right {
   float: right;
