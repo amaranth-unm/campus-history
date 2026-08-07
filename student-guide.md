@@ -42,7 +42,8 @@ Your fork can generate its own preview version of the website. Use that preview 
 5. Click `Save`.
 6. Wait a minute or two, then return to `Settings` > `Pages` and open the published site link.
 
-GitHub Pages is not instant. If your page does not update right away, wait a few minutes before assuming something broke.
+GitHub Pages takes about a minute to rebuild your site and show your latest changes. 
+
 
 ## Start From a Starter Essay
 
@@ -133,6 +134,7 @@ Use one of these preferred categories when possible:
 
 The current Campus History directory is generated from essay metadata. You do not need to update a separate spreadsheet for the public directory unless your instructor gives you a separate course-specific sheet.
 
+
 ## Add Images
 
 The starter essay already includes an `images` folder with sample images. Replace those sample images with your own images from the archive, or upload additional images to the same folder.
@@ -204,11 +206,3 @@ When your page is ready, send your work back to the main Campus History reposito
 7. Add a short note with your name, course, and topic.
 
 After that, your instructor can review the page and merge it into the public Campus History site.
-
-## Course Submission
-
-Your course may also require a Canvas post, reflection, presentation, or AI comparison. Follow the course assignment page for those requirements. The pull request only submits your site contribution.
-
-## Optional Work
-
-Some versions of this project may ask for map outlines, audio, 3D scans, or other digital components. Only do those if they are included in your current course assignment. If assigned, your instructor will give you additional instructions.

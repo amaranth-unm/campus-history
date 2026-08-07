@@ -6,7 +6,9 @@ date: 2019-04-10
 popup-teaser: Come take a look into the history behind this 1950's building
 card-description: Come take a look into the history behind this 1950's building
 card-image: /essays/mitchell-hall/images/mitchell-hall.jpg
-header-image: images/mitchell-hall.jpg
+header-image: images/mitchell-hall-bw-outside.jpg
+header-position: center top
+header-caption: "Mitchell Hall in 1951, with newly planted trees around the new building"
 type: classrooms
 start: 1950
 header-title: Mitchell Hall
@@ -14,8 +16,6 @@ category: Classroom Building
 ---
 
 Mitchell Hall is located just south of Dane Smith Hall, between the Duck Pond and Carlisle Gym. 
-
-{% include images/figure.html class="img-center" width="100%" caption="Mitchell Hall in 1951. Here you can see many newly trees that have been planted right out side and all around the newly built Mitchell Hall" image-path="images/mitchell-hall-bw-outside.jpg" %}
 
 ## Game Plan
 In May of 1950 the board of regents approved plans and specifications for the classroom buiding known as number 23. The building had two floors plus a partial basement and 40 classrooms ranging in size from 20-150 seats. Bids were taken at the State Purchasing office in Santa Fe NM, on June 12th, 1950. K.L. House Construction company was awarded the contract and started working on it June 19th. 
