@@ -33,7 +33,7 @@ In 1956, the Student Council voted in favor of a fee to fund the construction of
 
 [^note2]: "Dedication of the New Mexico Union," Program Pamphlet, November 14, 1959.
 
-{% include figure.html class="img-right" width="48%" caption="An architectural drawing of the ground floor of the SUB from the 1959 construction plans. Source: University of New Mexico Archives, Center for Southwest Research." src="images/lowerlevelfloormap1959.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="An architectural drawing of the ground floor of the SUB from the 1959 construction plans. Source: University of New Mexico Archives, Center for Southwest Research." src="images/lowerlevelfloormap1959.jpg" %}
 
 By all accounts, students enjoyed the 1959 SUB for many years, with spacious dining areas and a twelve lane bowling alley on the lower floor.
 
