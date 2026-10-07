@@ -1,19 +1,31 @@
 ---
 title: Mesa Vista Hall
 author: Fred Gibbs
-layout: unm-base
+layout: essay
 date: 2015-04-14
+popup-teaser: From men's dorm to bastion of the humanities
+card-description: From men's dorm to bastion of the humanities
+card-image: /essays/mesa-vista-hall/images/mvh-construction.jpg
+type: dorm
+start: 1950
+end: 1975
+type2: offices
+start2: 1975
+end2:
+header-title: Mesa Vista Hall
 header-image: images/mvh-construction.jpg
-header-title: Mesa VISSSTA
-header-height: 50vh
-background-position: 20px
+header-position: 10px
+header-caption: "The Construction of Mesa Vista Hall as a 400-person men's dorm"
+category: Dormitory
+# Dummy essay kept as a formatting demo — not built into the site.
+# Set to true (or delete this line) once a real essay replaces it.
+published: false
 ---
 
 
-## An early title
+This essay is mostly dummy text. The point is to visually illustrate various features that can be used on site essay pages. There is a separate [code page](../code) that walks through all the "features" used on this page and gives the code snippets that you can copy and paste into your essays. Or you can just edit this one, adding, rearranging, and deleting as necessary.
 
-
-{% include figure.html class="img-right" width="48%" caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" src="images/mvh-history-stays.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="Mauris dolor ante, vehicula a turpis at, finibus suscipit mauris. [Source](https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml)" image-path="images/mvh-history-stays.jpg" %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium, nibh vel posuere pretium, neque ipsum maximus libero, ac maximus quam ante sit amet dolor. Integer pharetra semper sem sed sagittis. Curabitur mauris tortor, elementum non felis id, hendrerit efficitur metus. Praesent libero mi, pharetra vel neque sit amet, elementum tempor purus.[^note1]
 
