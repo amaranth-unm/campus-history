@@ -41,7 +41,7 @@ However, by 1972, students began complaining about the SUB and holding debates o
 
 [^note3]: “Students Should Solve Union Problem,” _Daily Lobo_, January 19, 1972.
 
-{% include aside.html class="left" text="
+{% include typography/aside.html class="left" text="
 It is one of the biggest drug traffic centers in the city and if that weren't enough the coffee is terrible. - Daily Lobo editorial, January 19, 1972." %}
 
 The first major renovation of the building took place in 1976. With the campus bookstore relocated, the renovation added new dining venues in the model of a [rathskeller](https://en.wikipedia.org/wiki/Ratskeller).[^note4]
@@ -108,7 +108,7 @@ caption="Militarized law enforcement in 1970 and 2024. 1970 photo from the Calvi
 ### The 1970 Occupation
 In response to the killing of students on the campus of Kent State University, UNM students occupied the SUB on May 6, 1970. On May 8, the occupation of the SUB ended when the protesters submitted to arrest without resistance. However, a crowd formed outside the SUB and approached the National Guard soldiers. The soldiers, ordered to not let anyone through, stood their ground and a violant clash erupted. The National Guard soldiers bayonetted ten people, a group that included UNM students. 
 
-{% include aside.html class="left" text="
+{% include typography/aside.html class="left" text="
 What happened outside the Union has been the subject of much controversy and debate, which I cannot help clarify. Some crucial aspects of the encounter seem to be agreed upon. - Ferrel Heady, UNM President, 1970." %}
 
 Ferrel Heady, the President of UNM in 1970, wrote a memoir in 1999 in which he recalled the events of 1970. Farrel was inside the SUB when the National Guard troops arrived. He refused to blame the National Guard for the violence, writing: "specific incidents that occurred have been recounted in detail by numerous participants, without fully clarifying exactly what took place."[^note10] 
