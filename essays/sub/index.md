@@ -83,7 +83,7 @@ images/store1950s.jpg,
 images/1950s-lounge.jpg,
 images/atrium-construction.jpg,
 images/bowling2.jpg,
-images/bowling-alley-die-soon2.jpg" | split: ','
+images/bowling-alley-die-soon3.jpg" | split: ','
 %}
 
 {% include images/carousel.html
