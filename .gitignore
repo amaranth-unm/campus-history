@@ -1,2 +1,6 @@
 _site
 .DS_Store
+
+# Artefacts from scripts/optimize-images.sh
+*-backup-20*/
+png_to_jpg_conversions.txt
