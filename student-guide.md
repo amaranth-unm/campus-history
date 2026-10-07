@@ -15,7 +15,7 @@ This page explains how to turn a course assignment into a working page on the Ca
 - Choose a topic according to your course assignment.
 - Check with your instructor before duplicating a topic already claimed by another student.
 - Open the [Campus History repository](https://github.com/amaranth-unm/campus-history).
-- Keep the [code samples page](../code/) open for image, carousel, pullquote, and bibliography snippets.
+- Keep `essays/starter-essay-advanced/index.md` open in another tab. It has a working example of every component you might want to copy.
 
 ## Fork the Repository
 
@@ -51,8 +51,8 @@ All essays live in the `essays` folder. Each essay has its own folder and an `in
 
 Use one of these:
 
-- `starter-essay-simple` — best for most essays. Includes a basic structure, one image, captions, an AI-archive comparison section, and a bibliography.
-- `starter-essay-advanced` — use this if you want optional components like a pullquote, image grid, and before/after image slider.
+- `starter-essay-simple` — best for most essays. It already contains everything a finished essay needs: a lead paragraph, subheadings, captioned images, a carousel, and a bibliography. Replace the placeholder text and images and you have a complete page.
+- `starter-essay-advanced` — a parts catalog containing one working example of every component the site offers, including pullquotes, image grids, before/after sliders, footnotes, banner images, and full-screen scrollstory sections. Start here only if you want the fuller set, and delete every component you do not use.
 
 Do not edit the starter folder directly. Copy it first, then rename the copy.
 
@@ -174,18 +174,28 @@ Captions should explain why the image matters, not just identify what is in the 
 
 ## Use Site Components
 
-The [code samples page](../code/) shows the current snippets for:
+Copy components out of a starter essay rather than inventing your own HTML. The starters are real pages that get built along with the rest of the site, so the snippets in them are guaranteed to work.
 
-- headings
-- figures
+`starter-essay-advanced` has a working example of each one, with a comment above it explaining when to use it:
+
+- figures, at full width and at the smaller width for tall documents
 - image grids
 - carousels
 - before/after image sliders
-- pullquotes
+- pullquotes and blockquotes
 - footnotes
+- banner (jumbotron) images
+- full-screen scrollstory sections
 - bibliography drawers
 
-Copy snippets from that page rather than inventing your own HTML. The site is built to keep student essays visually consistent, and the snippets do most of that work for you.
+A few rules the snippets cannot enforce on their own:
+
+- **Every image needs a caption**, including carousel slides and grid cells. A caption should say why the image matters and where you found it.
+- **Do not use double quotation marks inside a caption or title.** They end the snippet early and break the page. Single quotation marks are fine.
+- **Do not change figure widths to fine-tune the layout.** The text column is 768px and the stylesheet puts a floor under every figure, so `33%`, `40%`, and `50%` all come out the same size. Use `width="100%"` with `class="img-center"` for anything landscape, and about `55%` for tall documents like letters and clippings. Do not float images left or right unless your sentence actually says "the image at right."
+- **Two images that belong side by side need an image grid**, not two half-width figures. Floated figures cannot fit next to each other and will stack instead.
+- **Carousel captions are plain text.** Markdown links will not render there, so write out the collection name and box number.
+- **Keep your three hyphens** `---` above and below the metadata at the top of the file, each on its own line.
 
 ## Check Your Page
 

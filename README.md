@@ -22,9 +22,11 @@ Start here, in this order:
 
 1. **[student-guide.md](student-guide.md)** — forking the repo, previewing your
    work, starting from a starter essay, adding images, opening a pull request.
-2. **[code/](code/)** — copy-paste snippets for every site component: figures,
-   image grids, carousels, before/after sliders, pull quotes, footnotes,
-   bibliography drawers.
+2. **[essays/starter-essay-advanced/](essays/starter-essay-advanced/)** — a working
+   example of every site component: figures, image grids, carousels, before/after
+   sliders, pull quotes, blockquotes, footnotes, jumbotrons, scrollstory sections,
+   and bibliography drawers. Copy components out of it rather than writing your
+   own HTML.
 
 You do not need to be a programmer. If you can work with folders and files and copy and paste, you can do everything you need. Copy `essays/starter-essay-simple/` (or
 `starter-essay-advanced/` if you want the fuller set of components), rename the
