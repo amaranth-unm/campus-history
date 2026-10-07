@@ -1,12 +1,16 @@
 ---
 title: SUB - Student Union Building
 author: Jonathan Seyfried
-layout: unm-base
+layout: essay
 date: 2025-04-25
-header-image: images/sub1.jpg
+popup-teaser: From 1959 to today, the Student Union Building has functioned as a gathering place for student organizations, a dining facility, and a location for large meetings.
+card-description: From 1959 to today, the Student Union Building has functioned as a gathering place for student organizations, a dining facility, and a location for large meetings.
+card-image: /essays/sub/images/sub1.jpg
 header-title: SUB - Student Union Building
+header-image: /essays/sub/images/sub1.jpg
 header-height: 50vh
-background-position: 20px
+start: 1959
+category: Student Resource
 ---
 
 
