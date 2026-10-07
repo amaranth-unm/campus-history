@@ -13,7 +13,6 @@ start: 1959
 category: Student Resource
 ---
 
-
 ## SUB - Student Union Building
 
 The University of New Mexico built the current Student Union Building, known as the SUB, in 1959. The SUB functions as a gathering place for student organizations, a dining facility, and a location for large meetings.
@@ -37,7 +36,7 @@ In 1956, the Student Council voted in favor of a fee to fund the construction of
 
 [^note2]: "Dedication of the New Mexico Union," Program Pamphlet, November 14, 1959.
 
-{% include images/figure.html class="img-right" width="48%" caption="An architectural drawing of the ground floor of the SUB from the 1959 construction plans. Source: University of New Mexico Archives, Center for Southwest Research." src="images/lowerlevelfloormap1959.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="An architectural drawing of the ground floor of the SUB from the 1959 construction plans. Source: University of New Mexico Archives, Center for Southwest Research." image-path="images/lowerlevelfloormap1959.jpg" %}
 
 By all accounts, students enjoyed the 1959 SUB for many years, with spacious dining areas and a twelve lane bowling alley on the lower floor.
 
@@ -56,15 +55,11 @@ On November 21, 1977, the bowling alley got demolished.[^note5] In the twenty ye
 
 [^note5]: "Inspection Report" (University Architect, University of New Mexico, November 21, 1977), UNMA 028, Box 96, Center for Southwest Research, University Libraries, University of New Mexico.
 
-In the 1990s drug use in the SUB decreased, but other problems remained. In 1996, UNM student Khepran Mathes complained that "the SUB basement still smelled like dried barf."[^note6] 
+In the 1990s drug use in the SUB decreased, but other problems remained. In 1996, UNM student Khepran Mathes complained that "the SUB basement still smelled like dried barf."[^note6] That same year, students had to wait to use the telephones in the SUB since there weren't enough to meet the demand for their use. [^note7] In Fall of 2000 UNM initiated a major renovation of the SUB, the largest since the building's original construction. From October 2000 to August 2002, kiosks sold food on Cornell Mall while the construction continued.[^note8]
 
 [^note6]: Khepran Mathes, "Construction screws up east campus", _Daily Lobo_, August 26, 1996.
 
-That same year, students had to wait to use the telephones in the SUB since there weren't enough to meet the demand for their use. [^note7] 
-
 [^note7]: Miguel Navrot,"SUB planners happy to hear your renovation suggestions," _Daily Lobo_, May 1, 1996.
-
-In Fall of 2000 UNM initiated a major renovation of the SUB, the largest since the building's original construction. From October 2000 to August 2002, kiosks sold food on Cornell Mall while the construction continued.[^note8]
 
 [^note8]: Garrett Ordower, "Student Union Target for Change," _Albuquerque Journal_, January 20, 2001.
 
@@ -73,7 +68,7 @@ Project delays pushed the completion of the renovation to July 2003. No further 
 ## Features and Amenities
 At various times in its history, the SUB included a sodar bar, a bowling alley, a billiards room, a video game arcade, and a fitness center. Services available at the SUB have included a barber shop, a bank, and a backpacking equipment rental desk. The campus bookstore was also located in the SUB from 1950 until the early 1970s.
 
-{% include images/figure.html class="img-left" width="48%" caption="A photograph of the bowling alley in the SUB. Photo by Bob Wyer Photocards, Delhi, NY. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3644/rec/5)" src="images/subbowling1.jpg" %}
+{% include images/figure.html class="img-left" width="48%" caption="A photograph of the bowling alley in the SUB. Photo by Bob Wyer Photocards, Delhi, NY. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3644/rec/5)" image-path="images/subbowling1.jpg" %}
 
 The SUB has continuously operated a theater space, at times for live performances in addition to film screenings. Toward the end of the twentieth century, the SUB maintained a large copy center. As a reflection of the large percentage of commuter students, the lounge spaces have also been a mainstay of the SUB.
 
@@ -88,7 +83,7 @@ images/store1950s.jpg,
 images/1950s-lounge.jpg,
 images/atrium-construction.jpg,
 images/bowling2.jpg,
-images/bowling-end.jpg" | split: ','
+images/bowling-alley-die-soon2.jpg" | split: ','
 %}
 
 {% include images/carousel.html
@@ -141,7 +136,7 @@ On April 29, students and members of the community expanded the protest. They oc
 
 However, the occupation lasted less than ten hours. 
 
-{% include images/figure.html class="img-right" width="48%" caption="New Mexico State Police in riot gear on the night of April 30, 2024. Photo by Ella Daniel. [Source](https://www.dailylobo.com/article/2024/05/16-arrested-after-pro-palestine-protesters-occupy-the-sub)" src="images/2024subpolice2.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="New Mexico State Police in riot gear on the night of April 30, 2024. Photo by Ella Daniel. [Source](https://www.dailylobo.com/article/2024/05/16-arrested-after-pro-palestine-protesters-occupy-the-sub)" image-path="images/2024subpolice2.jpg" %}
 
 At 3:30am on Tuesday, April 30, in a militarized police action, the New Mexico State Police arrested 21 protestors. A statement the following day from the United Academics of UNM, the union representing the faculty, read "We urge President Stokes and Provost Holloway to de-escalate their response toward students exercising their first amendment rights."[^note14] 
 
@@ -197,4 +192,6 @@ At 3:30am on Tuesday, April 30, in a militarized police action, the New Mexico S
 - University of New Mexico. Dept. of Facility Planning Records, 1889-, collection UNMA 028,Box  96. Center for Southwest Research, University Libraries, University of New Mexico.
 
 - “UNM Construction Continues.” _Albuquerque Journal_, August 15, 1976.
+
+
 
