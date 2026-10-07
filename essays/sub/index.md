@@ -14,7 +14,7 @@ background-position: 20px
 
 The University of New Mexico built the current Student Union Building, known as the SUB, in 1959. The SUB functions as a gathering place for student organizations, a dining facility, and a location for large meetings.
 
-{% include juxtapose.html
+{% include images/juxtapose.html
 image1="images/sub1959cropped.png"
 image2="images/subtoday.jpg"
 caption="The SUB in 1959 versus the SUB in 2025. 1959 photo by Dick Meleski. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/537/rec/2) "
@@ -69,7 +69,7 @@ Project delays pushed the completion of the renovation to July 2003. No further 
 ## Features and Amenities
 At various times in its history, the SUB included a sodar bar, a bowling alley, a billiards room, a video game arcade, and a fitness center. Services available at the SUB have included a barber shop, a bank, and a backpacking equipment rental desk. The campus bookstore was also located in the SUB from 1950 until the early 1970s.
 
-{% include figure.html class="img-left" width="48%" caption="A photograph of the bowling alley in the SUB. Photo by Bob Wyer Photocards, Delhi, NY. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3644/rec/5)" src="images/subbowling1.jpg" %}
+{% include images/figure.html class="img-left" width="48%" caption="A photograph of the bowling alley in the SUB. Photo by Bob Wyer Photocards, Delhi, NY. [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/3644/rec/5)" src="images/subbowling1.jpg" %}
 
 The SUB has continuously operated a theater space, at times for live performances in addition to film screenings. Toward the end of the twentieth century, the SUB maintained a large copy center. As a reflection of the large percentage of commuter students, the lounge spaces have also been a mainstay of the SUB.
 
@@ -87,7 +87,7 @@ images/bowling2.jpg,
 images/bowling-end.jpg" | split: ','
 %}
 
-{% include carousel.html
+{% include images/carousel.html
 images = images 
 %}
 
@@ -98,7 +98,7 @@ images = images
 
 In 1970 and 2024, students occupied the SUB as a social protest action against the University for its support of the national and global military industrial complex.
 
-{% include juxtapose.html
+{% include images/juxtapose.html
 image1="images/subpolice1970.jpg"
 image2="images/subpolice2024.jpg"
 caption="Militarized law enforcement in 1970 and 2024. 1970 photo from the Calvin Horn Collection [Source](https://econtent.unm.edu/digital/collection/ULPhotoImag/id/964/rec/7). 2024 photo by Leila Chapa [Source](https://www.dailylobo.com/article/2024/05/the-subs-history-with-anti-war-protest)."
@@ -128,7 +128,7 @@ The bayonet stabbings inflicted by National Guard soldiers nearly killed several
 ### The 2024 Occupation
 Starting on April 22, 2024, UNM students set up a solidarity encampment at the Duck Pond. The protestors at the encampment aimed to show solidarity with other college campuses in an effort to support Palestinians in Gaza. They called on the UNM Board of Regents to adopt a resolution to divest from Israel.
 
-{% include aside.html class="left" text="
+{% include typography/aside.html class="left" text="
 Right now, I'm thinking and considering what it means – what this next action represents for the campus. And so for me, I understand the various perspectives. I know what's being asked, but at the same time, I think there are many things to consider, including the impact of this on other members of the community, and so (I am) considering what our next steps are. - Garnett Stokes, UNM President, 2024." %}
 
 On April 29, students and members of the community expanded the protest. They occupied the SUB to protest the refusal of the University to divest from Israel. Several of the protestors chained tents to the railing on the second floor.[^note13]  
@@ -137,7 +137,7 @@ On April 29, students and members of the community expanded the protest. They oc
 
 However, the occupation lasted less than ten hours. 
 
-{% include figure.html class="img-right" width="48%" caption="New Mexico State Police in riot gear on the night of April 30, 2024. Photo by Ella Daniel. [Source](https://www.dailylobo.com/article/2024/05/16-arrested-after-pro-palestine-protesters-occupy-the-sub)" src="images/2024subpolice2.jpg" %}
+{% include images/figure.html class="img-right" width="48%" caption="New Mexico State Police in riot gear on the night of April 30, 2024. Photo by Ella Daniel. [Source](https://www.dailylobo.com/article/2024/05/16-arrested-after-pro-palestine-protesters-occupy-the-sub)" src="images/2024subpolice2.jpg" %}
 
 At 3:30am on Tuesday, April 30, in a militarized police action, the New Mexico State Police arrested 21 protestors. A statement the following day from the United Academics of UNM, the union representing the faculty, read "We urge President Stokes and Provost Holloway to de-escalate their response toward students exercising their first amendment rights."[^note14] 
 
