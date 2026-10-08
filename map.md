@@ -35,8 +35,10 @@ title: UNM Campus History Essay Map
   #map .popup-card p { margin: 0 0 0.9rem; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.45; color: var(--ink-soft); }
 
   /* The one line above the map: an instruction, so set like the site's
-     interface text rather than an essay paragraph */
-  .map-intro { margin: 1.25rem 0; font-family: var(--font-body); font-size: 1.15rem; line-height: 1.4; color: var(--ink-soft); }
+     interface text rather than an essay paragraph. The selector matches
+     typography.css's essay-intro rule (.page-wrap .container > p:first-of-type),
+     which otherwise enlarges it and adds a 3rem gap above the map. */
+  .page-wrap .container > p.map-intro { margin: 1.25rem 0 1rem; font-family: var(--font-body); font-size: 1.15rem; line-height: 1.4; color: var(--ink-soft); }
 </style>
 
 
