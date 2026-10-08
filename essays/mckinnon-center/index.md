@@ -16,7 +16,7 @@ category: Academic Building
 
 The McKinnon Center for Management is the staple of UNM’s northern edge of campus.  The multi-story building was constructed as a replacement for the deteriorating Anderson School of Management building, and $5 million of the total $25.4 million funds were donated to UNM by Ian and Sonnet McKinnon.
 
-{% include images/figure.html class="img-center" width="100%" caption="The McKinnon Center for Management, UNM's most modern development and the latest addition to The School of Management. [_Source_](https://www.mgt.unm.edu/building/construction-photos.asp)" image-path="images/mcm.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The McKinnon Center for Management, UNM's most modern development and the latest addition to The School of Management. _Source: Anderson School of Management construction photos (no longer online)_" image-path="images/mcm.jpg" %}
 
 ## Background
 
@@ -27,17 +27,17 @@ The building became accessible to students in the summer of 2018 after a year an
 
 Construction for the new management building began in December of 2016.  The plan was to demolish the current west ASM building and erect the new one in its place rather than moving locations.  This portion of campus proved to be an area where student traffic was at a high and having to shut the area down for construction limited mobility and created multiple detours of common routes.  Buildings around this area included the Collaborative Teaching and Learning Building and the Economics building, as well as Hokona Hall.  The northern edge of campus was gated off and prevented students from accessing these buildings without seeking an alternate route.  These gates extended into campus as far as the CTLB.
 
-{% include images/figure.html class="img-center" width="100%" caption="The demolition of the West ASM building. The East ASM building was not included in the demolition but was definitely affected. [_Source_](https://www.mgt.unm.edu/building/construction-photos.asp)" image-path="images/mcm-construction-1.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The demolition of the West ASM building. The East ASM building was not included in the demolition but was definitely affected. _Source: Anderson School of Management construction photos (no longer online)_" image-path="images/mcm-construction-1.jpg" %}
 
-{% include images/figure.html class="img-center" width="100%" caption="Removal of interior materials to be separated and recycled. [_Source_](https://www.mgt.unm.edu/building/construction-photos.asp)" image-path="images/mcm-construction-4.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Removal of interior materials to be separated and recycled. _Source: Anderson School of Management construction photos (no longer online)_" image-path="images/mcm-construction-4.jpg" %}
 
-{% include images/figure.html class="img-center" width="100%" caption="Early morning construction while campus is empty. Crews worked long days to finish the construction in a timely manner in order to limit campus inaccessbibility as much as possible. [_Source_](https://www.mgt.unm.edu/building/construction-photos.asp)" image-path="images/mcm-construction-2.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Early morning construction while campus is empty. Crews worked long days to finish the construction in a timely manner in order to limit campus inaccessbibility as much as possible. _Source: Anderson School of Management construction photos (no longer online)_" image-path="images/mcm-construction-2.jpg" %}
 
 ## Side Effects
 
 What was once a bustling area of students had now become a loud and distracting eyesore of a construction zone.  Students with classes in surrounding buildings were met with a displeasing view when they looked out the window, and the sounds generated from construction were often so loud that they forced professors to cancel class.  Nonetheless, crews worked long hours daily in order to complete the building as fast as possible, knowing that the constant disturbances were uncontrollable issues for the university.
 
-{% include images/figure.html class="img-center" width="100%" caption="Skeletal structure of MCM. The large construction zone created hazards and difficulties for students and staff who had classes in the surrounding buildings. [_Source_](https://www.mgt.unm.edu/building/construction-photos.asp)" image-path="images/mcm-construction-5.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="Skeletal structure of MCM. The large construction zone created hazards and difficulties for students and staff who had classes in the surrounding buildings. _Source: Anderson School of Management construction photos (no longer online)_" image-path="images/mcm-construction-5.jpg" %}
 
 Not only was the surrounding area affected by construction, but classes offered by ASM had to be moved to both the Graduate School of Management building and the east ASM building, where classrooms were limited and professors had to adjust to their new classroom layouts.  In addition, the progression of construction led to new boundaries being formed. At one point, students were forced to walk through fences around the entirety of the east ASM building just to get to their classrooms.
 
