@@ -1,7 +1,7 @@
 title: Campus Histories
 description: Essays on the history of the University of New Mexico campus
-url: ""
-baseurl:
+# url and baseurl come from GitHub Pages; setting url, even to "", stops
+# it filling in https://amaranth.unm.edu, which link previews need
 
 # Pages build as directories with an index.html (/directory/ rather than
 # /directory.html) so that trailing-slash links work on any static server,

@@ -177,6 +177,7 @@ Do not try to fix this by editing the percentages. Use the decision rule below, 
 
 Default to full width:
 
+{% raw %}
 ```liquid
 {% include images/figure.html
   class="img-center"
@@ -185,6 +186,7 @@ Default to full width:
   image-path="images/example.jpg"
 %}
 ```
+{% endraw %}
 
 Use `width="100%"` with `class="img-center"` when all three hold:
 
@@ -210,6 +212,7 @@ When two or three figures appear back to back:
 
 Captions move into the grid's `captions` list, split on `|` so caption text can contain commas and Markdown links:
 
+{% raw %}
 ```liquid
 {% assign pond_criticism_images =
 "images/duck-pond-0004.jpg,
@@ -227,6 +230,7 @@ captions=pond_criticism_captions
 columns=2
 %}
 ```
+{% endraw %}
 
 Caption text in these `assign` blocks cannot contain a double quote or a `|`, since those characters delimit the string and the list. Rewrite with single quotes if needed.
 
@@ -250,6 +254,7 @@ Pick pairs shot from roughly the same distance and orientation. Two landscape ph
 
 Use this pattern to collapse source lists without asking students to write custom HTML:
 
+{% raw %}
 ```liquid
 {% capture bibliography %}
 - Source one.
@@ -262,5 +267,6 @@ Use this pattern to collapse source lists without asking students to write custo
   content=bibliography
 %}
 ```
+{% endraw %}
 
 Use `title="Bibliography"`, `title="Works Cited"`, or `title="References"` when that better matches the original essay. Keep one Markdown bullet per source. If the section includes reflective prose, acknowledgments, or a conclusion, leave that prose outside the drawer.

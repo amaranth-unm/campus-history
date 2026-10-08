@@ -5,14 +5,16 @@
   <title>{% if page.title %}{{ page.title | escape }} // {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
   <!-- Open Graph for social sharing -->
   <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
   <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   {% if page.header-image %}
-  <meta property="og:image" content="{{ site.url }}{{ page.dir }}{{ page.header-image }}">
+  {%- comment -%} image-path handles header images written as images/x.jpg or /essays/x/images/x.jpg {%- endcomment -%}
+  {% capture og_image %}{% include images/image-path.html image-path=page.header-image %}{% endcapture %}
+  <meta property="og:image" content="{% unless og_image contains '://' %}{{ site.url }}{% endunless %}{{ og_image }}">
   {% endif %}
 
   <!-- Font Awesome -->
