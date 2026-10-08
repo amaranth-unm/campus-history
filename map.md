@@ -103,7 +103,7 @@ title: UNM Campus History Essay Map
         this.eachLayer(function (layer) {
           layer.on('click', function (e) {
             // No wider than the map, so a popup fits on a phone too
-            L.popup({ maxWidth: Math.min(500, map.getSize().x - 60), autoPanPadding: [16, 16] })
+            L.popup({ maxWidth: Math.min(500, map.getSize().x - 80), autoPanPadding: [16, 16] })
               .setLatLng(e.latlng)
               .setContent(popupHtml)
               .openOn(map);
