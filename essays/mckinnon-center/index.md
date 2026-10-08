@@ -23,7 +23,7 @@ The McKinnon Center for Management is the staple of UNM’s northern edge of cam
 The building became accessible to students in the summer of 2018 after a year and a half of construction dating back to December 2016.  The building adjacent to MCM previously known as the Graduate School of Management has now assumed the Anderson School of Management title.  Together, these buildings make up the school of business at UNM.
 
 ## Construction
-{% include images/figure.html class="img-center" width="100%" caption="MCM Blueprints, outlining the construction site.  Notice the extension of the outline into UNM's campus and how limiting it made surrounding pathways. [_Source_](https://www.mgt.unm.edu/building/default.asp)" image-path="images/mcm-blueprints.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="MCM Blueprints, outlining the construction site.  Notice the extension of the outline into UNM's campus and how limiting it made surrounding pathways. [_Source_](https://business.unm.edu/buildings/index.html)" image-path="images/mcm-blueprints.jpg" %}
 
 Construction for the new management building began in December of 2016.  The plan was to demolish the current west ASM building and erect the new one in its place rather than moving locations.  This portion of campus proved to be an area where student traffic was at a high and having to shut the area down for construction limited mobility and created multiple detours of common routes.  Buildings around this area included the Collaborative Teaching and Learning Building and the Economics building, as well as Hokona Hall.  The northern edge of campus was gated off and prevented students from accessing these buildings without seeking an alternate route.  These gates extended into campus as far as the CTLB.
 
@@ -43,7 +43,7 @@ Not only was the surrounding area affected by construction, but classes offered 
 
 ## Completion
 
-{% include images/figure.html class="img-center" width="100%" caption="The Grand Opening of McKinnon Center for Management on March 15, 2018. The opening and final inspection of the building were completed just in time for UNM's fall semester. [_Source_](https://www.mgt.unm.edu/news/highlights/2018/05/mcm-ribbon-cutting.asp)" image-path="images/mcm-ribbon-cutting.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The Grand Opening of McKinnon Center for Management on March 15, 2018. The opening and final inspection of the building were completed just in time for UNM's fall semester. [_Source_](https://business.unm.edu/news/highlights/2018/05/mcm-ribbon-cutting.html)" image-path="images/mcm-ribbon-cutting.jpg" %}
 Much to the joy of professors and students alike, the construction of the McKinnon Center for
 Management was completed on March 15, 2018.  The building would undergo further tests to make
 sure it was safe and secure.  By May 11, the MCM was officially open.  The grounds around the building
@@ -53,7 +53,7 @@ as it is the largest and cleanest building on UNM's northern campus.
 
 ## MCM Today
 
-{% include images/figure.html class="img-center" width="100%" caption="The first semester that students were able to access the new extension of UNM's school of management. The area where the students are standing had previously been gated off for a year and a half. [_Source_](https://www.mgt.unm.edu/news/highlights/2018/05/mcm-ribbon-cutting.asp)" image-path="images/mcm-today.jpg" %}
+{% include images/figure.html class="img-center" width="100%" caption="The first semester that students were able to access the new extension of UNM's school of management. The area where the students are standing had previously been gated off for a year and a half. [_Source_](https://business.unm.edu/news/highlights/2018/05/mcm-ribbon-cutting.html)" image-path="images/mcm-today.jpg" %}
 After not even a year of being accessible to students at the time that this was written, the McKinnon
 Center for Management has already proved itself to be one of the most prominent buildings featured on
 UNM’s campus, as well as the most modern.  The building also came with a new student drop-off zone,

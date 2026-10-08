@@ -54,6 +54,9 @@
     {% endfor %}
   {% endif %}
 
+  <!-- The skip link in nav-unm.html jumps here -->
+  <main id="main">
+
   {% if page.header-image %}
     {% assign image_title = page.image-title | default: page.header-title | default: page.title %}
     {% include layout/page-header.html
@@ -80,6 +83,8 @@
       %}
     </div>
   </div>
+
+  </main>
 
   {% include footer-unm.html %}
 

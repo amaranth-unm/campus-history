@@ -11,7 +11,10 @@ title: UNM Campus History Essay Map
 <script src="https://unpkg.com/leaflet-responsive-popup@0.2.0/leaflet.responsive.popup.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet-responsive-popup@0.2.0/leaflet.responsive.popup.css" />
 
-<link href="{{site.baseurl}}assets/css/map.css" rel="stylesheet">
+<style>
+  /* Gray the street map so the blue building outlines stand out */
+  #map .leaflet-tile-pane { filter: grayscale(1) contrast(0.85) brightness(1.08); }
+</style>
 
 
 <div style="margin: 2em 0;">
@@ -49,9 +52,13 @@ title: UNM Campus History Essay Map
     var map = L.map('map').setView([35.0844, -106.6198], 16);
 
     // Add OpenStreetMap tiles
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap &copy; CartoDB'
-}).addTo(map);
+    // CARTO's tiles, used until October 2026, now need an API key; without
+    // one every tile shows "API KEY REQUIRED". OpenStreetMap's need none, only
+    // the credit below (https://operations.osmfoundation.org/policies/tiles/).
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
     // Parse essay data from HTML
     var points = [];
