@@ -14,6 +14,11 @@ title: UNM Campus History Essay Map
 <style>
   /* Gray the street map so the blue building outlines stand out */
   #map .leaflet-tile-pane { filter: grayscale(1) contrast(0.85) brightness(1.08); }
+
+  /* A fixed photo height keeps popups short enough to fit on the map, and
+     lets the map pan to fit one before its photo has loaded. At full size
+     a photo made the popup 600px tall, and it opened off the top. */
+  #map .popup-img { display: block; width: 100%; height: 180px; object-fit: cover; }
 </style>
 
 
@@ -97,7 +102,8 @@ title: UNM Campus History Essay Map
         // Attach the popup to each shape in the outline
         this.eachLayer(function (layer) {
           layer.on('click', function (e) {
-            L.popup({ maxWidth: 500 })
+            // No wider than the map, so a popup fits on a phone too
+            L.popup({ maxWidth: Math.min(500, map.getSize().x - 60), autoPanPadding: [16, 16] })
               .setLatLng(e.latlng)
               .setContent(popupHtml)
               .openOn(map);
