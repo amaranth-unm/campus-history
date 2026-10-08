@@ -45,7 +45,7 @@ President Popejoy ordered the conversion of Old Hokona Hall to be renovated in 1
 class="img-center"
 width="100%"
 caption="Looking at Marron Hall overhead you can see where the original building was attached to the renovation."
-image-path="images/Overheadmarronhall.png"
+image-path="images/Overheadmarronhall.jpg"
 %}
 
 Marron Hall exists as both faculty offices and as a small base to student publications. Student publications, now the Daily Lobo, was experiencing a large growth in the 70’s. In 1977 Dick Pfaff, the supervisor of student publications requested more rooms in Marron Hall to house the growing program, this was documented by letters in the Student Publications archive. At the time the Hall was home to Anthropology and the Women’s Studies department. With the additional rooms allocated to the student publications Marron Hall exists as it does today.

@@ -212,7 +212,7 @@ Captions move into the grid's `captions` list, split on `|` so caption text can 
 
 ```liquid
 {% assign pond_criticism_images =
-"images/duck-pond-0004.png,
+"images/duck-pond-0004.jpg,
 images/duck-pond-0003.png" | split: ','
 %}
 

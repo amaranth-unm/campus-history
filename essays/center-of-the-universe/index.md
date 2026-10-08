@@ -3,11 +3,11 @@ title: Center of the Universe
 author: Alex Wells
 date: 2019-05-10
 layout: essay
-header-image: images/cotu-sketch.png
+header-image: images/cotu-sketch.jpg
 header-title: The Center of the Universe
 popup-teaser: A unique walk through sculpture by Bruce Nauman
 card-description: A unique walk through sculpture by Bruce Nauman
-card-image: /essays/center-of-the-universe/images/cotu-sketch.png
+card-image: /essays/center-of-the-universe/images/cotu-sketch.jpg
 type: art
 start:
 end: 
@@ -23,7 +23,7 @@ Some may call it an eyesore. Others may call it misunderstood. From the moment t
 
 ## The Big Bang
 
-{% include images/figure.html class="img-center" width="100%" caption="An original sketch for the sculpture by Bruce Nauman, 1988. Facility Planning #028, Oversize Drawer" image-path="images/cotu-sketch.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="An original sketch for the sculpture by Bruce Nauman, 1988. Facility Planning #028, Oversize Drawer" image-path="images/cotu-sketch.jpg" %}
 
 Nauman was first commissioned for a sculpture at UNM in 1983, which was initially going to be titled *Abstract Stadium*, and would be a set of concrete bleachers that were sixty feet long and fifteen feet high, located by the Zimmerman Library. Out of fear that people might fall off, UNM denied the initial proposal, and a new sculpture was commissioned by the National Endowment for the Arts. The organization offered up a whopping fifty thousand dollars, which was somehow matched by private donors and the UNM Foundation. With a wallet full of a hundred thousand dollars and a dream, Nauman began to plan his work. The artist admitted that it was not originally going to be called the *Center of the Universe*; this idea just happened upon him midway into development of the structure. However, once the plans were public and the sculpture was complete, that’s when the controversy began.
 
@@ -45,7 +45,7 @@ There were few who paid compliments to the *Center of the Universe* when it was 
 
 ### The Sculpture Today
 
-{% include images/figure.html class="img-center" width="100%" caption="A model of the original installation, created for an exhibit on Nauman's works. Photo taken for the Contemporanea International Art Magazine, Vol III No 2, Facility Planning #028" image-path="images/cotu-model.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="A model of the original installation, created for an exhibit on Nauman's works. Photo taken for the Contemporanea International Art Magazine, Vol III No 2, Facility Planning #028" image-path="images/cotu-model.jpg" %}
 
 Ever since the initial few years that the sculpture has been around, it’s safe to say controversy has died down. The installation is no longer picketed by angry students and teachers. While the insides are still regularly covered with small marks of rebellion, the graffiti is not near as much of a problem as it was in the past. The UNM landscaping department even made sure renovations on the area between Mitchell and Ortega properly integrated the sculpture. Most people simply walk through or around it, and probably don’t think much of it. They may take a moment inside to wonder why it’s here, or simply stop to spin the Pokestop in Pokemon Go, but few people today know about the outrage and controversy that initially followed Nauman’s installation.
 

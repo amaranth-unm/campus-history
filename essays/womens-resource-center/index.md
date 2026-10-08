@@ -30,7 +30,7 @@ The figure to the right highlights statistics from 1972-73 that display an overl
 As time went on, studies progressed. Women Studies that once offered only one course, grew larger at an extremely fast rate, changing year by year. While majority of students in the studies were women, it was not exclusive. Focus shifted in the mid 1970's, the notion that women were made to only be mothers and wives finally grew into the ideology that women were much more than a small percentage of a greater picture. Eventually, feminists from all over the country came to visit classrooms and present lectures that would teach women about fields they otherwise were not skilled for, due to the systemic discrimination women were faced with; how to be entrepreneurs, leaders, activists, doctors, scientists. Women Studies began offering courses on such things and taught women all about economics and how to develop skills in addition to their ability to be mothers and wives. Groups of women falculty, staff, and students, expressed their needs and concerns to the university and the university listened. Women Studies grew into something much larger, and behind the scences of it all, women fought for more space, more inclusivitity and came together in coalition to create what we know today as the Women's Resource Center (WRC). 
 
 {% assign wrc_documents_images =
-"images/IMG_0181.PNG,
+"images/IMG_0181.jpg,
 images/IMG_0182.jpg" | split: ','
 %}
 

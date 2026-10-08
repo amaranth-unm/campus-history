@@ -38,8 +38,8 @@ From the 1970s to the 1980s, La Posada looks much more like it does now than it 
 During the consideration of whether or not La Posada Dining Hall would be built by the University of New Mexico Board of Regents in 1966, other buildings including the Farris Engineering Center, a the dorm which would be later known as Laguna Dormitory, and De Vargas Dormitory were also proposed. This proposal was in direct response to counter another proposal for a high-rise dormitory complex. These dormitories and dining hall all being later approved for construction in 1966 by the UNM Board of Regents. After a series of bids, the UNM board of Regents contracted Lembke Construction Company to build what would be La Posada Dining Hall.
 
 {% assign posada_construction_images =
-"images/lp-9-13-6-construction.PNG,
-images/lp-10-23-68construction.PNG" | split: ','
+"images/lp-9-13-6-construction.jpg,
+images/lp-10-23-68construction.jpg" | split: ','
 %}
 
 {% assign posada_construction_captions =

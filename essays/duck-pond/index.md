@@ -5,8 +5,8 @@ layout: essay
 date: 2019-04-11
 popup-teaser: A relaxing place for students to eat, study, or lounge around
 card-description: Built in 1975 people were hesitant about a landscaping project.During and even shortly after construction it was criticized heavily. It was eventually named by the students who adore it to this day.
-card-image: /essays/duck-pond/images/duck-pond-0002.png
-header-image: /essays/duck-pond/images/duck-pond-0002.png
+card-image: /essays/duck-pond/images/duck-pond-0002.jpg
+header-image: /essays/duck-pond/images/duck-pond-0002.jpg
 header-position: center 70%
 type: nature
 start: 1976
@@ -20,7 +20,7 @@ Built in 1975, the Duck Pond was met with hesitation and heavy criticism from th
 
 ## Yatoka Hall & Y-1
 
-{% include images/figure.html class="img-center" width="100%" caption="A photo of the Pond taken shortly after completion. shows a distinct lack of foliage on the peninsula and surrounding area." image-path="images/duck-pond-0002.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="A photo of the Pond taken shortly after completion. shows a distinct lack of foliage on the peninsula and surrounding area." image-path="images/duck-pond-0002.jpg" %}
 
 [Yatoka Hall](../yatoka-hall/) was originally built in 1928-29. It started off as a men's dormitory before being converted into offices. The offices housed the College of Business Administrations, laboratories for the College of Nursing, a U.S. post office, art studios, American Studies, and a Mr.s Blum’s coffee shop.Y-1 was an adjacent wood frame building built after World War II, It was also remodeled into offices. On January 6, 1975 both building began to be demolished and salvaged by the physical Plant Department.
 
@@ -34,7 +34,7 @@ The original plan for the area was developed by Garret Eckbo who is known for hi
 Original it was called the lake or University Pond, but early on students coined the name Duck Pond after it became an instant hit with the students in the fall of 1975. the *Daily Lobo* on the other hand referred to as a concrete lake, even thought there was no concrete used, but clay instead.the *Daily Lobo* also called it the No-Name pond, and criticized it constantly referring to it as the height of tackiness, obtrusive, and inappropriate. Professor Emeritus T. M. Pearce referred to it as the Pond of No Return, and suggested it should be bulldozed and returned to nature.
 
 {% assign pond_criticism_images =
-"images/duck-pond-0004.png,
+"images/duck-pond-0004.jpg,
 images/duck-pond-0003.png" | split: ','
 %}
 
@@ -55,7 +55,7 @@ The Duck Pond was filled for the first time in February of 1976. Trout and other
 ## Community
 Since construction a walk was installed around the perimited. Small rocks were removed because small children would pick them up and throw them in. For students the Duck Pond is used for lounging, sunbathing, and as a place to eat lunch and/or study. Families come to the pond and surrounding grass area to have picnics. Weddings have been held on the at on the peninsula and the bridge is a popular place for photos. 
 
-{% include images/figure.html class="img-center" width="100%" caption="An island within the duck pond with a tree on it that no longer exist in the present." image-path="images/duck-pond-0005.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="An island within the duck pond with a tree on it that no longer exist in the present." image-path="images/duck-pond-0005.jpg" %}
 
 {% capture bibliography %}
 - Hooker, Van Dorn, Melissa Howard, and V. B Price. Only in New Mexico: An Architectural History of the University of New Mexico: The First Century, 1889-1989. Albuquerque, NM: University of New Mexico Press, 2000.

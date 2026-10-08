@@ -5,9 +5,9 @@ layout: essay
 date: 2019-05-10
 popup-teaser: Popejoy was President of the University of New Mexico from 1948 until his retirement in 1968. Popejoy was an advocate for academic freedom and a strong supporter of the arts.
 card-description: Popejoy was President of the University of New Mexico from 1948 until his retirement in 1968. Popejoy was an advocate for academic freedom and a strong supporter of the arts.
-card-image: /essays/popejoy-hall/images/popejoy-66.png
+card-image: /essays/popejoy-hall/images/popejoy-66.jpg
 header-title: Popejoy Hall
-header-image: images/popejoy-66.png
+header-image: images/popejoy-66.jpg
 type: activity
 start: 1966
 category: Arts Venue
@@ -15,7 +15,7 @@ category: Arts Venue
 
 The original plans for a concert venue on the University of New Mexico’s campus were made in a partnership with the city of Albuquerque. The city agreed to fund a large portion of the building because Albuquerque residents were desperate for a proper event venue. The plan was in the works for years and a spot on the UNM golf course was chosen to be the site. 
 
-{% include images/figure.html class="img-center" width="100%" caption="An early illustration of Popejoy Hall" image-path="images/popejoy-diagram.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="An early illustration of Popejoy Hall" image-path="images/popejoy-diagram.jpg" %}
 
 
 President Popejoy and the Albuquerque mayor at that time Clyde Tingley had disputes over the size of the auditorium. Mayor Tingley wanted a sports arena that could seat at least 7,000 people and the plans to build a small venue on UNM campus were not sufficient. The plans were halted in 1950 and the result was the city and the university going separate ways. In 1957 the City of Albuquerque opened their venue eventually named Civic Auditorium. 
@@ -28,7 +28,7 @@ The story of the success of Popejoy Hall cannot be described without explaining 
 
 President Popejoy retired from office after twenty years in 1968. After his retirement the concert venue was given his name. Popejoy Hall is located in the Fine Arts building which it shares with the College of Fine Arts on the southside of the university's main campus. Rodey Theatre and Keller Hall are smaller venues located on the other side of the Fine Arts building.
 
-{% include images/figure.html class="img-center" width="100%" caption="Another diagram of the design of Popejoy Hall. Provided are the names of the architects- Holien and Buckley, the acoustical consultants- Bolt, Beranek, and Newman, and the theater design & engineering consultant- George C. Izenour." image-path="images/popejoy-design.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="Another diagram of the design of Popejoy Hall. Provided are the names of the architects- Holien and Buckley, the acoustical consultants- Bolt, Beranek, and Newman, and the theater design & engineering consultant- George C. Izenour." image-path="images/popejoy-design.jpg" %}
 
 {% include images/figure.html class="img-center" width="100%" caption="An illustration of the interior of the concert venue. The names of the architects are in the caption- Edward Holien and William Buckley. " image-path="images/popejoy-architects.png" %}
 
@@ -37,11 +37,11 @@ President Popejoy retired from office after twenty years in 1968. After his reti
 Popejoy Hall is the largest performance hall of its type in New Mexico with a total seating capacity of 1985 seats. It is the only venue where Broadway shows come to New Mexico and a wide variety of other shows and concerts happen year round. The Popejoy Schooltime Series provides opportunities for young school children to experience live theater, often for the first time. These reasons, and many others contribute to Popejoy Hall’s monumental place not just on the University of New Mexico’s campus, but in the city of Albuquerque. Today Popejoy Hall’s funding is completely independent of the University. The mission statement of Popejoy Hall is “to provide access to the performing arts for all New Mexicans”. The true impact of Popejoy Hall on campus and in the city is incalculable. 
 
 
-{% include images/figure.html class="img-center" width="100%" caption="Popejoy Hall shortly after opening, Circa 1966." image-path="images/popejoy-66.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="Popejoy Hall shortly after opening, Circa 1966." image-path="images/popejoy-66.jpg" %}
 
 {% include images/figure.html class="img-center" width="50%" caption="The Fine Arts Building today" image-path="images/popejoy-today.jpg" %}
 
-{% include images/figure.html class="img-center" width="100%" caption="A picture of the Popejoy stage before modern renovations." image-path="images/popejoy-oldinterior.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="A picture of the Popejoy stage before modern renovations." image-path="images/popejoy-oldinterior.jpg" %}
 
 {% include images/figure.html class="img-center" width="100%" caption="The interior of Popejoy Hall as it looks today." image-path="images/popejoy-newinterior.jpg" %}
 

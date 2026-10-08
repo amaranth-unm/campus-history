@@ -5,9 +5,9 @@ layout: essay
 date: 2019-03-25
 popup-teaser: One of the most popular spaces walked through by students, faculty, and visitors!
 card-description: “I think everyone can relate to some part of it - the piece has a storyline to a certain extent that is easily recognizable. It’s fun. I really want people to enjoy it.”
-card-image: /essays/modern-art/images/modern-art-intro.png
+card-image: /essays/modern-art/images/modern-art-intro.jpg
 header-title: Modern Art
-header-image: images/modern-art-intro.png
+header-image: images/modern-art-intro.jpg
 type: art
 start: 
 category: Public Art
@@ -15,7 +15,7 @@ category: Public Art
 
 Just at one of the main entrance points at the University of New Mexico (UNM), adjacent between Popejoy Hall and the main entrance of Johnson Center -- across from the Student Union Building -- lies a space on campus that brings attention to both visitors and students.
 
-{% include images/figure.html class="img-center" width="100%" caption="Betty's bronze scultures with a green hat placed on one of the heads" image-path="images/modern-art-intro.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="Betty's bronze scultures with a green hat placed on one of the heads" image-path="images/modern-art-intro.jpg" %}
 
 This space, entitled, “Modern Art” features artist Betty Sabo who was an art student at UNM in the 1940’s. Behind these bronze sculptures that encapsulate “Modern Art”, lie representations of natural human form. 
 
@@ -31,7 +31,7 @@ The stainless steel tower in the middle tower is the work of Sabo’s brother --
 
 ## Free Speech at The University of New Mexico
 
-{% include images/figure.html class="img-center" width="100%" caption="Just ahead in the horizon of UNM's 'Free Speech Zone' lie Betty Sabo's artwork" image-path="images/modern-art-free-speech.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="Just ahead in the horizon of UNM's 'Free Speech Zone' lie Betty Sabo's artwork" image-path="images/modern-art-free-speech.jpg" %}
 
 
 “Modern Art” is also significantly related to free speech matters at The University of New Mexico, as many people who come to the University do so while standing at “Modern Art” -- which enacted UNM administration to post a sign just before the space with the label, “Free Speech Zone”
@@ -44,7 +44,7 @@ Individuals at all levels are allowed to discuss issues of concern in an open an
 
 ## Vandalism 
 
-{% include images/figure.html class="img-center" width="100%" caption="The bronze status defaces" image-path="images/modern-art-vandalism.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="The bronze status defaces" image-path="images/modern-art-vandalism.jpg" %}
 
 Unfortunately, as a centrally located and well-known space, “Modern Art” has also been one of the most prominent spaces for vandalism on UNM Campus. 
 
@@ -85,7 +85,7 @@ The Daily Lobo ends with quoting Sabo, "UNM made me what I am today. I never dre
 
 ## "Betty Sabo - An Artful Life"
 
-{% include images/figure.html class="img-center" width="100%" caption="Betty Sabo pictured with her creation shortly before her death (1928 - 2016)" image-path="images/modern-art-betty-dead.png" %}
+{% include images/figure.html class="img-center" width="100%" caption="Betty Sabo pictured with her creation shortly before her death (1928 - 2016)" image-path="images/modern-art-betty-dead.jpg" %}
 
 Announced in 2012 by the University of New Mexico Foundation, Betty Sabo’s life and career is the subject of a new documentary, entitled, “Betty Sabo - An Artful Life.” The announcement also discusses the Betty Sabo Endowment, which benefits art students. When the announcement was published, Sabo was battling alzheimer's. Sabo passed away peacefully a few years later, on February 10 2016  -- which is declared Betty Sabo Day by Governor Susana Martinez.
 

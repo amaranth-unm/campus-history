@@ -58,7 +58,7 @@ After that, one of the buildings was reappropriated as a music studio for a shor
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-16_025216.png"
+image-path="images/Screenshot_2025-05-16_025216.jpg"
 %}
 >A map of the University of New Mexico campus in December 1928, showing the eventual home of the Press in its original state.[^McColeman]
 
@@ -66,7 +66,7 @@ image-path="images/Screenshot_2025-05-16_025216.png"
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-01_180119.png"
+image-path="images/Screenshot_2025-05-01_180119.jpg"
 %}
 >The campus in December 1935. By this point, the two Korber/Press buildings had been conjoined and linked to the Carlisle Gym.[^ConjoinedtoCarlisle]
 
@@ -101,7 +101,7 @@ The agreement for the construction of the Alpha Chi Omega sorority house was mad
 >The first image is of the initial plan for the ground floor of 1717 Roma Avenue NE. The second is of sketches of the original design of the building from the right side and front.[^Beula] The third is a picture of the structure shortly after construction was finished, which is largely identical to the current building aside from the lack of the 1950 addition and the double doors being removed; the step leading up to it does still remain, but the doors were walled off and a window was inserted where they once stood.[^Vertical] 
 
 {% include images/juxtapose.html
-image1="images/KICDocument0001.png"
+image1="images/KICDocument0001.jpg"
 image2="images/PXL_20250501_220504555.jpg"
 caption=""
 %}
@@ -111,7 +111,7 @@ caption=""
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-16_023922.png"
+image-path="images/Screenshot_2025-05-16_023922.jpg"
 %}
 >The fireplace, inside the living room.[^Mirage37]
 
@@ -124,7 +124,7 @@ That is not to say there were not any positive developments with the Press aroun
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Journalism-and-UNM-Press-building-1949.png"
+image-path="images/Journalism-and-UNM-Press-building-1949.jpg"
 %}
 >The Journalism building in 1949.[^AHS]
 
@@ -154,7 +154,7 @@ Under the leadership of Dickey, the Press wound up building a sizable backlog of
 class="img-center"
 width="60%"
 caption=""
-image-path="images/The_Mirage_1966_copy_1.pdf.png"
+image-path="images/The_Mirage_1966_copy_1.pdf.jpg"
 %}
 >The Alpha Chi Omega Sorority House, as photographed in the 1965-1966 edition of UNM's _The Mirage_ yearbook. Holes in the arch can be seen where the Greek letters of the sorority—ΑΧΩ—once were.[^Mirage66]
 
@@ -164,7 +164,7 @@ image-path="images/The_Mirage_1966_copy_1.pdf.png"
 class="img-center"
 width="100%"
 caption=""
-image-path="images/Screenshot_2025-05-19_224254.png"
+image-path="images/Screenshot_2025-05-19_224254.jpg"
 %}
 >The new Alpha Chi Omega Sorority House, as photographed in the 1967-1968 edition of UNM's _The Mirage_ yearbook.[^Mirage68] It has since been transformed into the ROTC Education Complex.
 

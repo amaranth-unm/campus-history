@@ -40,7 +40,7 @@ This building has evolved over time with many name changes which are represented
 
 **2005**      	  Hodgin Hall, Alumni Center
 
-{% assign images = "images/hodgin-hall-weeds.PNG, images/hodgin-hall-roof.PNG, images/hodgin-hall-blue-print.PNG, images/hodgin-hall-parking-in-front.PNG, images/hodgin-hall-side1.PNG, images/hodgin-hall-front.PNG, images/hodgin-hall-side3.PNG, images/hodgin-hall-roadview.PNG, images/hodgin-hall-old-painting.jpg" | split: ', ' %}
+{% assign images = "images/hodgin-hall-weeds.jpg, images/hodgin-hall-roof.jpg, images/hodgin-hall-blue-print.PNG, images/hodgin-hall-parking-in-front.PNG, images/hodgin-hall-side1.PNG, images/hodgin-hall-front.jpg, images/hodgin-hall-side3.jpg, images/hodgin-hall-roadview.PNG, images/hodgin-hall-old-painting.jpg" | split: ', ' %}
 {% include images/carousel.html images=images id="carousel-1" %}
 
 ## Remodel (1906)
