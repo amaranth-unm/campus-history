@@ -27,6 +27,12 @@ title: UNM Campus History Essay Map
   #map .popup-card a.btn-secondary:visited,
   #map .popup-card a.btn-secondary:hover { color: var(--white); }
   #map .popup-card .btn-secondary { margin-top: 0.25rem; padding: 0.6em 1.2em; font-size: 1rem; font-weight: 700; }
+
+  /* Popups are cards, not reading text: set the teaser in the site's sans
+     (the title and button already use it) with tighter spacing than an
+     essay's serif paragraphs, and close the heading gap under the photo. */
+  #map .popup-card h3 { margin: 0.85rem 0 0.35rem; }
+  #map .popup-card p { margin: 0 0 0.9rem; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.45; color: var(--ink-soft); }
 </style>
 
 
