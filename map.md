@@ -19,6 +19,14 @@ title: UNM Campus History Essay Map
      lets the map pan to fit one before its photo has loaded. At full size
      a photo made the popup 600px tall, and it opened off the top. */
   #map .popup-img { display: block; width: 100%; height: 180px; object-fit: cover; }
+
+  /* "Read the essay" is the site's button (.btn-secondary in base.css).
+     Leaflet colours every link in the map blue and sets popup text at
+     13px, so restate the white label and size it like the page's text. */
+  #map .popup-card a.btn-secondary,
+  #map .popup-card a.btn-secondary:visited,
+  #map .popup-card a.btn-secondary:hover { color: var(--white); }
+  #map .popup-card .btn-secondary { margin-top: 0.25rem; padding: 0.6em 1.2em; font-size: 1rem; font-weight: 700; }
 </style>
 
 
@@ -90,7 +98,7 @@ title: UNM Campus History Essay Map
     <div class="popup-text">
       <h3>${pt.name}${pt.start ? ` (${pt.start})` : ""}</h3>
       <p>${pt.teaser}</p>
-      <a href="${pt.url}">Read more</a>
+      <a href="${pt.url}" class="btn-secondary">Read the essay</a>
     </div>
   </div>
 `;
