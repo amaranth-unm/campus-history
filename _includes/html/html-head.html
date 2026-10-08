@@ -14,7 +14,7 @@
   {% if page.header-image %}
   {%- comment -%} image-path handles header images written as images/x.jpg or /essays/x/images/x.jpg {%- endcomment -%}
   {% capture og_image %}{% include images/image-path.html image-path=page.header-image %}{% endcapture %}
-  <meta property="og:image" content="{% unless og_image contains '://' %}{{ site.url }}{% endunless %}{{ og_image }}">
+  <meta property="og:image" content="{% unless og_image contains '://' %}{{ site.url }}{% endunless %}{{ og_image | uri_escape }}">
   {% endif %}
 
   <!-- Font Awesome -->
