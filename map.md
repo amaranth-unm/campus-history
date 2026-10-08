@@ -33,8 +33,15 @@ title: UNM Campus History Essay Map
      essay's serif paragraphs, and close the heading gap under the photo. */
   #map .popup-card h3 { margin: 0.85rem 0 0.35rem; }
   #map .popup-card p { margin: 0 0 0.9rem; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.45; color: var(--ink-soft); }
+
+  /* The one line above the map: an instruction, so set like the site's
+     interface text rather than an essay paragraph */
+  .map-intro { margin: 1.25rem 0; font-family: var(--font-body); font-size: 1.15rem; line-height: 1.4; color: var(--ink-soft); }
 </style>
 
+
+Click a building to read its essay.
+{: .map-intro}
 
 <!-- close the container div for full width map -->
 {::nomarkdown}
