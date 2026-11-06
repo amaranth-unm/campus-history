@@ -15,6 +15,11 @@ Building a website collaboratively---even just with pseudocode to format digital
 
 Through open-source workflows, students gain hands-on experience with version control, collaboration, and scholarly publishing, learning how to share their work in ways that invite peer-review, feedback, reuse, and continued growth. Our approach shows that scholarship can be public, collaborative, and sustainable. The platform not only showcases student research but also serves as a model for how open-source values and digital humanities tools can expand access to knowledge and strengthen academic communities.
 
+## Doing Something Hard
+Each essay here asks students to do several unfamiliar things at once: critique an AI-generated history, research in the archives at the Center for Southwest Research, learn new web tools, work with images and captions, and shape it all into a story for a public audience. Any one of those pieces is manageable. Bringing them together is genuinely hard.
+
+That difficulty is part of the value. Most meaningful work beyond the classroom has many moving parts, no single right answer, and a stretch in the middle where success isn't certain. Students learn how to break a large project into steps, start early, ask for help, and keep going when the archive comes up thin or the site won't cooperate. Then they finish, and publish something real. Learning how to do a hard thing, and succeeding at it, is a lesson that outlasts the course.
+
 ## Web Technology
 At its core, this site uses GitHub Pages, a free and straightforward platform that allows you to create and publish websites directly from files in a GitHub "repository"---just a fancy name for a shared online folder for your project.
 
