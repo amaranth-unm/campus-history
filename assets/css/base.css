@@ -454,6 +454,19 @@ figure {
   min-width: 100%;
 }
 
+/* Screenshots in the student guide: small, unfloated, and never wider than
+   the column, so a button crop stays button-sized and sits under its step. */
+.page-wrap figure.guide-shot {
+  float: none;
+  min-width: 0;
+  max-width: 100%;
+  margin: var(--spacing-md) 0 var(--spacing-lg);
+}
+
+.page-wrap figure.guide-shot img {
+  border-radius: 6px;
+}
+
 /* Juxtapose sliders fill the text column. Without this the figure sizes to its
    content, so the fit script in html-js.html measures a parent that grows on
    every pass and the slider walks off the column. */

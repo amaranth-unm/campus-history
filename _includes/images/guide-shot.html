@@ -1,0 +1,15 @@
+{%- comment -%}
+  A screenshot for the student guide pages. Emits one line of HTML on purpose:
+  the figure include spans several lines, and its unindented lines end the
+  numbered list a step sits in, so the next step restarts at 1. Indent the
+  include call to line up with the step's text and the list carries on.
+
+  Parameters:
+    image:   filename in assets/images/guide/ (required)
+    alt:     what the screenshot shows, for screen readers (required)
+    caption: markdown shown under the image (optional)
+    width:   CSS width, such as 340px; defaults to the full column (optional)
+{%- endcomment -%}
+{%- capture caption_html -%}{{ include.caption | markdownify | strip }}{%- endcapture -%}
+{%- assign src = site.baseurl | append: "/assets/images/guide/" | append: include.image -%}
+<figure class="guide-shot" style="width: {{ include.width | default: '100%' }}"><a class="image" href="{{ src }}"><img src="{{ src }}" alt="{{ include.alt }}" width="100%"></a>{% if include.caption %}<figcaption>{{ caption_html | strip_newlines }}</figcaption>{% endif %}</figure>

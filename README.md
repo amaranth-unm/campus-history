@@ -20,9 +20,15 @@ collaborative, and sustainable without servers, licences, or hosting costs.
 
 Start here, in this order:
 
-1. **[student-guide.md](student-guide.md)** — forking the repo, previewing your
-   work, starting from a starter essay, adding images, opening a pull request.
-2. **[essays/starter-essay-advanced/](essays/starter-essay-advanced/)** — a working
+1. **[setting-up-your-site-and-essay.md](setting-up-your-site-and-essay.md)** —
+   forking the repo, turning on your preview site, starting from a starter essay,
+   adding your header image.
+2. **[working-on-your-essay.md](working-on-your-essay.md)** — saving and checking
+   changes, finishing the metadata, writing, adding images and pull quotes,
+   citing sources.
+3. **[submitting-your-essay.md](submitting-your-essay.md)** — the pre-submission
+   checklist and the pull request.
+4. **[essays/starter-essay-advanced/](essays/starter-essay-advanced/)** — a working
    example of every site component: figures, image grids, carousels, before/after
    sliders, pull quotes, blockquotes, footnotes, jumbotrons, scrollstory sections,
    and bibliography drawers. Copy components out of it rather than writing your
@@ -54,6 +60,11 @@ Top-level pages are `index.md` (homepage), `about.md`, `directory.md` (browse by
 category), `all-essays.md` (browse by name), and `map.md` (essays plotted on a
 campus map, driven by the KML files in `assets/kml/`).
 
+The student guide is four top-level pages. `student-guide.md` is the welcome
+page, with an overview of the process and links to the three parts that hold the
+instructions: `setting-up-your-site-and-essay.md`, `working-on-your-essay.md`
+and `submitting-your-essay.md`.
+
 ### Essay front matter
 
 An essay's front matter drives more than its own page. `header-image` and
@@ -62,7 +73,7 @@ image in the directory, the map popups, and the homepage unless a `card-image`
 overrides it (`_includes/images/card-image.html`). `card-description` is the
 card's text; `category` places it in the browse-by-category strip and supplies
 the eyebrow above the hero title. Image fields take a bare filename from the
-essay's folder. See `student-guide.md` for the full list.
+essay's folder. See `working-on-your-essay.md` for the full list.
 
 Two conventions worth knowing:
 
